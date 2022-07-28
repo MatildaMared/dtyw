@@ -1,9 +1,19 @@
 <script lang="ts">
+	import Heading from "./Heading.svelte";
 	import Logo from "./Logo.svelte";
 </script>
 
 <header>
 	<Logo />
+	<Heading />
+	<p class="description">
+		Jag hjälper dig som vill få fart på ditt företag på ett produktivt och organiserat sätt utan att
+		köra slut på dig själv.
+	</p>
+	<p class="description">
+		Oavsett om du precis fått dina första kunder eller om du redan har kommit en bit på vägen finns
+		det ett program för dig.
+	</p>
 </header>
 
 <style lang="scss">
@@ -13,6 +23,15 @@
 		background-position: center;
 		min-height: 80vh;
 		width: 100%;
-		padding: 32px;
+		padding: 48px;
+	}
+
+	.description {
+		font-weight: 300;
+		color: var(--color-white);
+		font-size: var(--font-size-m);
+		width: fit-content;
+		max-width: 35ch;
+		margin-bottom: var(--spacing-m);
 	}
 </style>

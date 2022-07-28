@@ -3,6 +3,7 @@
 	import "../styles/variables.scss";
 	import "../styles/reset.scss";
 	import "../styles/global.scss";
+import Footer from "$lib/footer/Footer.svelte";
 </script>
 
 <Header />
@@ -10,6 +11,8 @@
 <main>
 	<slot />
 </main>
+
+<Footer />
 
 <style>
 </style>

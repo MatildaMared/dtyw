@@ -155,9 +155,16 @@
 
 	.copyright {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
+		align-items: center;
+		font-size: var(--font-size-s);
+
+		& > * {
+			margin-bottom: 4px;
+		}
 
 		@media (min-width: $breakpoint-tablet-portrait) {
+			align-items: flex-start;
 			flex-direction: row;
 			justify-content: space-between;
 			color: rgba(255, 255, 255, 0.5);

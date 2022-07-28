@@ -46,6 +46,16 @@
 			</div>
 		</section>
 		<div class="divider" />
+		<section class="copyright">
+			<div>
+				<!-- TODO: Insert correct link -->
+				<a href="/">Integritetspolicy</a>
+				<a href="https://www.flaticon.com/free-icons/freedom" target="_blank">Icons by GOWI</a>
+			</div>
+			<div>
+				<p>© 2022 Markus Mattsson</p>
+			</div>
+		</section>
 	</div>
 </footer>
 
@@ -68,7 +78,6 @@
 	}
 
 	.content {
-		border: 1px solid red;
 		max-width: var(--max-width);
 		margin: 0 auto;
 	}
@@ -95,7 +104,6 @@
 	}
 
 	.contact {
-		border: 1px solid blue;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
@@ -109,36 +117,58 @@
 		& .title {
 			margin-bottom: 16px;
 		}
+	}
 
-		p,
-		a {
-			display: flex;
-			align-items: center;
+	p,
+	a {
+		display: flex;
+		align-items: center;
 
-			&:not(:last-child) {
-				margin-bottom: 4px;
-			}
-
-			& span {
-				margin: 0 8px;
-			}
+		&:not(:last-child) {
+			margin-bottom: 4px;
 		}
 
-		a {
-			justify-content: flex-end;
-			color: var(--color-white);
-			text-decoration: none;
-			transition: all 0.2s;
+		& span {
+			margin: 0 8px;
+		}
+	}
 
-			&:hover {
-				color: var(--color-primary-light);
-			}
+	a {
+		color: var(--color-white);
+		text-decoration: none;
+		transition: all 0.2s;
+
+		&:hover {
+			color: var(--color-primary-light);
 		}
 	}
 
 	.social {
 		.title {
 			text-align: right;
+		}
+
+		a {
+			justify-content: flex-end;
+		}
+	}
+
+	.copyright {
+		display: flex;
+		flex-direction: column;
+
+		@media (min-width: $breakpoint-tablet-portrait) {
+			flex-direction: row;
+			justify-content: space-between;
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		a {
+			color: rgba(255, 255, 255, 0.5);
+
+			&:hover {
+				color: var(--color-white);
+			}
 		}
 	}
 </style>

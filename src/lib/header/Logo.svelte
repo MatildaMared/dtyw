@@ -1,11 +1,12 @@
 <script lang="ts"></script>
 
-<p class="logo">
+<h1 class="logo">
 	Do things <span class="emphasized">your</span> way
-</p>
+</h1>
 
 <style lang="scss">
 	.logo {
+		font-weight: 500;
 		font-family: var(--font-secondary);
 		color: var(--color-white);
 		margin-bottom: var(--spacing-large);
@@ -14,7 +15,7 @@
 		text-transform: uppercase;
 
 		& .emphasized {
-			font-weight: 700;
+			font-weight: 800;
 			font-style: italic;
 		}
 	}

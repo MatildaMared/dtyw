@@ -29,13 +29,17 @@
 			position: absolute;
 			top: 80%;
 			width: max-content;
-			right: -10%;
+			right: 0%;
 			transform: rotate(-5deg);
 			font-size: var(--font-size-xl);
 			padding: 8px 16px 16px 16px;
 			font-style: italic;
 			background-color: hsla(0, 0%, 0%, 0.8);
 			box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+			@media (min-width: $breakpoint-mobile) {
+				right: -10%;
+			}
 		}
 
 		@media (min-width: $breakpoint-tablet-portrait) {

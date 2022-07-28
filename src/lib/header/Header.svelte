@@ -24,13 +24,23 @@
 </header>
 
 <style lang="scss">
+	@use "../../styles/breakpoints.scss" as *;
+
 	header {
 		background-image: url("/images/road.jpg");
 		background-size: cover;
 		background-position: center;
 		min-height: 80vh;
 		width: 100%;
-		padding: 48px;
+		padding: 16px;
+
+		@media (min-width: $breakpoint-tablet-portrait) {
+			padding: 32px;
+		}
+
+		@media (min-width: $breakpoint-tablet-landscape) {
+			padding: 48px;
+		}
 	}
 
 	.description {

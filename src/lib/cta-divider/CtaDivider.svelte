@@ -28,6 +28,7 @@
 		flex-direction: column;
 		color: var(--color-white);
 		line-height: 1;
+		text-align: center;
 	}
 
 	.pre-heading {
@@ -49,5 +50,6 @@
 		background-color: rgba(0, 0, 0, 0.65);
 		padding: 16px;
 		margin-bottom: 32px;
+		line-height: 1.5;
 	}
 </style>

@@ -13,7 +13,6 @@
 </svelte:head>
 
 <section>
-	<h1>Do things your way</h1>
 	<Divider text="Få betalt för att vara dig själv." />
 	<Divider text="Jobba inte hårdare, jobba smartare." />
 	<CtaDivider />

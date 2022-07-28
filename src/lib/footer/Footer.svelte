@@ -50,7 +50,7 @@
 			<div>
 				<!-- TODO: Insert correct link -->
 				<a href="/">Integritetspolicy</a>
-				<a href="https://www.flaticon.com/free-icons/freedom" target="_blank">Icons by GOWI</a>
+				<a href="https://www.flaticon.com/authors/gowi" target="_blank">Icons by GOWI</a>
 			</div>
 			<div>
 				<p>© 2022 Markus Mattsson</p>

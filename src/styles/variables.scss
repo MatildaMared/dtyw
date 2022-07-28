@@ -14,7 +14,7 @@
 
 	--color-primary-dark: hsla(189, 18%, 31%, 1);
 	--color-secondary: hsla(14, 60%, 57%, 1);
-	--color-secondary-dark: hsla(14, 55%, 42%, 1.0);
+	--color-secondary-dark: hsla(14, 55%, 42%, 1);
 	--color-white: hsla(0, 0%, 97%, 1);
 	--color-text: rgb(43, 43, 43);
 
@@ -22,4 +22,10 @@
 
 	--spacing-large: 64px;
 	--spacing-m: 32px;
+
+	--breakpoint-mobile: 23.4375rem;
+	--breakpoint-tablet-portrait: 48rem;
+	--breakpoint-tablet-landscape: 64rem;
+	--breakpoint-laptop: 80rem;
+	--breakpoint-desktop: 100rem;
 }

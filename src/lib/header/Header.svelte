@@ -1,6 +1,12 @@
 <script lang="ts">
+	import Button from "$lib/button/Button.svelte";
 	import Heading from "./Heading.svelte";
 	import Logo from "./Logo.svelte";
+
+	function onClick() {
+		//TODO: Redirect to webinar register form
+		console.log("clicked");
+	}
 </script>
 
 <header>
@@ -14,6 +20,7 @@
 		Oavsett om du precis fått dina första kunder eller om du redan har kommit en bit på vägen finns
 		det ett program för dig.
 	</p>
+	<Button {onClick}>Registrera dig till nästa webbinarium</Button>
 </header>
 
 <style lang="scss">

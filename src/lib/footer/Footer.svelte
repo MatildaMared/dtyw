@@ -66,10 +66,10 @@
 		width: 100%;
 		background-color: var(--color-primary-dark);
 		color: var(--color-white);
-		padding: 16px;
+		padding: 32px 16px;
 
 		@media (min-width: $breakpoint-tablet-portrait) {
-			padding: 32px;
+			padding: 48px 32px;
 		}
 
 		@media (min-width: $breakpoint-tablet-landscape) {

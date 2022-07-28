@@ -15,6 +15,7 @@
 		width: 100%;
 		background-color: var(--color-secondary);
 		padding: 24px 16px;
+		margin: var(--spacing-large) 0;
 	}
 
 	p {

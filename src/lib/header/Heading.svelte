@@ -38,13 +38,14 @@
 			box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
 
 			@media (min-width: $breakpoint-mobile) {
-				right: -10%;
+				right: -5%;
 			}
-		}
 
-		@media (min-width: $breakpoint-tablet-portrait) {
-			font-size: var(--font-size-xxl);
-			padding: 16px 24px 24px 24px;
+			@media (min-width: $breakpoint-tablet-portrait) {
+				right: -10%;
+				font-size: var(--font-size-xxl);
+				padding: 16px 24px 24px 24px;
+			}
 		}
 	}
 </style>

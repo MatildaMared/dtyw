@@ -47,6 +47,7 @@
 		div {
 			max-width: var(--max-width);
 			margin: 0 auto;
+			padding: 3rem 0;
 		}
 	}
 

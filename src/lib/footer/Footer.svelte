@@ -67,6 +67,7 @@
 		background-color: var(--color-primary-dark);
 		color: var(--color-white);
 		padding: 32px 16px;
+		margin-top: var(--spacing-large);
 
 		@media (min-width: $breakpoint-tablet-portrait) {
 			padding: 48px 32px;

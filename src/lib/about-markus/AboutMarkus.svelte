@@ -7,7 +7,7 @@
 	/>
 	<article>
 		<h2>Markus Mattsson</h2>
-		<span class="title">Visionär, coach</span>
+		<span class="title">Visionär & coach</span>
 		<p>
 			Ingen ska behöva vantrivas och må dåligt i en situation som inte är bra för dem. Om vi ska
 			vara helt ärliga så har de flesta personer gett upp på sina drömmar. Framförallt om de fått så

@@ -5,8 +5,9 @@
 <script lang="ts">
 	import AboutMarkus from "$lib/about-markus/AboutMarkus.svelte";
 	import CtaDivider from "$lib/cta-divider/CtaDivider.svelte";
+	import Description from "$lib/description/Description.svelte";
 	import Divider from "$lib/divider/Divider.svelte";
-import Intro from "$lib/intro/Intro.svelte";
+	import Intro from "$lib/intro/Intro.svelte";
 </script>
 
 <svelte:head>
@@ -17,9 +18,10 @@ import Intro from "$lib/intro/Intro.svelte";
 <section>
 	<Intro />
 	<Divider text="Få betalt för att vara dig själv." />
-	<Divider text="Jobba inte hårdare, jobba smartare." />
+	<Description />
 	<CtaDivider />
 	<AboutMarkus />
+	<Divider text="Jobba inte hårdare, jobba smartare." />
 </section>
 
 <style>

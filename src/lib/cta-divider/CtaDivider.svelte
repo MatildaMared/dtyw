@@ -39,6 +39,7 @@
 	}
 
 	.heading {
+		color: inherit;
 		font-size: var(--font-size-xxl);
 		font-family: var(--font-secondary);
 		text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);

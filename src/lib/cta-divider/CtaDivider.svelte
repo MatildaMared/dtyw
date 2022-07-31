@@ -16,7 +16,7 @@
 <style lang="scss">
 	section {
 		width: 100%;
-		margin: var(--spacing-large) 0;
+		margin: var(--spacing-l) 0;
 		min-height: 60vh;
 		background-image: url("/images/zen.jpg");
 		background-size: cover;

@@ -35,7 +35,7 @@
 		min-height: 80vh;
 		width: 100%;
 		padding: 16px;
-		margin-bottom: var(--spacing-large);
+		margin-bottom: var(--spacing-l);
 
 		@media (min-width: $breakpoint-tablet-portrait) {
 			padding: 32px;

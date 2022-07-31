@@ -6,7 +6,7 @@
 	@use "../../styles/breakpoints.scss" as *;
 
 	.heading {
-		margin-bottom: var(--spacing-large);
+		margin-bottom: var(--spacing-l);
 		font-weight: 700;
 		color: rgba(255, 255, 255, 0.85);
 		position: relative;

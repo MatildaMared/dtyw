@@ -67,7 +67,7 @@
 		background-color: var(--color-primary-dark);
 		color: var(--color-white);
 		padding: 32px 16px;
-		margin-top: var(--spacing-large);
+		margin-top: var(--spacing-l);
 
 		@media (min-width: $breakpoint-tablet-portrait) {
 			padding: 48px 32px;
@@ -86,6 +86,7 @@
 	.logo,
 	.title {
 		font-family: var(--font-secondary);
+		color: var(--color-white);
 		font-size: var(--font-size-l);
 		font-weight: 500;
 		text-transform: uppercase;

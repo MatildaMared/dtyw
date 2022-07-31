@@ -9,7 +9,7 @@
 		font-weight: 500;
 		font-family: var(--font-secondary);
 		color: var(--color-white);
-		margin-bottom: var(--spacing-large);
+		margin-bottom: var(--spacing-l);
 		line-height: 1;
 		font-size: var(--font-size-xl);
 		text-transform: uppercase;

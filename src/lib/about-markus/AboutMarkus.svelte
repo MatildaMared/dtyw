@@ -40,7 +40,7 @@
 		--border-radius: 8px;
 
 		padding: 0 16px;
-		margin: var(--spacing-large) 0;
+		margin: var(--spacing-l) 0;
 		display: flex;
 		flex-direction: column;
 		width: 100%;

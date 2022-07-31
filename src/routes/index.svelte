@@ -6,6 +6,7 @@
 	import AboutMarkus from "$lib/about-markus/AboutMarkus.svelte";
 	import CtaDivider from "$lib/cta-divider/CtaDivider.svelte";
 	import Divider from "$lib/divider/Divider.svelte";
+import Intro from "$lib/intro/Intro.svelte";
 </script>
 
 <svelte:head>
@@ -14,6 +15,7 @@
 </svelte:head>
 
 <section>
+	<Intro />
 	<Divider text="Få betalt för att vara dig själv." />
 	<Divider text="Jobba inte hårdare, jobba smartare." />
 	<CtaDivider />

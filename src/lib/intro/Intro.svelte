@@ -105,6 +105,7 @@
 			padding: var(--spacing-m);
 			border-radius: 8px;
 			max-width: 50ch;
+			box-shadow: 4px 4px 16px hsla(189, 18%, 31%, 0.1);
 
 			@media (min-width: $breakpoint-tablet-landscape) {
 				transform: translateX(24px) translateY(-24px);

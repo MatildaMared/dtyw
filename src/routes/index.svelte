@@ -32,9 +32,4 @@
 		align-items: center;
 		flex: 1;
 	}
-
-	h1 {
-		width: 100%;
-		font-family: var(--font-secondary);
-	}
 </style>

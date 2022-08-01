@@ -67,7 +67,7 @@
 			background-color: var(--color-primary-lightest);
 			padding: 32px;
 			border-radius: var(--border-radius);
-			box-shadow: 4px 4px 16px hsla(189, 18%, 31%, 0.1);
+			box-shadow: var(--box-shadow);
 
 			@media (min-width: $breakpoint-tablet-landscape) {
 				transform: translateX(-64px) translateY(32px);

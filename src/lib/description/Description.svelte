@@ -55,6 +55,7 @@
 		width: 100%;
 		max-width: var(--max-width);
 		margin: var(--spacing-l);
+        padding: 0 16px;
 
 		h2 {
 			font-size: var(--font-size-xl);
@@ -68,6 +69,7 @@
 			font-weight: 700;
 			font-style: italic;
 			margin-bottom: var(--spacing-m);
+            text-align: center;
 		}
 
 		ul {
@@ -77,14 +79,7 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
-			border: 1px solid red;
 			gap: var(--spacing-m);
-
-			@media (min-width: $breakpoint-tablet-landscape) {
-				/* flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between; */
-			}
 		}
 	}
 </style>

@@ -64,7 +64,7 @@
 		article {
 			width: 100%;
 			max-width: 600px;
-			background-color: hsla(192, 9%, 90%, 1);
+			background-color: var(--color-primary-lightest);
 			padding: 32px;
 			border-radius: var(--border-radius);
 			box-shadow: 4px 4px 16px hsla(189, 18%, 31%, 0.1);

@@ -101,7 +101,7 @@
 		}
 
 		.list {
-			background-color: hsla(192, 10%, 90%, 1);
+			background-color: var(--color-primary-lightest);
 			padding: var(--spacing-m);
 			border-radius: 8px;
 			max-width: 50ch;

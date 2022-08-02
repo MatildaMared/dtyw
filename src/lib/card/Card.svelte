@@ -2,19 +2,17 @@
 	export let imgUrl: string;
 	export let altText: string;
 	export let heading: string;
-	export let primary = true;
+	export let secondary = false;
 
-	const backgroundColor = primary
-		? "var(--color-primary-lightest)"
-		: "var(--color-secondary-lightest)";
+	const backgroundColor = secondary
+		? "var(--color-secondary-lightest)"
+		: "var(--color-primary-lightest)";
 </script>
 
 <li style={`background-color: ${backgroundColor}`}>
 	<img src={imgUrl} alt={altText} />
 	<h3>{heading}</h3>
-	<p>
-		<slot />
-	</p>
+	<slot />
 </li>
 
 <style lang="scss">

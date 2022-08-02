@@ -33,7 +33,7 @@
 
 		img {
 			width: 100%;
-			max-width: 100px;
+			max-width: 80px;
 			height: auto;
 			opacity: 0.75;
 			margin-bottom: var(--spacing-m);

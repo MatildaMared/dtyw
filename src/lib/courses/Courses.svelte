@@ -1,5 +1,10 @@
 <script lang="ts">
+	import Button from "$lib/button/Button.svelte";
 	import Card from "$lib/card/Card.svelte";
+
+	function onClick() {
+		console.log("Clicked");
+	}
 </script>
 
 <section>
@@ -37,37 +42,38 @@
 			<p>Låt ditt företag växa genom att låta andra jobba för dig.</p>
 		</Card>
 	</ul>
+	<Button {onClick}>Boka ett gratis strategisamtal!</Button>
 </section>
 
 <style lang="scss">
 	section {
 		width: 100%;
 		max-width: var(--max-width);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: var(--spacing-l) 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: var(--spacing-l) 0;
 
-        h2 {
-            font-size: var(--font-size-xl);
-            margin-bottom: var(--spacing-m);
-            text-align: center;
+		h2 {
+			font-size: var(--font-size-xl);
+			margin-bottom: var(--spacing-m);
+			text-align: center;
 
-            span {
-                font-weight: 900;
-                font-style: italic;
-            }
-        }
+			span {
+				font-weight: 900;
+				font-style: italic;
+			}
+		}
 
-        > p {
-            margin-bottom: var(--spacing-m);
-            max-width: 45ch;
-            font-style: italic;
-            text-align: center;
-        }
+		> p {
+			margin-bottom: var(--spacing-m);
+			max-width: 45ch;
+			font-style: italic;
+			text-align: center;
+		}
 
 		ul {
-			margin: var(--spacing-m) 0;
+			margin: var(--spacing-m) 0 var(--spacing-l) 0;
 			padding: 0;
 			list-style: none;
 			display: flex;

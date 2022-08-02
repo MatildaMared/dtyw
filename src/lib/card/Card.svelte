@@ -2,9 +2,14 @@
 	export let imgUrl: string;
 	export let altText: string;
 	export let heading: string;
+	export let primary = true;
+
+	const backgroundColor = primary
+		? "var(--color-primary-lightest)"
+		: "var(--color-secondary-lightest)";
 </script>
 
-<li>
+<li style={`background-color: ${backgroundColor}`}>
 	<img src={imgUrl} alt={altText} />
 	<h3>{heading}</h3>
 	<p>
@@ -16,14 +21,13 @@
 	li {
 		width: 100%;
 		max-width: 350px;
-		background-color: var(--color-primary-lightest);
 		padding: 32px;
 		border-radius: 8px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		box-shadow: var(--box-shadow);
-        transition: all .25s;
+		transition: all 0.25s;
 
 		&:hover {
 			transform: translateY(-10px);

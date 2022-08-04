@@ -1,6 +1,7 @@
 <script lang="ts">
 	import testimonials from "../../data/testimonials";
 	import { ChevronRightIcon, ChevronLeftIcon } from "svelte-feather-icons";
+	import Testimonial from "./Testimonial.svelte";
 
 	const elementWidth = 332;
 
@@ -41,15 +42,8 @@
 	<h2>Detta säger tidigare kunder..</h2>
 	<div class="testimonials-container" style="width: {totalWidth}px;">
 		<div class="testimonials" style="transform: translateX({offset}px);">
-			{#each testimonials as { name, text }}
-				<article class="testimonial">
-					<h3>
-						{name}
-					</h3>
-					<p>
-						{text}
-					</p>
-				</article>
+			{#each testimonials as testimonial}
+				<Testimonial {testimonial} />
 			{/each}
 		</div>
 	</div>
@@ -89,19 +83,6 @@
 			display: flex;
 			transition: transform 0.4s ease-in-out;
 			margin: var(--spacing-m) 0;
-		}
-
-		.testimonial {
-			margin: 0 16px;
-			min-width: 300px;
-			height: auto;
-			padding: var(--spacing-m);
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			gap: var(--spacing-m);
-			background-color: var(--color-white);
-			border-radius: 16px;
 		}
 
 		.buttons {

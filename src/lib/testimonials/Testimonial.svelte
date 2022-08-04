@@ -27,6 +27,7 @@
 			border-radius: 50%;
 			max-width: 50%;
 			margin-bottom: 16px;
+			aspect-ratio: 1;
 		}
 
 		h3 {

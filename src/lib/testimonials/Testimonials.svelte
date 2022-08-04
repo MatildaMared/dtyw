@@ -73,6 +73,7 @@
 			color: var(--color-white);
 			font-size: var(--font-size-xl);
 			margin-bottom: var(--spacing-m);
+			text-align: center;
 		}
 
 		.testimonials-container {

@@ -1,8 +1,4 @@
-interface Testimonial {
-	name: string;
-	image: string;
-	text: string;
-}
+import type { Testimonial } from "src/interfaces/Testimonial";
 
 const testimonials: Testimonial[] = [
 	{
@@ -21,9 +17,9 @@ const testimonials: Testimonial[] = [
 		text: "Jag har varit med på Markus kurs i stressfrihet och kan varmt rekommendera den. Markus förklarar efter egen erfarenhet och på ett grymt proffsigt och ödmjukt sätt hur du kan förhålla dig till stress. Jag är så tacksam för Markus som givit mig så mycket klarhet och ett lugn. Kursen är uppbyggd på ett konkret och mycket väl genomtänkt koncept. Ge dig själv gott om tid med kursen när du väljer DIG för att du är så värdefull."
 	},
 	{
-		name: "Test Testsson",
-		image: "/images/testimonials/ulrica_nilsson.jpeg",
-		text: "Jag har varit med på Markus kurs i stressfrihet och kan varmt rekommendera den. Markus förklarar efter egen erfarenhet och på ett grymt proffsigt och ödmjukt sätt hur du kan förhålla dig till stress. Jag är så tacksam för Markus som givit mig så mycket klarhet och ett lugn. Kursen är uppbyggd på ett konkret och mycket väl genomtänkt koncept. Ge dig själv gott om tid med kursen när du väljer DIG för att du är så värdefull."
+		name: "Mari Johansson",
+		image: "/images/testimonials/mari_johansson.jpg",
+		text: "Programmet har givit mig så mycket mer än att fokusera på företaget. Jag har fått bra verktyg till planering, bra tips för utnyttja dagens timmar så att energin kan läggas på rätt saker och dessutom självutveckling som person. Min energi har höjts och jag kan välja att utnyttja ev stress till det positiva. Jag rekommenderar varmt detta program och coachningen från Markus. TIden har bara rusat iväg och jag har sett fram emot varje veckas möten. Nog kan jag säga att jag har blivit en version högre av mig själv. Väl värd investering!!"
 	}
 ];
 

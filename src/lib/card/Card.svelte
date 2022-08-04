@@ -36,13 +36,13 @@
 			max-width: 80px;
 			height: auto;
 			opacity: 0.75;
-			margin-bottom: var(--spacing-m);
+			margin-bottom: 24px;
 		}
 
 		h3 {
 			text-align: center;
-			font-size: var(--font-size-m);
-			margin-bottom: var(--spacing-m);
+			font-size: var(--font-size-l);
+			margin-bottom: 24px;
 		}
 	}
 </style>

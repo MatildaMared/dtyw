@@ -20,7 +20,14 @@
 			imgUrl="/images/freedom.png"
 			altText="Illustration av person som tittar på en klocka med uppsträckta händer. I en pratbubbla syns ett öppet hänglås."
 		>
-			<p>Skapa goda förutsättningar för att få fart på ditt företag.</p>
+			<p>
+				I detta program är målet att du ska kunna jobba heltid, lägga minst 5–10 timmar i ditt
+				företag <span>och</span> MÅ BRA! Du kommer lära dig att frigöra dig från negativ stress, skapa
+				goda rutiner för dig själv, bli mer produktiv och strukturerad än vad du någonsin varit tidigare.
+				Och kanske viktigast av allt – lära dig hur du känner dig tillräcklig och älskad även om du inte
+				presterar. Dessutom kommer du få en kopia av vårt affärssystem för produktivitet som är särskilt
+				utformat för stressade företagare.
+			</p>
 		</Card>
 		<Card
 			secondary
@@ -80,6 +87,13 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			gap: var(--spacing-m);
+
+			p {
+				span {
+					font-weight: 700;
+					font-style: italic;
+				}
+			}
 		}
 	}
 </style>

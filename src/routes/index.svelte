@@ -10,48 +10,59 @@
 	import Divider from "$lib/divider/Divider.svelte";
 	import Intro from "$lib/intro/Intro.svelte";
 	import Testimonials from "$lib/testimonials/Testimonials.svelte";
+	import Button from "../lib/button/Button.svelte";
+	import Modal from "../lib/modal/Modal.svelte";
+
+	let showModal = false;
+
+	function toggleModal() {
+		console.log("Will try to toggle modal");
+		showModal = !showModal;
+	}
 </script>
 
 <svelte:head>
-	<title>Do things your way</title>
-	<meta name="description" content="Svelte demo app" />
+    <title>Do things your way</title>
+    <meta content="Svelte demo app" name="description"/>
 </svelte:head>
 
 <div>
-	<Intro />
-	<Divider text="Få betalt för att vara dig själv." />
-	<Description />
-	<CtaDivider />
-	<AboutMarkus />
-	<Divider text="Jobba inte hårdare, jobba smartare." />
-	<Courses />
-	<Testimonials />
-	<div class="image-wrapper">
-		<img
-			src="/images/matilda-and-markus.jpeg"
-			alt="En man och en kvinna står på en träbrygga framför en sjö. I bakgrunden syns berg och träd och gråa moln syns på himlen."
-		/>
-	</div>
+    <Intro/>
+    <Divider text="Få betalt för att vara dig själv."/>
+    <Button onClick={toggleModal}>Visa modal</Button>
+    <Modal on:close={() => showModal = false} {showModal}/>
+    <Description/>
+    <CtaDivider/>
+    <AboutMarkus/>
+    <Divider text="Jobba inte hårdare, jobba smartare."/>
+    <Courses/>
+    <Testimonials/>
+    <div class="image-wrapper">
+        <img
+                alt="En man och en kvinna står på en träbrygga framför en sjö. I bakgrunden syns berg och träd och gråa moln syns på himlen."
+                src="/images/matilda-and-markus.jpeg"
+        />
+    </div>
 </div>
 
 <style lang="scss">
-	div {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
 
-		.image-wrapper {
-			padding: 0 16px;
+        .image-wrapper {
+            padding: 0 16px;
 
-			img {
-				margin: var(--spacing-l);
-				width: 600px;
-				max-width: 100%;
-				height: auto;
-				border-radius: 8px;
-			}
-		}
-	}
+            img {
+                margin: var(--spacing-l);
+                width: 600px;
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+        }
+    }
 </style>

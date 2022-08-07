@@ -45,10 +45,10 @@
             <p>
                 I detta program utvecklar vi ditt företag till att bli framgångsrikt,
                 ekonomiskt stabilt och trivsamt. Här får du grundläggande
-                kunskaper för allt du behöver veta – från bokföring till marknadsföring och
+                kunskaper i allt från bokföring till marknadsföring och
                 försäljning. Huvudfokus kommer vara på produktivitet, fullständig klarhet i
                 exakt vad du ska göra härnäst och att skapa rutiner för att du varje dag ska ta
-                ett steg närmare företaget du vill ha. Detta program passar både för
+                ett steg närmare företaget du vill ha. Programmet passar både för
                 heltidsföretagare och för dig som nyligen kommit igång och fortfarande har en
                 anställning.
             </p>
@@ -64,10 +64,8 @@
                 pengar även när du inte jobbar. Du kommer lära dig hur du strukturerar företagets
                 processer, får rätt person på rätt plats och ser till att alla får gjort det de ska.
                 Programmet passar både dig som precis ska ta in din första anställda och dig som
-                redan har flera anställda. Efter detta program kommer du ha lärt dig att låta andra
-                göra det du inte tycker om och fullt fokusera på det du är allra bäst på – samtidigt
-                som du slutar byta tid
-                mot pengar och får möjlighet att jobba mindre och tjäna mer. </p>
+                redan har flera anställda. Efter detta program kommer du ha lärt dig att delegera
+                så att du kan fokusera på det du är allra bäst på. </p>
         </Card>
     </ul>
     <Button {onClick}>Boka ett gratis strategisamtal!</Button>

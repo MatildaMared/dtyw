@@ -15,9 +15,23 @@
 
 	let showModal = false;
 
-	function toggleModal() {
-		console.log("Will try to toggle modal");
-		showModal = !showModal;
+	function openModal() {
+		showModal = true;
+		const scrollY = window.scrollY;
+		const body = document.body;
+		body.style.position = "fixed";
+		body.style.paddingRight = "15px";
+		body.style.top = `-${scrollY}px`;
+	}
+
+	function closeModal() {
+		showModal = false;
+		const body = document.body;
+		const scrollY = body.style.top;
+		body.style.position = "";
+		body.style.paddingRight = "0";
+		body.style.top = "";
+		window.scrollTo(0, parseInt(scrollY || "0") * -1);
 	}
 </script>
 
@@ -29,8 +43,8 @@
 <div>
     <Intro/>
     <Divider text="Få betalt för att vara dig själv."/>
-    <Button onClick={toggleModal}>Visa modal</Button>
-    <Modal on:close={() => showModal = false} {showModal}/>
+    <Button onClick={openModal}>Visa modal</Button>
+    <Modal on:close={closeModal} {showModal}/>
     <Description/>
     <CtaDivider/>
     <AboutMarkus/>

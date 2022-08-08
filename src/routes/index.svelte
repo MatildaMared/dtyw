@@ -7,6 +7,7 @@
 	import Intro from "$lib/intro/Intro.svelte";
 	import Testimonials from "$lib/testimonials/Testimonials.svelte";
 	import CtaPopup from "../lib/cta-popup/CtaPopup.svelte";
+	import BottomCta from "../lib/bottom-cta/BottomCta.svelte";
 </script>
 
 <svelte:head>
@@ -29,6 +30,7 @@
                 src="/images/matilda-and-markus.jpeg"
         />
     </div>
+    <BottomCta/>
     <CtaPopup/>
 </div>
 

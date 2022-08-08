@@ -3,7 +3,7 @@
 	import Card from "$lib/card/Card.svelte";
 
 	function onClick() {
-		console.log("Clicked");
+		window.open("https://calendly.com/markusmattsson/strategisamtal?month=2022-08", "_blank");
 	}
 </script>
 

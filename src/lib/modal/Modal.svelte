@@ -36,11 +36,11 @@
 {#if showModal}
     <div class="modal-background" on:click={close} transition:fade={{duration: 250}}></div>
     <div class="modal" transition:fade bind:this={modal}>
-        <button class="close-btn" autofocus on:click={close}>
+        <button class="close-btn" on:click={close}>
             <span class="screen-reader-text">Stäng fönster</span>
             <XIcon/>
         </button>
-        <h1>Detta är en modal</h1>
+        <slot/>
     </div>
 {/if}
 

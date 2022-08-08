@@ -10,29 +10,6 @@
 	import Divider from "$lib/divider/Divider.svelte";
 	import Intro from "$lib/intro/Intro.svelte";
 	import Testimonials from "$lib/testimonials/Testimonials.svelte";
-	import Button from "../lib/button/Button.svelte";
-	import Modal from "../lib/modal/Modal.svelte";
-
-	let showModal = false;
-
-	function openModal() {
-		showModal = true;
-		const scrollY = window.scrollY;
-		const body = document.body;
-		body.style.position = "fixed";
-		body.style.paddingRight = "15px";
-		body.style.top = `-${scrollY}px`;
-	}
-
-	function closeModal() {
-		showModal = false;
-		const body = document.body;
-		const scrollY = body.style.top;
-		body.style.position = "";
-		body.style.paddingRight = "0";
-		body.style.top = "";
-		window.scrollTo(0, parseInt(scrollY || "0") * -1);
-	}
 </script>
 
 <svelte:head>
@@ -43,8 +20,6 @@
 <div>
     <Intro/>
     <Divider text="Få betalt för att vara dig själv."/>
-    <Button onClick={openModal}>Visa modal</Button>
-    <Modal on:close={closeModal} {showModal}/>
     <Description/>
     <CtaDivider/>
     <AboutMarkus/>

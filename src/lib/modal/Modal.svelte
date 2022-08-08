@@ -45,6 +45,8 @@
 {/if}
 
 <style lang="scss">
+    @use "../../styles/breakpoints" as *;
+
     .modal-background {
         position: fixed;
         top: 0;
@@ -57,6 +59,7 @@
 
     .modal {
         background-color: var(--color-white);
+        max-width: 90%;
         padding: 32px;
         position: fixed;
         top: 50%;
@@ -65,6 +68,10 @@
         border-radius: 16px;
         overflow: auto;
         z-index: 1;
+
+        @media(min-width: $breakpoint-tablet-portrait) {
+            padding: 48px;
+        }
     }
 
     .close-btn {

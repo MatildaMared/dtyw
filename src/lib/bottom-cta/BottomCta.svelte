@@ -7,7 +7,7 @@
     <div class="cta-container">
         <div class="strategi-samtal">
             <p>
-                Då tycker jag att du ska boka ett gratis strategi samtal med mig! Under samtalet
+                Då tycker jag att du ska boka ett gratis strategisamtal med mig! Under samtalet
                 kommer
                 jag
                 hjälpa dig få 100% klarhet i din situation och vad ditt nästa steg är.
@@ -33,6 +33,7 @@
     @use "../../styles/breakpoints" as *;
 
     section {
+        padding: 0 16px;
         margin: var(--spacing-l) 0;
         width: 100%;
         max-width: var(--max-width);

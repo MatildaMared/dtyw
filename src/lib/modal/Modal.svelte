@@ -1,6 +1,7 @@
 <script lang="ts">
 	import {createEventDispatcher} from "svelte";
 	import {fade} from "svelte/transition";
+	import {XIcon} from "svelte-feather-icons";
 
 	export let showModal;
 	let modal;
@@ -35,7 +36,10 @@
 {#if showModal}
     <div class="modal-background" on:click={close} transition:fade={{duration: 250}}></div>
     <div class="modal" transition:fade bind:this={modal}>
-        <button class="close-btn" autofocus on:click={close}>close modal</button>
+        <button class="close-btn" autofocus on:click={close}>
+            <span class="screen-reader-text">Stäng fönster</span>
+            <XIcon/>
+        </button>
         <h1>Detta är en modal</h1>
     </div>
 {/if}
@@ -64,6 +68,22 @@
     }
 
     .close-btn {
+        color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        padding: 6px;
+        z-index: 2;
+        border-radius: 50%;
+        background: transparent;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+        border: none;
+        outline: 2px solid transparent;
 
+        &:hover, &:focus {
+            color: #000;
+            outline: 2px solid #000;
+        }
     }
 </style>

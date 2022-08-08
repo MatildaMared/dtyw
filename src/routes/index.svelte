@@ -1,7 +1,3 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import AboutMarkus from "$lib/about-markus/AboutMarkus.svelte";
 	import Courses from "$lib/courses/Courses.svelte";
@@ -10,6 +6,7 @@
 	import Divider from "$lib/divider/Divider.svelte";
 	import Intro from "$lib/intro/Intro.svelte";
 	import Testimonials from "$lib/testimonials/Testimonials.svelte";
+	import CtaPopup from "../lib/cta-popup/CtaPopup.svelte";
 </script>
 
 <svelte:head>
@@ -32,6 +29,7 @@
                 src="/images/matilda-and-markus.jpeg"
         />
     </div>
+    <CtaPopup/>
 </div>
 
 <style lang="scss">

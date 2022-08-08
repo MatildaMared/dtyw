@@ -66,6 +66,7 @@
         justify-content: center;
         align-items: center;
         flex: 1;
+        width: 100%;
 
         .image-wrapper {
             padding: 0 16px;

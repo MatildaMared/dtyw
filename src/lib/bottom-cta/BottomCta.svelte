@@ -12,7 +12,7 @@
                 jag
                 hjälpa dig få 100% klarhet i din situation och vad ditt nästa steg är.
             </p>
-            <Button onClick={() => {window.open("https://calendly.com/markusmattsson/strategisamtal", 
+            <Button onClick={() => {window.open("https://calendly.com/markusmattsson/strategisamtal?utm_medium=hemsida", 
     "_blank")}}>Boka ett strategisamtal!
             </Button>
         </div>
@@ -22,7 +22,7 @@
                 de
                 fem bästa stegen för att maximera din tid, energi och produktivitet!
             </p>
-            <Button onClick={() => {window.open("https://webinar.dothingsyourway.com/", 
+            <Button onClick={() => {window.open("https://dothingsyourway.groovepages.com/webinar", 
     "_blank")}} secondary>Boka din plats nu!
             </Button>
         </div>

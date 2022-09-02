@@ -2,7 +2,7 @@
 	import Button from "$lib/button/Button.svelte";
 
 	function onClick() {
-		window.open("https://webinar.dothingsyourway.com/", "_blank");
+		window.open("https://dothingsyourway.groovepages.com/webinar", "_blank");
 	}
 </script>
 

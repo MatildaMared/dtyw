@@ -4,7 +4,7 @@
 	import Logo from "./Logo.svelte";
 
 	function onClick() {
-		window.open("https://dothingsyourway.groovepages.com/webinar", "_blank");
+		window.open("https://webbinarie.dtywgroove.com/", "_blank");
 	}
 </script>
 

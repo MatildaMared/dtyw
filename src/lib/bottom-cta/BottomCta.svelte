@@ -22,7 +22,7 @@
                 de
                 fem bästa stegen för att maximera din tid, energi och produktivitet!
             </p>
-            <Button onClick={() => {window.open("https://dothingsyourway.groovepages.com/webinar", 
+            <Button onClick={() => {window.open("https://webbinarie.dtywgroove.com/", 
     "_blank")}} secondary>Boka din plats nu!
             </Button>
         </div>

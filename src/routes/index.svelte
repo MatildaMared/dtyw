@@ -8,51 +8,53 @@
 	import Testimonials from "$lib/testimonials/Testimonials.svelte";
 	import CtaPopup from "../lib/cta-popup/CtaPopup.svelte";
 	import BottomCta from "../lib/bottom-cta/BottomCta.svelte";
+	import AboutTess from "$lib/about-tess/AboutTess.svelte";
 </script>
 
 <svelte:head>
-    <title>Do things your way</title>
-    <meta content="Svelte demo app" name="description"/>
+	<title>Do things your way</title>
+	<meta content="Svelte demo app" name="description" />
 </svelte:head>
 
 <div>
-    <Intro/>
-    <Divider text="Få betalt för att vara dig själv."/>
-    <Description/>
-    <CtaDivider/>
-    <AboutMarkus/>
-    <Divider text="Jobba inte hårdare, jobba smartare."/>
-    <Courses/>
-    <Testimonials/>
-    <div class="image-wrapper">
-        <img
-                alt="En man och en kvinna står på en träbrygga framför en sjö. I bakgrunden syns berg och träd och gråa moln syns på himlen."
-                src="/images/matilda-and-markus.jpeg"
-        />
-    </div>
-    <BottomCta/>
-    <CtaPopup/>
+	<Intro />
+	<Divider text="Få betalt för att vara dig själv." />
+	<Description />
+	<CtaDivider />
+	<AboutMarkus />
+	<AboutTess />
+	<Divider text="Jobba inte hårdare, jobba smartare." />
+	<Courses />
+	<Testimonials />
+	<div class="image-wrapper">
+		<img
+			alt="En man och en kvinna står på en träbrygga framför en sjö. I bakgrunden syns berg och träd och gråa moln syns på himlen."
+			src="/images/matilda-and-markus.jpeg"
+		/>
+	</div>
+	<BottomCta />
+	<CtaPopup />
 </div>
 
 <style lang="scss">
-    div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex: 1;
-        width: 100%;
+	div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex: 1;
+		width: 100%;
 
-        .image-wrapper {
-            padding: 0 16px;
+		.image-wrapper {
+			padding: 0 16px;
 
-            img {
-                margin: var(--spacing-l);
-                width: 600px;
-                max-width: 100%;
-                height: auto;
-                border-radius: 8px;
-            }
-        }
-    }
+			img {
+				margin: var(--spacing-l);
+				width: 600px;
+				max-width: 100%;
+				height: auto;
+				border-radius: 8px;
+			}
+		}
+	}
 </style>

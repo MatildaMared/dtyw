@@ -49,7 +49,7 @@
 		<section class="copyright">
 			<div>
 				<!-- TODO: Insert correct link -->
-				<a href="/">Integritetspolicy</a>
+				<a href="https://dothingsyourway.groovepages.com/privacypolicy">Integritetspolicy</a>
 				<a href="https://www.flaticon.com/authors/gowi" target="_blank">Icons by GOWI</a>
 			</div>
 			<div>

@@ -1,6 +1,6 @@
 <script lang="ts"></script>
 
-<section>
+<!-- <section>
 	<img
 		src="/images/tess.JPG"
 		alt="En ung solbränd kvinna med brunt hår tittar in i kameran. I bakgrunden syns gröna växter"
@@ -29,7 +29,7 @@
 			frihet!
 		</p>
 	</article>
-</section>
+</section> --> 
 
 <style lang="scss">
 	@use "../../styles/breakpoints.scss" as *;

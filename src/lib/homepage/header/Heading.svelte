@@ -3,7 +3,7 @@
 </p>
 
 <style lang="scss">
-	@use "../../styles/breakpoints.scss" as *;
+	@use "../../../styles/breakpoints.scss" as *;
 
 	.heading {
 		margin-bottom: var(--spacing-l);

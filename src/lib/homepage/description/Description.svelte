@@ -52,7 +52,7 @@
 </section>
 
 <style lang="scss">
-	@use "../../styles/breakpoints.scss" as *;
+	@use "../../../styles/breakpoints.scss" as *;
 
 	section {
 		display: flex;

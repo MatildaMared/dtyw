@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Testimonial } from "../../interfaces/Testimonial";
+	import type { Testimonial } from "../../../interfaces/Testimonial";
 	export let testimonial: Testimonial;
 
 	const { name, image, text } = testimonial;

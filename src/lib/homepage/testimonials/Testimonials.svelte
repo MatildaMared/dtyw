@@ -1,5 +1,5 @@
 <script lang="ts">
-	import testimonials from "../../data/testimonials";
+	import testimonials from "../../../data/testimonials";
 	import { ChevronRightIcon, ChevronLeftIcon } from "svelte-feather-icons";
 	import Testimonial from "./Testimonial.svelte";
 

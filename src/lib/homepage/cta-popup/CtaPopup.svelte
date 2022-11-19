@@ -1,11 +1,11 @@
 <script lang="ts">
-	import Modal from "../modal/Modal.svelte";
+	import Modal from "../../modal/Modal.svelte";
 	import {
 		addStylesWhenModalIsOpen,
 		removeStylesWhenModalIsClosed
-	} from "../../utils/modalHelpers";
+	} from "../../../utils/modalHelpers";
 	import {onMount} from "svelte";
-	import Button from "../button/Button.svelte";
+	import Button from "../../button/Button.svelte";
 
 	let showModal = false;
 

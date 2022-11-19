@@ -1,14 +1,14 @@
 <script lang="ts">
-	import AboutMarkus from "$lib/about-markus/AboutMarkus.svelte";
-	import Courses from "$lib/courses/Courses.svelte";
-	import CtaDivider from "$lib/cta-divider/CtaDivider.svelte";
-	import Description from "$lib/description/Description.svelte";
+	import AboutMarkus from "$lib/homepage/about-markus/AboutMarkus.svelte";
+	import Courses from "$lib/homepage/courses/Courses.svelte";
+	import CtaDivider from "$lib/homepage/cta-divider/CtaDivider.svelte";
+	import Description from "$lib/homepage/description/Description.svelte";
 	import Divider from "$lib/divider/Divider.svelte";
-	import Intro from "$lib/intro/Intro.svelte";
-	import Testimonials from "$lib/testimonials/Testimonials.svelte";
-	import CtaPopup from "../lib/cta-popup/CtaPopup.svelte";
-	import BottomCta from "../lib/bottom-cta/BottomCta.svelte";
-	import Header from "$lib/header/Header.svelte";
+	import Intro from "$lib/homepage/intro/Intro.svelte";
+	import Testimonials from "$lib/homepage/testimonials/Testimonials.svelte";
+	import CtaPopup from "../lib/homepage/cta-popup/CtaPopup.svelte";
+	import BottomCta from "../lib/homepage/bottom-cta/BottomCta.svelte";
+	import Header from "$lib/homepage/header/Header.svelte";
 </script>
 
 <svelte:head>

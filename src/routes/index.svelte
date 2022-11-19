@@ -8,6 +8,7 @@
 	import Testimonials from "$lib/testimonials/Testimonials.svelte";
 	import CtaPopup from "../lib/cta-popup/CtaPopup.svelte";
 	import BottomCta from "../lib/bottom-cta/BottomCta.svelte";
+	import Header from "$lib/header/Header.svelte";
 </script>
 
 <svelte:head>
@@ -17,6 +18,8 @@
 		name="description"
 	/>
 </svelte:head>
+
+<Header />
 
 <div>
 	<Intro />

@@ -12,7 +12,10 @@
 
 <svelte:head>
 	<title>Do things your way</title>
-	<meta content="Svelte demo app" name="description" />
+	<meta
+		content="Jag hälper de som har problem med stress att gå från anställd till företagare."
+		name="description"
+	/>
 </svelte:head>
 
 <div>

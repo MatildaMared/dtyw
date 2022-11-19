@@ -8,7 +8,6 @@
 	import Testimonials from "$lib/testimonials/Testimonials.svelte";
 	import CtaPopup from "../lib/cta-popup/CtaPopup.svelte";
 	import BottomCta from "../lib/bottom-cta/BottomCta.svelte";
-	import AboutTess from "$lib/about-tess/AboutTess.svelte";
 </script>
 
 <svelte:head>
@@ -22,7 +21,6 @@
 	<Description />
 	<CtaDivider />
 	<AboutMarkus />
-	<AboutTess />
 	<Divider text="Jobba inte hårdare, jobba smartare." />
 	<Courses />
 	<Testimonials />

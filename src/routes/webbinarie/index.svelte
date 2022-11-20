@@ -103,7 +103,7 @@
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
 					<input type="text" name="b_e799ec252937b1dd4cc8f63b0_412ad9843c" tabindex="-1" value="" />
 				</div>
-				<div class="indicates-required"><span class="asterisk">*</span> obligatoriskt fält</div>
+				<div class="sign-up__required"><span class="asterisk">*</span> obligatoriskt fält</div>
 			</div>
 			<input
 				type="submit"
@@ -112,6 +112,12 @@
 				id="mc-embedded-subscribe"
 				class="button"
 			/>
+			<p class="sign-up__integrity">
+				Genom att sända in dina uppgifter godtar du också vår <a
+					href="/integritetspolicy"
+					class="sign-up__link">integritetspolicy</a
+				>.
+			</p>
 		</form>
 		<!--End mc_embed_signup-->
 	</section>
@@ -307,6 +313,22 @@
 				color: var(--color-primary-dark);
 				background-color: var(--color-white);
 				outline-color: var(--color-secondary);
+			}
+		}
+
+		&__integrity,
+		&__required {
+			font-size: var(--font-size-s);
+			color: var(--color-primary-dark);
+		}
+
+		&__link {
+			font-weight: 700;
+			color: inherit;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
 			}
 		}
 

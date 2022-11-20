@@ -17,7 +17,9 @@
 
 <header class="header">
 	<div class="header__logo">
-		Do things <span class="header__emphasized">your</span> way
+		<a href="/">
+			Do things <span class="header__emphasized">your</span> way
+		</a>
 	</div>
 	<span class="header__pre-heading">Kostnadsfritt webbinarie</span>
 	<h1 class="header__heading">
@@ -203,6 +205,12 @@
 			position: absolute;
 			top: 16px;
 			left: 16px;
+
+			a {
+				text-decoration: none;
+				color: inherit;
+				font: inherit;
+			}
 		}
 
 		&__emphasized {

@@ -25,13 +25,7 @@
 				Du kan också delta på nästa kostnadsfria webbinarium där jag bland annat kommer prata om de
 				fem bästa stegen för att maximera din tid, energi och produktivitet!
 			</p>
-			<Button
-				onClick={() => {
-					window.open("https://webbinarie.dtywgroove.com/", "_blank");
-				}}
-				secondary
-				>Boka din plats nu!
-			</Button>
+			<a class="button secondary" href="/webbinarie">Boka din plats nu! </a>
 		</div>
 	</div>
 </section>

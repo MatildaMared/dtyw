@@ -2,10 +2,6 @@
 	import Button from "$lib/button/Button.svelte";
 	import Heading from "./Heading.svelte";
 	import Logo from "./Logo.svelte";
-
-	function onClick() {
-		window.open("https://webbinarie.dtywgroove.com/", "_blank");
-	}
 </script>
 
 <header>
@@ -20,7 +16,7 @@
 			Oavsett om du precis fått dina första kunder eller om du redan har kommit en bit på vägen
 			finns det ett program för dig.
 		</p>
-		<Button {onClick}>Registrera dig till nästa webbinarium</Button>
+		<a href="/webbinarie" class="button">Registrera dig till nästa webbinarium</a>
 	</div>
 </header>
 

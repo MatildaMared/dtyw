@@ -20,40 +20,51 @@
 		Do things <span class="header__emphasized">your</span> way
 	</div>
 	<span class="header__pre-heading">Kostnadsfritt webbinarie</span>
-	<h1 class="header__heading">Från stressad överpresterare till framgångsrik egenföretagare</h1>
+	<h1 class="header__heading">
+		Från stressad överpresterare
+		<span> till framgångsrik egenföretagare </span>
+	</h1>
 	<p class="header__sub-heading">– fem steg för att optimera din tid och energi</p>
 	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 
 <main class="main">
 	<section class="intro">
-		<h2 class="intro__heading">Stämmer detta in på dig?</h2>
+		<div class="intro__header">
+			<img
+				src="/images/zen.jpg"
+				alt="En brygga med en ljuslykta som brinner. Man kan se en man som sitter på bryggan med korsade fötter."
+				class="intro__image"
+			/>
+			<div class="intro__content">
+				<h2 class="intro__heading">Stämmer detta in på dig?</h2>
 
-		<ul class="intro__list">
-			<li>Du har redan startat eller har påbörjat processen att starta ditt eget företag.</li>
-			<li>Du är trött på att vara stressad och aldrig hinna jobba på ditt företag.</li>
-			<li>
-				Du rädd för att du aldrig någonsin ska kunna säga upp dig och leva det liv du vill leva.
-			</li>
-			<li>
-				När du väl har tid över hamnar du ofta med mobilen i soffan eller känner dig så överväldigad
-				av allt som ska göras så det slutar med att du inte gör någonting alls.
-			</li>
-		</ul>
+				<ul class="intro__list">
+					<li>Du har redan startat eller har påbörjat processen att starta ditt eget företag.</li>
+					<li>Du är trött på att vara stressad och aldrig hinna jobba på ditt företag.</li>
+					<li>
+						Du rädd för att du aldrig någonsin ska kunna säga upp dig och leva det liv du vill leva.
+					</li>
+					<li>
+						När du väl har tid över hamnar du ofta med mobilen i soffan eller känner dig så
+						överväldigad av allt som ska göras så det slutar med att du inte gör någonting alls.
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="intro__webbinarie">
+			<p class="intro__date small-caps-text">6 december 2022 klockan 19:00</p>
+			<h3 class="intro__webbinarie--heading">
+				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
+			</h3>
+		</div>
 
 		<p>
 			Jag kommer gå igenom mina 5 bästa steg för att maximera din tid, energi och produktivitet så
 			att du äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
 			registrera dig till webbinariet nedan.
 		</p>
-
-		<div class="intro__webbinarie">
-			<p class="intro__date small-caps-text">6 december 2022 klockan 19:00</p>
-			<h3 class="intro__heading intro__heading--secondary">
-				Från stressad överpresterare till framgångsrik egenföretagare
-			</h3>
-		</div>
-
 		<p>
 			Det är helt gratis att delta men det finns bara ett begränsat antal platser så se till att
 			säkra din plats nu! 😄
@@ -62,7 +73,7 @@
 		<a href="#sign-up" class="button">Anmäl dig här!</a>
 	</section>
 
-	<Divider text="Kul citat" />
+	<Divider text="Jobba inte hårdare, jobba smartare." />
 
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->
@@ -110,7 +121,7 @@
 				value="Registrera mig nu!"
 				name="subscribe"
 				id="mc-embedded-subscribe"
-				class="button"
+				class="button secondary"
 			/>
 			<p class="sign-up__integrity">
 				Genom att sända in dina uppgifter godtar du också vår <a
@@ -122,7 +133,7 @@
 		<!--End mc_embed_signup-->
 	</section>
 
-	<Divider secondary text="Kul citat" />
+	<Divider secondary text="Kompromissa inte med dina drömmar." />
 
 	<section class="webinar">
 		<img
@@ -158,7 +169,7 @@
 		</div>
 	</section>
 
-	<Divider text="Kul citat" />
+	<Divider text="&quot;Min stora passion är att coacha och utbilda andra&quot;" />
 
 	<AboutMarkus />
 </main>
@@ -171,11 +182,16 @@
 		position: relative;
 		width: 100%;
 		background-color: var(--color-primary-dark);
+		min-height: 70vh;
+		background-image: url("/images/woods1.jpg");
+		background-size: cover;
+		background-position: bottom;
 		color: var(--color-white);
 		padding: var(--spacing-xl) 16px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
 
 		&__logo {
 			font-weight: 500;
@@ -231,22 +247,51 @@
 		align-items: center;
 		gap: var(--spacing-m);
 
+		&__header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: var(--spacing-m);
+
+			@media (min-width: $breakpoint-tablet-landscape) {
+				flex-direction: row;
+				align-items: flex-start;
+				gap: 0;
+			}
+		}
+
+		&__image {
+			width: 100%;
+			max-width: 640px;
+			border-radius: 8px;
+		}
+
+		&__content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: var(--spacing-m);
+			background-color: var(--color-secondary-lightest);
+			padding: var(--spacing-m);
+			border-radius: 8px;
+			box-shadow: var(--box-shadow);
+			max-width: 640px;
+
+			@media (min-width: $breakpoint-tablet-landscape) {
+				margin-left: -32px;
+				margin-top: -32px;
+			}
+		}
+
 		p {
 			max-width: 75ch;
 		}
 
 		&__heading {
-			text-align: center;
-			max-width: 30ch;
 			font-size: var(--font-size-xl);
+			color: var(--color-secondary-darkest);
+			width: 100%;
 			line-height: 1.2;
-			margin-bottom: var(--spacing-s);
-
-			&--secondary {
-				color: var(--color-secondary-darkest);
-				font-size: var(--font-size-l);
-				margin-bottom: 0;
-			}
 		}
 
 		&__list {
@@ -258,10 +303,19 @@
 		}
 
 		&__webbinarie {
-			background-color: var(--color-secondary-lightest);
+			max-width: 40ch;
+			background-color: var(--color-primary-lightest);
 			padding: 32px;
 			text-align: center;
 			border-radius: 16px;
+
+			&--heading {
+				line-height: 1.2;
+				font-style: italic;
+				color: var(--color-primary-darkest);
+				font-size: var(--font-size-l);
+				margin-bottom: 0;
+			}
 		}
 
 		&__date {
@@ -270,6 +324,8 @@
 	}
 
 	.sign-up {
+		margin: var(--spacing-l) 16px;
+
 		&__heading {
 			font-size: var(--font-size-xl);
 		}
@@ -279,7 +335,7 @@
 			flex-direction: column;
 			align-items: center;
 			gap: var(--spacing-m);
-			border-radius: 16px;
+			border-radius: 8px;
 			padding: var(--spacing-m) var(--spacing-s);
 			background-color: var(--color-primary-lightest);
 			margin: var(--spacing-m) 16px;
@@ -329,24 +385,6 @@
 
 			&:hover {
 				text-decoration: underline;
-			}
-		}
-
-		.button {
-			padding: 16px 32px;
-			border: none;
-			border-radius: 8px;
-			box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2);
-			transition: all 0.2s;
-			cursor: pointer;
-			background-color: var(--color-secondary);
-			color: var(--color-white);
-			letter-spacing: 0.5px;
-
-			&:hover {
-				background-color: var(--color-secondary-dark);
-				box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);
-				transform: translateY(-2px);
 			}
 		}
 	}

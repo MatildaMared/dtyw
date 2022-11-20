@@ -11,7 +11,9 @@
 
 <footer>
 	<div class="content">
-		<p class="logo">Do things <span>your</span> way</p>
+		<a href="/">
+			<p class="logo">Do things <span>your</span> way</p>
+		</a>
 		<div class="divider" />
 		<section class="contact">
 			<div class="contact-info">
@@ -49,7 +51,7 @@
 		<section class="copyright">
 			<div>
 				<!-- TODO: Insert correct link -->
-				<a href="https://dothingsyourway.groovepages.com/privacypolicy">Integritetspolicy</a>
+				<a href="/integritetspolicy">Integritetspolicy</a>
 				<a href="https://www.flaticon.com/authors/gowi" target="_blank">Icons by GOWI</a>
 			</div>
 			<div>

@@ -62,6 +62,58 @@
 	</section>
 
 	<Divider text="Kul citat" />
+
+	<section class="sign-up">
+		<!-- Begin Mailchimp Signup Form -->
+		<form
+			action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&id=412ad9843c&f_id=00d9c5e1f0"
+			method="post"
+			id="mc-embedded-subscribe-form"
+			name="mc-embedded-subscribe-form"
+			class="sign-up__form"
+			target="_self"
+		>
+			<p class="small-caps-text">Från stressad överpresterare till framgångsrik egenföretagare</p>
+			<h2 class="sign-up__heading">Registrera dig till webbinariet</h2>
+			<div class="sign-up__inputs">
+				<div class="sign-up__form-group">
+					<label for="mce-EMAIL">E-postadress <span class="asterisk">*</span> </label>
+					<input
+						type="email"
+						value=""
+						name="EMAIL"
+						class="required email"
+						id="mce-EMAIL"
+						required
+					/>
+					<span id="mce-EMAIL-HELPERTEXT" class="helper_text" />
+				</div>
+				<div class="sign-up__form-group">
+					<label for="mce-FNAME">Förnamn <span class="asterisk">*</span> </label>
+					<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required />
+					<span id="mce-FNAME-HELPERTEXT" class="helper_text" />
+				</div>
+				<div class="sign-up__form-group">
+					<label for="mce-PHONE">Telefonnummer </label>
+					<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
+					<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
+				</div>
+				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;" aria-hidden="true">
+					<input type="text" name="b_e799ec252937b1dd4cc8f63b0_412ad9843c" tabindex="-1" value="" />
+				</div>
+				<div class="indicates-required"><span class="asterisk">*</span> obligatoriskt fält</div>
+			</div>
+			<input
+				type="submit"
+				value="Registrera mig nu!"
+				name="subscribe"
+				id="mc-embedded-subscribe"
+				class="button"
+			/>
+		</form>
+		<!--End mc_embed_signup-->
+	</section>
 </main>
 
 <style lang="scss">
@@ -167,6 +219,72 @@
 
 		&__date {
 			margin-bottom: var(--spacing-xs);
+		}
+	}
+
+	.sign-up {
+		&__heading {
+			font-size: var(--font-size-xl);
+		}
+
+		&__form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: var(--spacing-m);
+			border-radius: 16px;
+			padding: var(--spacing-m) var(--spacing-s);
+			background-color: var(--color-primary-lightest);
+			margin: var(--spacing-m) 16px;
+			text-align: center;
+
+			@media (min-width: $breakpoint-tablet-portrait) {
+				padding: var(--spacing-l);
+			}
+		}
+
+		&__inputs {
+			width: 100%;
+			max-width: 400px;
+		}
+
+		&__form-group {
+			display: flex;
+			flex-direction: column;
+			text-align: left;
+			margin-bottom: var(--spacing-m);
+
+			label {
+				margin-bottom: var(--spacing-xs);
+			}
+
+			input {
+				border: 1px solid var(--color-primary-light);
+				border-radius: 8px;
+				padding: 8px 16px;
+				font: inherit;
+				color: var(--color-primary-dark);
+				background-color: var(--color-white);
+				outline-color: var(--color-secondary);
+			}
+		}
+
+		.button {
+			padding: 16px 32px;
+			border: none;
+			border-radius: 8px;
+			box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2);
+			transition: all 0.2s;
+			cursor: pointer;
+			background-color: var(--color-secondary);
+			color: var(--color-white);
+			letter-spacing: 0.5px;
+
+			&:hover {
+				background-color: var(--color-secondary-dark);
+				box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);
+				transform: translateY(-2px);
+			}
 		}
 	}
 </style>

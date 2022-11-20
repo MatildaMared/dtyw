@@ -1,8 +1,9 @@
 <script lang="ts">
 	export let text: string;
+	export let secondary: boolean = false;
 </script>
 
-<div>
+<div class={secondary ? "secondary" : "primary"}>
 	<h1>
 		<p>
 			{text}
@@ -11,11 +12,20 @@
 </div>
 
 <style lang="scss">
+	@use "../../styles/breakpoints.scss" as *;
+
 	div {
 		width: 100%;
-		background-color: var(--color-secondary);
 		padding: 24px 16px;
 		margin: var(--spacing-l) 0;
+
+		&.primary {
+			background-color: var(--color-primary);
+		}
+
+		&.secondary {
+			background-color: var(--color-secondary);
+		}
 	}
 
 	p {

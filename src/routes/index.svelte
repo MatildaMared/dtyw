@@ -23,11 +23,11 @@
 
 <div>
 	<Intro />
-	<Divider text="Få betalt för att vara dig själv." />
+	<Divider secondary text="Få betalt för att vara dig själv." />
 	<Description />
 	<CtaDivider />
 	<AboutMarkus />
-	<Divider text="Jobba inte hårdare, jobba smartare." />
+	<Divider secondary text="Jobba inte hårdare, jobba smartare." />
 	<Courses />
 	<Testimonials />
 	<div class="image-wrapper">

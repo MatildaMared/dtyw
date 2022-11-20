@@ -47,7 +47,7 @@
 		</p>
 
 		<div class="intro__webbinarie">
-			<p class="intro__date">6 december 2022 klockan 19:00</p>
+			<p class="intro__date small-caps-text">6 december 2022 klockan 19:00</p>
 			<h3 class="intro__heading intro__heading--secondary">
 				Från stressad överpresterare till framgångsrik egenföretagare
 			</h3>
@@ -166,9 +166,6 @@
 		}
 
 		&__date {
-			font-size: var(--font-size-s);
-			text-transform: uppercase;
-			letter-spacing: 2px;
 			margin-bottom: var(--spacing-xs);
 		}
 	}

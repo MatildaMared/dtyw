@@ -3,7 +3,7 @@
 <section>
 	<img
 		src="/images/markus.jpg"
-		alt="Foto av Markus som sitter framåtlutad på en bänk på en bänk och ser in i kameran. Bakom bänken finns en grönskande buske och man kan se att solen lyser genom löven."
+		alt="Markus sitter framåtlutad på en bänk på en bänk och ser in i kameran. Bakom bänken finns en grönskande buske och man kan se att solen lyser genom löven."
 	/>
 	<article>
 		<h2>Markus Mattsson</h2>

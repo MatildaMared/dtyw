@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from "$lib/button/Button.svelte";
 	import Divider from "$lib/divider/Divider.svelte";
+	import AboutMarkus from "$lib/homepage/about-markus/AboutMarkus.svelte";
 	import Logo from "$lib/homepage/header/Logo.svelte";
 </script>
 
@@ -21,7 +22,7 @@
 	<span class="header__pre-heading">Kostnadsfritt webbinarie</span>
 	<h1 class="header__heading">Från stressad överpresterare till framgångsrik egenföretagare</h1>
 	<p class="header__sub-heading">– fem steg för att optimera din tid och energi</p>
-	<Button>Registrera dig nu!</Button>
+	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 
 <main class="main">
@@ -58,12 +59,12 @@
 			säkra din plats nu! 😄
 		</p>
 
-		<Button>Anmäl dig här!</Button>
+		<a href="#sign-up" class="button">Anmäl dig här!</a>
 	</section>
 
 	<Divider text="Kul citat" />
 
-	<section class="sign-up">
+	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->
 		<form
 			action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&id=412ad9843c&f_id=00d9c5e1f0"
@@ -114,6 +115,46 @@
 		</form>
 		<!--End mc_embed_signup-->
 	</section>
+
+	<Divider secondary text="Kul citat" />
+
+	<section class="webinar">
+		<img
+			src="images/webinar.jpg"
+			alt="En man med en kaffekopp i handen håller upp en bok om entreprenörskap"
+			class="webinar__image"
+		/>
+		<div>
+			<h2 class="webinar__heading">På webbinariet kommer du lära dig...</h2>
+			<ul class="webinar__list">
+				<li>Den nya revolutionerande forskningen om stress som förändrade mitt liv för alltid!</li>
+				<li>
+					Hur du går från stressad överpresterare till välmående och effektiv samtidigt som du får
+					ännu bättre resultat.
+				</li>
+				<li>
+					Steg för steg hur du slutar slösa din extra tid och energi på att oroa dig eller ha dåligt
+					samvete för att du inte gör mer.
+				</li>
+				<li>
+					Exakt hur du ska göra för att ta kontrollen över din tid och ditt liv och slutar känna att
+					tiden (och livet) hela tiden flyter iväg på annat än det DU vill.
+				</li>
+				<li>
+					Hur du säkrar en trygg framtid för ditt företag igenom att bli konsekvent produktiv, vecka
+					för vecka, vilket kommer garantera att ditt företag hela tiden växer.
+				</li>
+				<li>
+					...och mycket mer! Webbinariet är helt gratis och 100% live, så du kan ställa frågor under
+					tiden.
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<Divider text="Kul citat" />
+
+	<AboutMarkus />
 </main>
 
 <style lang="scss">
@@ -284,6 +325,60 @@
 				background-color: var(--color-secondary-dark);
 				box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.2);
 				transform: translateY(-2px);
+			}
+		}
+	}
+
+	.webinar {
+		width: 100%;
+		max-width: var(--max-width);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--spacing-m);
+		margin: var(--spacing-xl) 16px var(--spacing-l) 16px;
+		padding: 0 16px;
+
+		@media (min-width: $breakpoint-tablet-landscape) {
+			align-items: flex-start;
+			flex-direction: row-reverse;
+			padding: 0;
+		}
+
+		&__heading {
+			font-size: var(--font-size-l);
+			text-align: center;
+			margin-bottom: var(--spacing-m);
+
+			@media (min-width: $breakpoint-tablet-landscape) {
+				text-align: left;
+			}
+		}
+
+		&__image {
+			border-radius: 8px;
+			width: 100%;
+			max-width: 640px;
+			height: auto;
+
+			@media (min-width: $breakpoint-tablet-landscape) {
+				margin-left: -64px;
+				margin-top: -32px;
+			}
+		}
+
+		div {
+			background-color: var(--color-secondary-lightest);
+			padding: var(--spacing-m);
+			border-radius: 8px;
+			width: 100%;
+			max-width: 640px;
+			box-shadow: var(--box-shadow);
+		}
+
+		&__list {
+			li {
+				margin-bottom: var(--spacing-s);
 			}
 		}
 	}

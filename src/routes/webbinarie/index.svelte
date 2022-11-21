@@ -65,7 +65,7 @@
 				<h2 class="intro__heading">Stämmer detta in på dig?</h2>
 
 				<ul class="intro__list">
-					<li>Du har redan startat eller har påbörjat processen att starta ditt eget företag.</li>
+					<li>Du är är säker på att du ska bli företagare.</li>
 					<li>Du är trött på att vara stressad och aldrig hinna jobba på ditt företag.</li>
 					<li>
 						Du rädd för att du aldrig någonsin ska kunna säga upp dig och leva det liv du vill leva.
@@ -79,7 +79,7 @@
 		</div>
 
 		<div class="intro__webbinarie">
-			<p class="intro__date small-caps-text">6 december 2022 klockan 19:00</p>
+			<p class="intro__date small-caps-text">29 november 2022 klockan 19:00</p>
 			<h3 class="intro__webbinarie--heading">
 				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
 			</h3>
@@ -98,7 +98,7 @@
 		<a href="#sign-up" class="button">Anmäl dig här!</a>
 	</section>
 
-	<Divider text="Jobba inte hårdare, jobba smartare." />
+	<Divider text="För dig som är är säker på att du ska bli företagare." />
 
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->

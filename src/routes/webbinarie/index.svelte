@@ -86,7 +86,7 @@
 		</div>
 
 		<p>
-			Jag kommer gå igenom mina 5 bästa steg för att maximera din tid, energi och produktivitet så
+			Jag kommer gå igenom mina 5 bästa steg för att optimera din tid och energi så
 			att du äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
 			registrera dig till webbinariet nedan.
 		</p>

@@ -79,6 +79,7 @@
 		</div>
 
 		<div class="intro__webbinarie">
+			<h2 class="intro__heading">När?</h2>
 			<p class="intro__date small-caps-text">29 november 2022 klockan 19:00</p>
 			<h3 class="intro__webbinarie--heading">
 				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
@@ -86,7 +87,7 @@
 		</div>
 
 		<p>
-			Jag kommer gå igenom mina 5 bästa steg för att optimera din tid och energi så
+			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så
 			att du äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
 			registrera dig till webbinariet nedan.
 		</p>
@@ -169,21 +170,21 @@
 		<div>
 			<h2 class="webinar__heading">På webbinariet kommer du lära dig...</h2>
 			<ul class="webinar__list">
-				<li>Den nya revolutionerande forskningen om stress som förändrade mitt liv för alltid!</li>
+				<li>Den nya <b>revolutionerande forskningen om stress</b> som förändrade mitt liv för alltid!</li>
 				<li>
-					Hur du går från stressad överpresterare till välmående och effektiv samtidigt som du får
+					Hur du går <b>från stressad överpresterare till välmående och effektiv</b> samtidigt som du får
 					ännu bättre resultat.
 				</li>
 				<li>
-					Steg för steg hur du slutar slösa din extra tid och energi på att oroa dig eller ha dåligt
+					Steg för steg hur du <b>slutar slösa din extra tid och energi</b> på att oroa dig eller ha dåligt
 					samvete för att du inte gör mer.
 				</li>
 				<li>
-					Exakt hur du ska göra för att ta kontrollen över din tid och ditt liv och slutar känna att
+					Exakt hur du ska göra för att <b>ta kontrollen över din tid</b> och ditt liv och slutar känna att
 					tiden (och livet) hela tiden flyter iväg på annat än det DU vill.
 				</li>
 				<li>
-					Hur du säkrar en trygg framtid för ditt företag igenom att bli konsekvent produktiv, vecka
+					Hur du säkrar en trygg framtid för ditt företag igenom att bli <b>konsekvent produktiv,</b> vecka
 					för vecka, vilket kommer garantera att ditt företag hela tiden växer.
 				</li>
 				<li>

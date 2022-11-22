@@ -14,7 +14,10 @@
 		name="description"
 	/>
 
-	<!-- Meta Pixel Code -->
+	
+</svelte:head>
+
+<!-- Meta Pixel Code -->
 	<script>
 	!function(f,b,e,v,n,t,s)
 	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -35,8 +38,7 @@
 			src="https://www.facebook.com/tr?id=2556598284605991&ev=PageView&noscript=1"
 		/></noscript
 	>
-	<!-- End Meta Pixel Code -->
-</svelte:head>
+<!-- End Meta Pixel Code -->
 
 <header class="header">
 	<div class="header__logo">

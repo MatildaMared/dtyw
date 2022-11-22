@@ -13,10 +13,6 @@
 		content="Jag hälper de som har problem med stress att gå från anställd till företagare."
 		name="description"
 	/>
-
-	
-</svelte:head>
-
 <!-- Meta Pixel Code -->
 	<script>
 	!function(f,b,e,v,n,t,s)
@@ -39,6 +35,10 @@
 		/></noscript
 	>
 <!-- End Meta Pixel Code -->
+	
+</svelte:head>
+
+
 
 <header class="header">
 	<div class="header__logo">

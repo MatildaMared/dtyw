@@ -1,8 +1,6 @@
 <script lang="ts">
-	import Button from "$lib/button/Button.svelte";
 	import Divider from "$lib/divider/Divider.svelte";
 	import AboutMarkus from "$lib/homepage/about-markus/AboutMarkus.svelte";
-	import Logo from "$lib/homepage/header/Logo.svelte";
 </script>
 
 <svelte:head>

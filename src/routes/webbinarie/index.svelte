@@ -13,32 +13,7 @@
 		content="Jag hälper de som har problem med stress att gå från anställd till företagare."
 		name="description"
 	/>
-<!-- Meta Pixel Code -->
-	<script>
-	!function(f,b,e,v,n,t,s)
-	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-	n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];
-	s.parentNode.insertBefore(t,s)}(window, document,'script',
-	'https://connect.facebook.net/en_US/fbevents.js';);
-	fbq('init', '2556598284605991');
-	fbq('track', 'PageView');
-	</script>
-	<noscript
-		><img
-			height="1"
-			width="1"
-			style="display:none"
-			src="https://www.facebook.com/tr?id=2556598284605991&ev=PageView&noscript=1"
-		/></noscript
-	>
-<!-- End Meta Pixel Code -->
-	
 </svelte:head>
-
-
 
 <header class="header">
 	<div class="header__logo">
@@ -89,8 +64,8 @@
 		</div>
 
 		<p>
-			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så
-			att du äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
+			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så att du
+			äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
 			registrera dig till webbinariet nedan.
 		</p>
 		<p>
@@ -172,22 +147,24 @@
 		<div>
 			<h2 class="webinar__heading">På webbinariet kommer du lära dig...</h2>
 			<ul class="webinar__list">
-				<li>Den nya <b>revolutionerande forskningen om stress</b> som förändrade mitt liv för alltid!</li>
 				<li>
-					Hur du går <b>från stressad överpresterare till välmående och effektiv</b> samtidigt som du får
-					ännu bättre resultat.
+					Den nya <b>revolutionerande forskningen om stress</b> som förändrade mitt liv för alltid!
 				</li>
 				<li>
-					Steg för steg hur du <b>slutar slösa din extra tid och energi</b> på att oroa dig eller ha dåligt
-					samvete för att du inte gör mer.
+					Hur du går <b>från stressad överpresterare till välmående och effektiv</b> samtidigt som du
+					får ännu bättre resultat.
 				</li>
 				<li>
-					Exakt hur du ska göra för att <b>ta kontrollen över din tid</b> och ditt liv och slutar känna att
-					tiden (och livet) hela tiden flyter iväg på annat än det DU vill.
+					Steg för steg hur du <b>slutar slösa din extra tid och energi</b> på att oroa dig eller ha
+					dåligt samvete för att du inte gör mer.
 				</li>
 				<li>
-					Hur du säkrar en trygg framtid för ditt företag igenom att bli <b>konsekvent produktiv,</b> vecka
-					för vecka, vilket kommer garantera att ditt företag hela tiden växer.
+					Exakt hur du ska göra för att <b>ta kontrollen över din tid</b> och ditt liv och slutar känna
+					att tiden (och livet) hela tiden flyter iväg på annat än det DU vill.
+				</li>
+				<li>
+					Hur du säkrar en trygg framtid för ditt företag igenom att bli <b>konsekvent produktiv,</b
+					> vecka för vecka, vilket kommer garantera att ditt företag hela tiden växer.
 				</li>
 				<li>
 					...och mycket mer! Webbinariet är helt gratis och 100% live, så du kan ställa frågor under

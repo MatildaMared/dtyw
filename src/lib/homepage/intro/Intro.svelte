@@ -35,8 +35,8 @@
 		</div>
 		<figure>
 			<img
-				alt="Foto av Markus som står i stadsmiljö, iklädd en blå jacka, och ser in i kameran."
-				src="/images/markus2.jpeg"
+				alt="Foto av Markus som sitter på ett tåg, iklädd kavaj, och ser in i kameran."
+				src="/images/Markus-dator-tag.jpeg"
 			/>
 			<figcaption><span>Markus Mattsson</span>, stress- & produktivitetscoach</figcaption>
 		</figure>

@@ -40,15 +40,12 @@
 				<h2 class="intro__heading">Stämmer detta in på dig?</h2>
 
 				<ul class="intro__list">
-					<li>Du är är säker på att du ska bli företagare.</li>
 					<li>Du är trött på att vara stressad och aldrig hinna jobba på ditt företag.</li>
 					<li>
 						Du rädd för att du aldrig någonsin ska kunna säga upp dig och leva det liv du vill leva.
 					</li>
-					<li>
-						När du väl har tid över hamnar du ofta med mobilen i soffan eller känner dig så
-						överväldigad av allt som ska göras så det slutar med att du inte gör någonting alls.
-					</li>
+					<li>Du vet att du kan bli en framgångsrik företagare</li>
+					<li>Du vill lära dig att jobba 10-20 timmar i veckan på företaget vid sidan av ditt jobb OCH må bra</li>
 				</ul>
 			</div>
 		</div>
@@ -60,11 +57,14 @@
 				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
 			</h3>
 		</div>
-
 		<p>
 			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så att du
 			äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
 			registrera dig till webbinariet nedan.
+		</p>
+		<p>
+			<b>VIKTIGT! </b><u>Detta är endast för dig</u> som vågar tro att du kan bli en framgångsrik företagare och
+			 inser att du måste lära dig jobba mer med mindre återhämtning.
 		</p>
 		<p>
 			Det är helt gratis att delta men det finns bara ett begränsat antal platser så se till att

@@ -45,7 +45,7 @@
 						Du rädd för att du aldrig någonsin ska kunna säga upp dig och leva det liv du vill leva.
 					</li>
 					<li>Du vet att du kan bli en framgångsrik företagare</li>
-					<li>Du vill lära dig att jobba 10-20 timmar i veckan på företaget vid sidan av ditt jobb OCH må bra</li>
+					<li>Du vill lära dig att jobba 10-20 timmar i veckan på företaget vid sidan av ditt jobb UTAN att förstöra din hälsa</li>
 				</ul>
 			</div>
 		</div>
@@ -63,7 +63,7 @@
 			registrera dig till webbinariet nedan.
 		</p>
 		<p>
-			<b>VIKTIGT! </b><u>Detta är endast för dig</u> som vågar tro att du kan bli en framgångsrik företagare och
+			<b>VIKTIGT! </b>Detta är endast för dig som vågar tro att du kan bli en framgångsrik företagare och
 			 inser att du måste lära dig jobba mer med mindre återhämtning.
 		</p>
 		<p>

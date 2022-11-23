@@ -63,7 +63,7 @@
 			registrera dig till webbinariet nedan.
 		</p>
 		<p>
-			<b>VIKTIGT! </b>Detta är endast för dig som vågar tro att du kan bli en framgångsrik företagare och
+			<b>VIKTIGT! </b>Detta är endast för dig som vet att att du kan bli en framgångsrik företagare och
 			 inser att du måste lära dig jobba mer med mindre återhämtning.
 		</p>
 		<p>
@@ -74,7 +74,7 @@
 		<a href="#sign-up" class="button">Anmäl dig här!</a>
 	</section>
 
-	<Divider text="För dig som är är säker på att du ska bli företagare." />
+	<Divider text="För dig som vet att du kan bli en framgångsrik egenföretagare" />
 
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->

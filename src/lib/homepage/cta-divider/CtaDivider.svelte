@@ -3,8 +3,8 @@
 
 <section>
 	<span class="pre-heading">Delta på webbinariet</span>
-	<h2 class="heading">Från anställd till företagare utan stress</h2>
-	<p class="sub-heading">– Fem steg för att optimera din tid, energi och produktivitet</p>
+	<h2 class="heading">Från stressad överpresterare till framgångsrik egenföretagare</h2>
+	<p class="sub-heading">– Fem steg för att optimera din tid och energi</p>
 	<a href="/webbinarie" class="button">Registrera dig nu!</a>
 </section>
 

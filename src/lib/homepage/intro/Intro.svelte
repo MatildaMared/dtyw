@@ -38,7 +38,7 @@
 				alt="Foto av Markus som står i stadsmiljö, iklädd en blå jacka, och ser in i kameran."
 				src="/images/markus2.jpeg"
 			/>
-			<figcaption><span>Markus Mattsson</span>, visionär & coach</figcaption>
+			<figcaption><span>Markus Mattsson</span>, stress- & produktivitetscoach</figcaption>
 		</figure>
 	</div>
 </section>

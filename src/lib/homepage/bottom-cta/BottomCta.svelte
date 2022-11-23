@@ -23,7 +23,7 @@
 		<div class="webbinarium">
 			<p>
 				Du kan också delta på nästa kostnadsfria webbinarium där jag bland annat kommer prata om de
-				fem bästa stegen för att maximera din tid, energi och produktivitet!
+				fem bästa stegen för att optimera din tid och energi!
 			</p>
 			<a class="button secondary" href="/webbinarie">Boka din plats nu! </a>
 		</div>

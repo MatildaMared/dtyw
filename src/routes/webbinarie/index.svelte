@@ -52,7 +52,7 @@
 
 		<div class="intro__webbinarie">
 			<h2 class="intro__heading">När?</h2>
-			<p class="intro__date small-caps-text">29 november 2022 klockan 19:00</p>
+			<p class="intro__date small-caps-text">7 December 2022 klockan 18:00</p>
 			<h3 class="intro__webbinarie--heading">
 				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
 			</h3>

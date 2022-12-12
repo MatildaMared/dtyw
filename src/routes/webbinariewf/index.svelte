@@ -178,13 +178,13 @@
 					> vecka för vecka, vilket kommer garantera att ditt företag hela tiden växer.
 				</li>
 			</ul>
+			<script src="https://d3pw37i36t41cq.cloudfront.net/embed_v2.js" async></script>
+			<div class="wf_target wf_target_CxcgMKUiK8YGPpDkriEci1As"></div>
+			<script>
+				window._wf = window._wf || [];
+				_wf.push({ id: 'CxcgMKUiK8YGPpDkriEci1As' });
+			</script>
 		</div>
-		<script src="https://d3pw37i36t41cq.cloudfront.net/embed_v2.js" async></script>
-		<div class="wf_target wf_target_CxcgMKUiK8YGPpDkriEci1As"></div>
-		<script>
-			window._wf = window._wf || [];
-			_wf.push({ id: 'CxcgMKUiK8YGPpDkriEci1As' });
-		</script>
 	</section>
 
 	<Divider text="&quot;Min stora passion är att coacha och utbilda andra&quot;" />

@@ -25,7 +25,12 @@
 		<span> till framgångsrik egenföretagare </span>
 	</h1>
 	<p class="header__sub-heading">– fem steg för att optimera din tid och energi</p>
-	<a href="#sign-up" class="button">Registrera dig nu!</a>
+	<script src="https://d3pw37i36t41cq.cloudfront.net/embed_v2.js" async></script>
+	<div class="wf_target wf_target_CxcgMKUiK8YGPpDkriEci1As"></div>
+	<script>
+	window._wf = window._wf || [];
+		_wf.push({ id: 'CxcgMKUiK8YGPpDkriEci1As' });
+	</script>
 </header>
 
 <main class="main">

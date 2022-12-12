@@ -55,13 +55,15 @@
 			</div>
 		</div>
 
+		<!-- 
 		<div class="intro__webbinarie">
 			<h2 class="intro__heading">När?</h2>
 			<p class="intro__date small-caps-text">3 Januari 2023 klockan 18:00</p>
 			<h3 class="intro__webbinarie--heading">
 				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
 			</h3>
-		</div>
+		</div> 
+		-->
 		<p>
 			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så att du
 			äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
@@ -76,14 +78,19 @@
 			säkra din plats nu! 😄
 		</p>
 
-		<a href="#sign-up" class="button">Anmäl dig här!</a>
+		<script src="https://d3pw37i36t41cq.cloudfront.net/embed_v2.js" async></script>
+		<div class="wf_target wf_target_CxcgMKUiK8YGPpDkriEci1As"></div>
+		<script>
+			window._wf = window._wf || [];
+			_wf.push({ id: 'CxcgMKUiK8YGPpDkriEci1As' });
+		</script>
 	</section>
 
 	<Divider text="För dig som vet att du kan bli en framgångsrik egenföretagare" />
 
-	<section class="sign-up" id="sign-up">
+	<!-- <section class="sign-up" id="sign-up"> -->
 		<!-- Begin Mailchimp Signup Form -->
-		<form
+		<!-- <form
 			action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&id=412ad9843c&f_id=00d9c5e1f0"
 			method="post"
 			id="mc-embedded-subscribe-form"
@@ -116,7 +123,6 @@
 					<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
 					<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
 				</div>
-				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
 					<input type="text" name="b_e799ec252937b1dd4cc8f63b0_412ad9843c" tabindex="-1" value="" />
 				</div>
@@ -136,11 +142,13 @@
 				>.
 			</p>
 		</form>
-		<!--End mc_embed_signup-->
-	</section>
+	-->	
+	<!--End mc_embed_signup-->
+	<!-- </section> -->
+
 
 	<Divider secondary text="Kompromissa inte med dina drömmar." />
-
+	--> 
 	<section class="webinar">
 		<img
 			src="images/webinar.jpg"

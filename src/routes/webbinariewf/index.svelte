@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title
-		>Från stressad överpresterare till framgångsrik egenföretagare ✨ | Do things your way</title
+		>Från anställd. till företagare, utan stress✨ | Do things your way</title
 	>
 	<meta
 		content="Jag hälper de som har problem med stress att gå från anställd till företagare."
@@ -21,10 +21,10 @@
 	</div>
 	<span class="header__pre-heading">Kostnadsfritt webbinarie</span>
 	<h1 class="header__heading">
-		Från stressad överpresterare
-		<span> till framgångsrik egenföretagare </span>
+		Från anställd till företagare, 
+		<span> utan stress </span>
 	</h1>
-	<p class="header__sub-heading">– fem steg för att optimera din tid och energi</p>
+	<p class="header__sub-heading">– fem steg för att optimera din tid, energi och produktivitet</p>
 	<script src="https://d3pw37i36t41cq.cloudfront.net/embed_v2.js" async></script>
 	<div class="wf_target wf_target_CxcgMKUiK8YGPpDkriEci1As"></div>
 	<script>
@@ -65,7 +65,7 @@
 		</div> 
 		-->
 		<p>
-			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så att du
+			Jag kommer gå igenom mina fem bästa steg för att optimera din tid, energi och produktivitet så att du
 			äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
 			registrera dig till webbinariet nedan.
 		</p>

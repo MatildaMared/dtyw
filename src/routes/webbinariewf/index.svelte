@@ -146,7 +146,7 @@
 	<!--End mc_embed_signup-->
 	<!-- </section> -->
 
-
+	<!--
 	<Divider secondary text="Kompromissa inte med dina drömmar." />
 	--> 
 	<section class="webinar">
@@ -177,17 +177,25 @@
 					Hur du säkrar en trygg framtid för ditt företag igenom att bli <b>konsekvent produktiv,</b
 					> vecka för vecka, vilket kommer garantera att ditt företag hela tiden växer.
 				</li>
-				<li>
-					...och mycket mer! Webbinariet är helt gratis och 100% live, så du kan ställa frågor under
-					tiden.
-				</li>
 			</ul>
 		</div>
+		<script src="https://d3pw37i36t41cq.cloudfront.net/embed_v2.js" async></script>
+		<div class="wf_target wf_target_CxcgMKUiK8YGPpDkriEci1As"></div>
+		<script>
+			window._wf = window._wf || [];
+			_wf.push({ id: 'CxcgMKUiK8YGPpDkriEci1As' });
+		</script>
 	</section>
 
 	<Divider text="&quot;Min stora passion är att coacha och utbilda andra&quot;" />
 
 	<AboutMarkus />
+	<script src="https://d3pw37i36t41cq.cloudfront.net/embed_v2.js" async></script>
+	<div class="wf_target wf_target_CxcgMKUiK8YGPpDkriEci1As"></div>
+	<script>
+		window._wf = window._wf || [];
+		_wf.push({ id: 'CxcgMKUiK8YGPpDkriEci1As' });
+	</script>
 </main>
 
 <style lang="scss">

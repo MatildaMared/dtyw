@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title
-		>Från anställd. till företagare, utan stress✨ | Do things your way</title
+		>Från anställd till företagare, utan stress✨ | Do things your way</title
 	>
 	<meta
 		content="Jag hälper de som har problem med stress att gå från anställd till företagare."

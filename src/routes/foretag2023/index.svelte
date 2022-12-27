@@ -19,11 +19,11 @@
 			Do things <span class="header__emphasized">your</span> way
 		</a>
 	</div>
-	<span class="header__pre-heading">Kostnadsfritt webbinarie</span>
+	<span class="header__pre-heading">Kostnadsfri workshop</span>
 	<h1 class="header__heading">
 		Bästa sättet att starta företag 2023
 	</h1>
-	<p class="header__sub-heading">– utan att få mer problem med stress!</p>
+	<!-- <p class="header__sub-heading">– utan att få mer problem med stress!</p> -->
 	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 

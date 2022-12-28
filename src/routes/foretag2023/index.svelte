@@ -23,7 +23,7 @@
 	<h1 class="header__heading">
 		Bästa sättet att starta företag 2023
 	</h1>
-	<!-- <p class="header__sub-heading">– utan att få mer problem med stress!</p> -->
+	<p class="header__sub-heading">- Gör detta året till det bästa någonsin!</p>
 	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 
@@ -39,12 +39,12 @@
 				<h2 class="intro__heading">Stämmer detta in på dig?</h2>
 
 				<ul class="intro__list">
-					<li>Du är trött på att vara stressad och aldrig hinna jobba på ditt företag.</li>
+					<li>Du vill säga upp dig och driva ditt företag på heltid.</li>
 					<li>
-						Du rädd för att du aldrig någonsin ska kunna säga upp dig och leva det liv du vill leva.
+						Stressen, tiden och energin gör att du aldrig kommer igång. 
 					</li>
-					<li>Du vet att du kan bli en framgångsrik företagare</li>
-					<li>Du vill lära dig att jobba 10-20 timmar i veckan på företaget vid sidan av ditt jobb UTAN att förstöra din hälsa</li>
+					<li>Du är orolig för att starta företag i lågkonjunkturen.</li>
+					<li>Du är osäker på vad exakt du ska göra för att börja tjäna pengar i företaget.</li>
 				</ul>
 			</div>
 		</div>
@@ -53,17 +53,17 @@
 			<h2 class="intro__heading">När?</h2>
 			<p class="intro__date small-caps-text">4 Januari 2023 klockan 11:30</p>
 			<h3 class="intro__webbinarie--heading">
-				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
+				Bästa sättet att starta företag 2023
 			</h3>
 		</div>
 		<p>
-			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så att du
-			äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
-			registrera dig till webbinariet nedan.
+			Livet är för kort för att plugga på högskolan i 5 år, jobba 50 timmar i veckan i ett jobb man inte trivs med, i 40 år(!!!) för att sedan gå i pension när man är 65 och först DÅ äntligen bli fri. 
 		</p>
 		<p>
-			<b>VIKTIGT! </b>Detta är endast för dig som vet att att du kan bli en framgångsrik företagare och
-			 inser att du måste lära dig jobba mer med mindre återhämtning.
+			Tycker du också att detta är galenskap? Varför ska du slösa bort dina bästa år när du kan skapa friheten i ett eget företag, inte om 5 år, utan nu i 2023!
+		</p>
+		<p>
+			Men om du har problem med stressen och osäker på vad du ska göra så kan detta kännas som en omöjlighet. Isåfall ska du vara med på denna exklusiva workshop!
 		</p>
 		<p>
 			Det är helt gratis att delta men det finns bara ett begränsat antal platser så se till att
@@ -73,7 +73,7 @@
 		<a href="#sign-up" class="button">Anmäl dig här!</a>
 	</section>
 
-	<Divider text="För dig som vet att du kan bli en framgångsrik egenföretagare" />
+	<Divider text="Livet är för kort för att inte göra det man älskar" />
 
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->
@@ -110,7 +110,7 @@
 					<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
 					<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
 				</div>
-				<div hidden="true"><input type="hidden" name="tags" value="5065"></div>
+				<div hidden="true"><input type="hidden" name="tags" value="94218"></div>
 				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
 					<input type="text" name="b_e799ec252937b1dd4cc8f63b0_412ad9843c" tabindex="-1" value="" />
@@ -143,21 +143,20 @@
 			class="webinar__image"
 		/>
 		<div>
-			<h2 class="webinar__heading">På webbinariet kommer du lära dig...</h2>
+			<h2 class="webinar__heading">På workshopen kommer du lära dig...</h2>
 			<ul class="webinar__list">
 				<li>
-					Den nya <b>revolutionerande forskningen om stress</b> som förändrade mitt liv för alltid!
+					Hur du bygger upp din energi och blir super strukturerad så att du kan bygga ditt företag vid sidan av din heltidsanställning. 
 				</li>
 				<li>
-					Hur du går <b>från stressad överpresterare till välmående och effektiv</b> samtidigt som du
-					får ännu bättre resultat.
+					De bästa strategierna för att starta företag när man har problem med stress och knappt hinner med sin vardag som det är. 
 				</li>
 				<li>
 					Steg för steg hur du <b>slutar slösa din extra tid och energi</b> på att oroa dig eller ha
 					dåligt samvete för att du inte gör mer.
 				</li>
 				<li>
-					Exakt hur du ska göra för att <b>ta kontrollen över din tid</b> och ditt liv och slutar känna
+					Exakt hur du ska göra för att <b>ta kontrollen över din tid</b> och ditt liv i 2023 och slutar känna
 					att tiden (och livet) hela tiden flyter iväg på annat än det DU vill.
 				</li>
 				<li>
@@ -165,7 +164,7 @@
 					> vecka för vecka, vilket kommer garantera att ditt företag hela tiden växer.
 				</li>
 				<li>
-					...och mycket mer! Webbinariet är helt gratis och 100% live, så du kan ställa frågor under
+					...och mycket mer! Workshopen är helt gratis och 100% live, så du kan ställa frågor under
 					tiden.
 				</li>
 			</ul>

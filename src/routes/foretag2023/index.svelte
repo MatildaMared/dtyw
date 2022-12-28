@@ -51,7 +51,7 @@
 
 		<div class="intro__webbinarie">
 			<h2 class="intro__heading">När?</h2>
-			<p class="intro__date small-caps-text">4 Januari 2023 klockan 11:30</p>
+			<p class="intro__date small-caps-text">4 Januari 2023 klockan 11:30-13:00</p>
 			<h3 class="intro__webbinarie--heading">
 				Bästa sättet att starta företag 2023
 			</h3>
@@ -183,7 +183,7 @@
 		width: 100%;
 		background-color: var(--color-primary-dark);
 		min-height: 70vh;
-		background-image: url("/images/woods1.jpg");
+		background-image: url("/images/fireworks.jpg");
 		background-size: cover;
 		background-position: bottom;
 		color: var(--color-white);

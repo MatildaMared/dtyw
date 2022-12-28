@@ -183,7 +183,7 @@
 		width: 100%;
 		background-color: var(--color-primary-dark);
 		min-height: 70vh;
-		background-image: url("/images/fireworks.jpg");
+		background-image: url("/images/tomtebloss.jpg");
 		background-size: cover;
 		background-position: bottom;
 		color: var(--color-white);

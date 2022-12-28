@@ -43,7 +43,7 @@
 					<li>
 						Stressen, tiden och energin gör att du aldrig kommer igång. 
 					</li>
-					<li>Du är orolig för att starta företag i lågkonjunkturen.</li>
+					<li>Du är orolig för om det är rätt läge att starta företag i lågkonjunkturen.</li>
 					<li>Du är osäker på vad exakt du ska göra för att börja tjäna pengar i företaget.</li>
 				</ul>
 			</div>
@@ -63,7 +63,7 @@
 			Tycker du också att detta är galenskap? Varför ska du slösa bort dina bästa år när du kan skapa friheten i ett eget företag, inte om 5 år, utan nu i 2023!
 		</p>
 		<p>
-			Men om du har problem med stressen och osäker på vad du ska göra så kan detta kännas som en omöjlighet. Isåfall ska du vara med på denna exklusiva workshop!
+			Men om du har problem med stressen och osäker på vad du ska göra så kan detta kännas som en omöjlighet. Isåfall ska du vara med på denna workshop!
 		</p>
 		<p>
 			Det är helt gratis att delta men det finns bara ett begränsat antal platser så se till att
@@ -85,8 +85,8 @@
 			class="sign-up__form"
 			target="_self"
 		>
-			<p class="small-caps-text">Från stressad överpresterare till framgångsrik egenföretagare</p>
-			<h2 class="sign-up__heading">Registrera dig till webbinariet</h2>
+			<p class="small-caps-text">Det bästa sättet att starta företag 2023</p>
+			<h2 class="sign-up__heading">Registrera dig till workshopen</h2>
 			<div class="sign-up__inputs">
 				<div class="sign-up__form-group">
 					<label for="mce-EMAIL">E-postadress <span class="asterisk">*</span> </label>
@@ -146,22 +146,20 @@
 			<h2 class="webinar__heading">På workshopen kommer du lära dig...</h2>
 			<ul class="webinar__list">
 				<li>
-					Hur du bygger upp din energi och blir super strukturerad så att du kan bygga ditt företag vid sidan av din heltidsanställning. 
+					<b>De bästa strategierna för att starta företag när man har problem med stress</b> och knappt hinner med sin vardag som det är. 
 				</li>
 				<li>
-					De bästa strategierna för att starta företag när man har problem med stress och knappt hinner med sin vardag som det är. 
+					Bygga <b>motivation och få inspiration</b> till att ändra ditt liv för alltid i 2023. Nu kör vi!
 				</li>
 				<li>
-					Steg för steg hur du <b>slutar slösa din extra tid och energi</b> på att oroa dig eller ha
-					dåligt samvete för att du inte gör mer.
+					Hur du får <b>mer energi och blir super strukturerad</b> så att du kan bygga ditt företag vid sidan av din heltidsanställning. 
 				</li>
 				<li>
 					Exakt hur du ska göra för att <b>ta kontrollen över din tid</b> och ditt liv i 2023 och slutar känna
 					att tiden (och livet) hela tiden flyter iväg på annat än det DU vill.
 				</li>
 				<li>
-					Hur du säkrar en trygg framtid för ditt företag igenom att bli <b>konsekvent produktiv,</b
-					> vecka för vecka, vilket kommer garantera att ditt företag hela tiden växer.
+					Hjälp med för och nackdelar för att <b>skapa ett välgrundat beslut</b> för om du ska satsa på ditt företag eller inte. 
 				</li>
 				<li>
 					...och mycket mer! Workshopen är helt gratis och 100% live, så du kan ställa frågor under

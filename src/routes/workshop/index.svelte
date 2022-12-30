@@ -23,7 +23,7 @@
 	<h1 class="header__heading">
 		Bästa sättet att starta företag 2023
 	</h1>
-	<p class="header__sub-heading">- Gör detta året till det bästa någonsin!</p>
+	<p class="header__sub-heading">- För dig som har problem med stress</p>
 	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 
@@ -132,6 +132,41 @@
 			</p>
 		</form>
 		<!--End mc_embed_signup-->
+	</section>
+	<section class="sign-up" id="sign-up">
+		<!-- Begin Mailchimp Signup Form -->
+		<div id="mc_embed_signup">
+		    <form action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&amp;id=de1a90f1ff&amp;f_id=006ad0e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+			        <div id="mc_embed_signup_scroll">
+			        <h2>Registrera dig till workshopen!</h2>
+			        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+				<div class="mc-field-group">
+					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+				</label>
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+					<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+				</div>
+				<div class="mc-field-group">
+					<label for="mce-FNAME">Förnamn* </label>
+					<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+					<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+				</div>
+				<div class="mc-field-group size1of2">
+					<label for="mce-PHONE">Telefonnummer </label>
+					<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+					<span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
+				</div>
+				<div hidden="true"><input type="hidden" name="tags" value="94301"></div>
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e799ec252937b1dd4cc8f63b0_de1a90f1ff" tabindex="-1" value=""></div>
+			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			    </div>
+			</form>
+		</div>
+	<!--End mc_embed_signup-->
 	</section>
 
 	<Divider secondary text="Kompromissa inte med dina drömmar." />

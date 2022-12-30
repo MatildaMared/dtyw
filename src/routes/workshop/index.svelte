@@ -77,64 +77,6 @@
 
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->
-		<form
-			action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&id=412ad9843c&f_id=00d9c5e1f0"
-			method="post"
-			id="mc-embedded-subscribe-form"
-			name="mc-embedded-subscribe-form"
-			class="sign-up__form"
-			target="_self"
-		>
-			<p class="small-caps-text">Det bästa sättet att starta företag 2023</p>
-			<h2 class="sign-up__heading">Registrera dig till workshopen</h2>
-			<div class="sign-up__inputs">
-				<div class="sign-up__form-group">
-					<label for="mce-EMAIL">E-postadress <span class="asterisk">*</span> </label>
-					<input
-						type="email"
-						value=""
-						name="EMAIL"
-						class="required email"
-						id="mce-EMAIL"
-						required
-					/>
-					<span id="mce-EMAIL-HELPERTEXT" class="helper_text" />
-				</div>
-				<div class="sign-up__form-group">
-					<label for="mce-FNAME">Förnamn <span class="asterisk">*</span> </label>
-					<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required />
-					<span id="mce-FNAME-HELPERTEXT" class="helper_text" />
-				</div>
-				<div class="sign-up__form-group">
-					<label for="mce-PHONE">Telefonnummer </label>
-					<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
-					<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
-				</div>
-				<div hidden="true"><input type="hidden" name="tags" value="94218"></div>
-				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				<div style="position: absolute; left: -5000px;" aria-hidden="true">
-					<input type="text" name="b_e799ec252937b1dd4cc8f63b0_412ad9843c" tabindex="-1" value="" />
-				</div>
-				<div class="sign-up__required"><span class="asterisk">*</span> obligatoriskt fält</div>
-			</div>
-			<input
-				type="submit"
-				value="Registrera mig nu!"
-				name="subscribe"
-				id="mc-embedded-subscribe"
-				class="button secondary"
-			/>
-			<p class="sign-up__integrity">
-				Genom att sända in dina uppgifter godtar du också vår <a
-					href="/integritetspolicy"
-					class="sign-up__link">integritetspolicy</a
-				>.
-			</p>
-		</form>
-		<!--End mc_embed_signup-->
-	</section>
-	<section class="sign-up" id="sign-up">
-		<!-- Begin Mailchimp Signup Form -->
     <form
 	    action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&amp;
 	    id=de1a90f1ff&amp;f_id=006ad0e1f0" 

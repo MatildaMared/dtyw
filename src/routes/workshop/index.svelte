@@ -135,73 +135,62 @@
 	</section>
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->
-		<div id="mc_embed_signup">
-		    <form action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&amp;id=de1a90f1ff&amp;f_id=006ad0e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
-			        <div id="mc_embed_signup_scroll">
-			        <h2>Registrera dig till workshopen!</h2>
-			        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-				<div class="mc-field-group">
-					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-				</label>
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
-					<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-				</div>
-				<div class="mc-field-group">
-					<label for="mce-FNAME">Förnamn* </label>
-					<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-					<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
-				</div>
-				<div class="mc-field-group size1of2">
-					<label for="mce-PHONE">Telefonnummer </label>
-					<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
-					<span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
-				</div>
-				<div hidden="true"><input type="hidden" name="tags" value="94301"></div>
-				<div id="mce-responses" class="clear">
-					<div class="response" id="mce-error-response" style="display:none"></div>
-					<div class="response" id="mce-success-response" style="display:none"></div>
-				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e799ec252937b1dd4cc8f63b0_de1a90f1ff" tabindex="-1" value=""></div>
-			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-			    </div>
-			</form>
+    <form
+	    action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&amp;
+	    id=de1a90f1ff&amp;f_id=006ad0e1f0" 
+	    method="post" 
+	    id="mc-embedded-subscribe-form" 
+	    name="mc-embedded-subscribe-form" 
+	    class="validate" 
+	    target="_self"
+    >
+	    <p class="small-caps-text">Det bästa sättet att starta företag 2023</p>
+	    <h2 class="sign-up__heading">Registrera dig till workshopen</h2>
+	    <div class="sign-up__inputs">
+	        <div class="sign-up__form-group">
+				<label for="mce-EMAIL">E-postadress <span class="asterisk">*</span> </label>
+				<input 
+					type="email" 
+					value="" 
+					name="EMAIL" 
+					class="required email" 
+					id="mce-EMAIL" 
+					required
+				>
+				<span id="mce-EMAIL-HELPERTEXT" class="helper_text" />
+			</div>
+			<div class="sign-up__form-group">
+				<label for="mce-FNAME">Förnamn <span class="asterisk">*</span> </label>
+				<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required />
+				<span id="mce-FNAME-HELPERTEXT" class="helper_text" />
+			</div>
+			<div class="sign-up__form-group">
+				<label for="mce-PHONE">Telefonnummer </label>
+				<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
+				<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
+			</div>
+			<div hidden="true"><input type="hidden" name="tags" value="94301"></div>
+		   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+		    	<input type="text" name="b_e799ec252937b1dd4cc8f63b0_de1a90f1ff" tabindex="-1" value="">
+		    </div>
+		    <div class="sign-up__required"><span class="asterisk">*</span> obligatoriskt fält</div>
 		</div>
-	<!--End mc_embed_signup-->
-	</section>
-
-	<Divider secondary text="Kompromissa inte med dina drömmar." />
-
-	<section class="webinar">
-		<img
-			src="images/webinar.jpg"
-			alt="En man med en kaffekopp i handen håller upp en bok om entreprenörskap"
-			class="webinar__image"
-		/>
-		<div>
-			<h2 class="webinar__heading">På workshopen kommer du lära dig...</h2>
-			<ul class="webinar__list">
-				<li>
-					<b>De bästa strategierna för att starta företag när man har problem med stress</b> och knappt hinner med sin vardag som det är. 
-				</li>
-				<li>
-					Bygga <b>motivation och få inspiration</b> till att ändra ditt liv för alltid i 2023. Nu kör vi!
-				</li>
-				<li>
-					Hur du får <b>mer energi och blir super strukturerad</b> så att du kan bygga ditt företag vid sidan av din heltidsanställning. 
-				</li>
-				<li>
-					Exakt hur du ska göra för att <b>ta kontrollen över din tid</b> och ditt liv i 2023 och slutar känna
-					att tiden (och livet) hela tiden flyter iväg på annat än det DU vill.
-				</li>
-				<li>
-					Hjälp med för och nackdelar för att <b>skapa ett välgrundat beslut</b> för om du ska satsa på ditt företag eller inte. 
-				</li>
-				<li>
-					...och mycket mer! Workshopen är helt gratis och 100% live, så du kan ställa frågor under
-					tiden.
-				</li>
-			</ul>
-		</div>
+	    <input 
+	    	type="submit" 
+	    	value="Registrera mig nu!" 
+	    	name="subscribe" 
+	    	id="mc-embedded-subscribe" 
+	    	class="button secondary"
+    	>
+	    <p class="sign-up__integrity">
+			Genom att sända in dina uppgifter godtar du också vår <a
+				href="/integritetspolicy"
+				class="sign-up__link">integritetspolicy</a
+			>.
+		</p>
+	</form>
+<!--End mc_embed_signup-->
 	</section>
 
 	<Divider text="&quot;Min stora passion är att coacha och utbilda andra&quot;" />

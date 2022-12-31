@@ -111,7 +111,7 @@
 					<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
 					<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
 				</div>
-				<div hidden="true"><input type="hidden" name="tags" value="5065"></div>
+				<div hidden={true}><input type="hidden" name="tags" value="5065"></div>
 				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				<div style="position: absolute; left: -5000px;" aria-hidden="true">
 					<input type="text" name="b_e799ec252937b1dd4cc8f63b0_412ad9843c" tabindex="-1" value="" />

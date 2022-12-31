@@ -83,7 +83,7 @@
 	    method="post" 
 	    id="mc-embedded-subscribe-form" 
 	    name="mc-embedded-subscribe-form" 
-	    class="validate" 
+	    class="validate sign-up__form" 
 	    target="_self"
     >
 	    <p class="small-caps-text">Det bästa sättet att starta företag 2023</p>
@@ -111,7 +111,7 @@
 				<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
 				<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
 			</div>
-			<div hidden="true"><input type="hidden" name="tags" value="94301"></div>
+			<div hidden={true}><input type="hidden" name="tags" value="94301"></div>
 		   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 		    <div style="position: absolute; left: -5000px;" aria-hidden="true">
 		    	<input type="text" name="b_e799ec252937b1dd4cc8f63b0_de1a90f1ff" tabindex="-1" value="">
@@ -264,6 +264,7 @@
 			color: var(--color-secondary-darkest);
 			width: 100%;
 			line-height: 1.2;
+			margin-bottom: var(--spacing-s);
 		}
 
 		&__list {
@@ -275,7 +276,7 @@
 		}
 
 		&__webbinarie {
-			max-width: 40ch;
+			max-width: 50ch;
 			background-color: var(--color-primary-lightest);
 			padding: 32px;
 			text-align: center;
@@ -286,12 +287,12 @@
 				font-style: italic;
 				color: var(--color-primary-darkest);
 				font-size: var(--font-size-l);
-				margin-bottom: 0;
+				margin-bottom: 0px;
 			}
 		}
 
 		&__date {
-			margin-bottom: var(--spacing-xs);
+			margin-bottom: var(--spacing-s);
 		}
 	}
 

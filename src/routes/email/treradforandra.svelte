@@ -4,14 +4,11 @@
 
 	onMount(() => {
 		const el = document.getElementById('hiddenButton');
+		el.style.visibility = "hidden";
 
 		setTimeout(() => {
 			el.style.visibility = 'visible';
-
-		// 👇️ if you used `display` to hide element
-		// el.style.display = 'block';
-		}, 300000); // 👈️ delay in milliseconds
-		// ...
+		}, 300000); 
 	});
 
 </script>
@@ -62,10 +59,6 @@
 
 		h2 {
 			width: 100%;
-		}
-
-		#hiddenButton {
-			visibility: hidden;
 		}
 	}
 </style>

@@ -2,10 +2,10 @@
 </script>
 
 <section>
-	<span class="pre-heading">Delta på webbinariet</span>
+	<!-- <span class="pre-heading">Delta på webbinariet</span>
 	<h2 class="heading">Från stressad överpresterare till framgångsrik egenföretagare</h2>
 	<p class="sub-heading">– Fem steg för att optimera din tid och energi</p>
-	<a href="/webbinarie" class="button">Registrera dig nu!</a>
+	<a href="/webbinarie" class="button">Registrera dig nu!</a> -->
 </section>
 
 <style lang="scss">

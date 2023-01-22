@@ -16,7 +16,16 @@
 			Oavsett om du precis fått dina första kunder eller om du redan har kommit en bit på vägen
 			finns det ett program för dig.
 		</p>
-		<a href="/webbinarie" class="button">Registrera dig till nästa webbinarium</a>
+		<!-- <a href="/webbinarie" class="button">Registrera dig till nästa webbinarium</a> -->
+		<Button
+		onClick={() => {
+			window.open(
+				"https://calendly.com/markusmattsson/strategisamtal?utm_medium=hemsida",
+				"_blank"
+			);
+		}}
+		>Boka ett strategisamtal!
+		</Button>
 	</div>
 </header>
 

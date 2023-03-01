@@ -20,7 +20,7 @@
 				<h2 class="title">Markus Mattsson</h2>
 				<p>
 					<MapPinIcon class="icon" size="16" strokeWidth={1} />
-					<span>Kaptensgatan 10E, 30245 Halmstad</span>
+					<span>Broddesonsgatan 24, 30234 Halmstad</span>
 				</p>
 				<p>
 					<PhoneIcon size="16" strokeWidth={1} />

@@ -43,7 +43,7 @@
 		color: white;
 		text-align: center;
 		background-color: rgb(57, 57, 57);
-		background-image: url('images/markus-dark.png');
+		background-image: url('/images/markus-dark.png');
 		background-size: cover;
 		background-position: bottom;
 

@@ -4,8 +4,7 @@
 
 <section>
 	<h2>
-		Du behöver inte kompromissa med dina drömmar om ett företag som ger dig mer frihet över din tid
-		och bättre ekonomi.
+		Du behöver inte kompromissa med dina drömmar och sänka din ambitionsnivå på grund av problemen med stress.
 	</h2>
 	<p>Såhär kan du få hjälp att gå från dröm till verklighet:</p>
 	<ul>

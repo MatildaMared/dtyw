@@ -18,7 +18,7 @@
 			Förut hindrade stressen, min dåliga självkänsla och min låga energi, mig från att leva mitt
 			drömliv som företagare. Nu vill jag bevisa för dig att du inte behöver sitta fast i den
 			situation du är i. Om jag kan gå från utbränd till 50-60 timmars arbetsvecka så kan du absolut
-			lära dig att få mer tid och energi i ditt företag!
+			lära dig att få mer tid och energi till att nå dit du vill i ditt liv!
 		</p>
 		<p>
 			Min formella utbildning består av två kandidatexamen från Göteborgs Universitet, en i
@@ -27,7 +27,7 @@
 			utveckling.
 		</p>
 		<p>
-			Jag älskar att utbilda och coacha mina andra i hur de tar nästa steg i sitt företag och sitt
+			Jag älskar att utbilda och coacha mina andra i hur de tar nästa steg i sitt
 			liv. Det är min stora passion i livet.
 		</p>
 	</article>

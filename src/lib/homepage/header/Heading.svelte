@@ -1,5 +1,5 @@
 <p class="heading">
-	Starta och driv ditt företag <span class="sub-heading">utan stress</span>
+	Skapa ditt drömliv <span class="sub-heading">och bli fri från stressen</span>
 </p>
 
 <style lang="scss">

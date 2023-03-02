@@ -9,18 +9,16 @@
 	<div>
 		<Heading />
 		<p class="description">
-			Jag hjälper dig som vill få fart på ditt företag på ett produktivt och organiserat sätt utan
-			att köra slut på dig själv.
+			Du behöver inte kompromissa med dina drömmar. Du kan fortsätta prestera på topp utan att må sämre av stressen. 
 		</p>
 		<p class="description">
-			Oavsett om du precis fått dina första kunder eller om du redan har kommit en bit på vägen
-			finns det ett program för dig.
+			Oavsett om drömmer om att starta eget, prestera hållbart på jobbet eller vill ändra livsriktning så kan jag hjälpa dig.
 		</p>
 		<!-- <a href="/webbinarie" class="button">Registrera dig till nästa webbinarium</a> -->
 		<Button
 		onClick={() => {
 			window.open(
-				"https://calendly.com/markusmattsson/strategisamtal?utm_medium=hemsida",
+				"https://calendly.com/markusmattsson/strategisamtal-general?utm_medium=hemsida&utm_source=headerstartsida",
 				"_blank"
 			);
 		}}

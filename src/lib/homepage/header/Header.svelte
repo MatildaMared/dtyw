@@ -9,10 +9,13 @@
 	<div>
 		<Heading />
 		<p class="description">
-			Du behöver inte kompromissa med dina drömmar. Du kan fortsätta prestera på topp utan att må sämre av stressen. 
+			Aldrig igen behöver du kompromissa med dina drömmar på grund av stress. 
 		</p>
 		<p class="description">
-			Oavsett om drömmer om att starta eget, prestera hållbart på jobbet eller vill ändra livsriktning så kan jag hjälpa dig.
+			Oavsett om vill starta eget, prestera hållbart på jobbet eller ändra livsriktning så kan jag hjälpa dig.
+		</p>
+		<p class="description">
+			Boka ett kostnadsfritt samtal eller ladda ner den ultimata guidade meditationen för att förändra negativ stress till positiv.
 		</p>
 		<!-- <a href="/webbinarie" class="button">Registrera dig till nästa webbinarium</a> -->
 		<Button
@@ -23,6 +26,16 @@
 			);
 		}}
 		>Boka ett strategisamtal!
+		</Button>	
+		<Button 
+		secondary=true;
+		onClick={() => {
+			window.open(
+				"/mindsetmeditation",
+				"_blank"
+			);
+		}}
+		>Förändra stressen på 5 minuter
 		</Button>
 	</div>
 </header>

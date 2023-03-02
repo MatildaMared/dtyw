@@ -1,5 +1,5 @@
 <p class="heading">
-	Skapa ditt drömliv <span class="sub-heading">och bli fri från stressen</span>
+	Bli fri från stressen <span class="sub-heading">och lev ditt drömliv</span>
 </p>
 
 <style lang="scss">

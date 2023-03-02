@@ -2,10 +2,10 @@
 </script>
 
 <section>
-	<!-- <span class="pre-heading">Delta på webbinariet</span>
-	<h2 class="heading">Från stressad överpresterare till framgångsrik egenföretagare</h2>
-	<p class="sub-heading">– Fem steg för att optimera din tid och energi</p>
-	<a href="/webbinarie" class="button">Registrera dig nu!</a> -->
+	<span class="pre-heading">Ladda ner din guidade meditation</span>
+	<h2 class="heading">Förändra negativ stress till positiv på 5 minuter</h2>
+	<p class="sub-heading">– skifta ditt mindset och förändra ditt liv för alltid</p>
+	<a href="/mindsetmeditation" class="button" target="_blank">Ladda ner nu</a>
 </section>
 
 <style lang="scss">

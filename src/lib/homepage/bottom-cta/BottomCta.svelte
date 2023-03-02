@@ -20,13 +20,13 @@
 				>Boka ett strategisamtal!
 			</Button>
 		</div>
-		<!-- <div class="webbinarium">
+		<div class="webbinarium">
 			<p>
-				Du kan också delta på nästa kostnadsfria webbinarium där jag bland annat kommer prata om de
-				fem bästa stegen för att optimera din tid och energi!
+				Vill du fortsätta prestera på topp utan att må dåligt av stressen?
+				<strong>Upptäck den ultimata guidade meditationen som förändrar negativ stress till positiv på 5 minuter.</strong>
 			</p>
-			<a class="button secondary" href="/webbinarie">Boka din plats nu! </a>
-		</div> -->
+			<a class="button secondary" href="/mindsetmeditation">Ladda ner meditationen nu! </a>
+		</div>
 	</div>
 </section>
 

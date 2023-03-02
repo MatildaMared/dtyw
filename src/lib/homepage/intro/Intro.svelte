@@ -1,19 +1,18 @@
 <script lang="ts"></script>
 
 <section>
-	<h2>Är stress det som hindrar dig från att nå din fulla potential som företagare?</h2>
+	<h2>Är stress det som hindrar dig från att nå din fulla potential?</h2>
 	<p>
 		Kanske har du som jag, tidigare varit utmattad. Kanske känns det som att du aldrig kommer bli
 		fri från frustrationen över allt som måste göras men inte hinns med. Trots det kan du inte
 		släppa tanken om om hur bra ditt liv hade kunnat bli och hur mycket du kan hjälpa andra om du
-		bara kunde få mer produktiva timmar i ditt företag.
+		bara kunde få mer gjort och må bättre.
 	</p>
 	<div class="wrapper">
 		<div class="list">
 			<ul>
 				<li>
-					Har du fått dina första kunder men kommer inte vidare på grund av att du har för mycket i
-					nuvarande arbete och vardagsliv?
+					Kommer du inte vidare i din karriär eller ditt företag på grund av att du inte hinner med allt du behöver göra?
 				</li>
 				<li>
 					Blir det för mycket fast du försökt göra mindre men perfektionism och en känsla av
@@ -22,10 +21,6 @@
 				<li>
 					Har du försökt skapa bättre struktur och få mer gjort men du har svårt att hålla dig till
 					vad du bestämt och allt slutar i kaos ändå?
-				</li>
-				<li>
-					... eller har du varit egenföretagare ett tag men får inte arbetstimmar och ekonomi att gå
-					ihop?
 				</li>
 			</ul>
 			<p>

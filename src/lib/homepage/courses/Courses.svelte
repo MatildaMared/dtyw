@@ -3,7 +3,7 @@
 	import Card from "$lib/card/Card.svelte";
 
 	function onClick() {
-		window.open("https://calendly.com/markusmattsson/strategisamtal?utm_medium=hemsida", "_blank");
+		window.open("https://calendly.com/markusmattsson/strategisamtal-general?utm_medium=hemsida&utm_source=coursesection", "_blank");
 	}
 </script>
 
@@ -43,19 +43,20 @@
         >
             <p>
                 Detta program är för dig som vill starta upp eller vidareutveckla ditt företag till att bli framgångsrikt,
-                ekonomiskt stabilt och trivsamt. Du kommer bli expert på produktivitet, få fullständig klarhet i
+                ekonomiskt stabilt och trivsamt. Som stressad högpresterare behöver man ha andra tillvägagångsätt när man driver sitt företag. 
+                Det går inte att bara jobba, jobba, jobba. I programmet lär du dig istället att jobba smartare inte hårdare. Du kommer bli expert på produktivitet, få fullständig klarhet i
                 exakt vad du ska göra härnäst och bygga rutiner för att du varje dag ska ta
                 ett steg närmare företaget du vill ha.
             </p>
         </Card>
-        <!-- <Card
+        <Card
                 altText="Illustration av man iklädd slips med händerna korsade framför kroppen. Bakom mannen står två personer till. Alla ser nöjda ut."
                 heading="Anpassat coachingprogram"
                 imgUrl="/images/leadership.png"
                 secondary
         >
-            <p>Vill du ha en annan typ av coaching? Jag anpassar coachingen alltid efter varje klienten men ibland kan   </p>
-        </Card> -->
+            <p>Utöver Stressfrihet och Företagsfrihet erbjuder jag även individuellt anpassade coachingprogram. Kanske känner du att du inte är på rätt plats i livet och hade behövt reda ut vad du verkligen vill? Eller vill du bli mer produktivit använda något av mina affärsystem i det populära verktyget Notion. All typ av stöd i att hitta sig själv och effektivisering för att uppnå det man vill har jag mycket goda verktyg för. Boka ett samtal nedan om du vill veta mer om hur vi kan anpassa coachingen just för dig.</p>
+        </Card>
     </ul>
     <Button {onClick}>Boka ett gratis strategisamtal!</Button>
 </section>

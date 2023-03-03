@@ -8,4 +8,7 @@
 </button>
 
 <style lang="scss">
+	* {
+		margin: 10px;
+	}
 </style>

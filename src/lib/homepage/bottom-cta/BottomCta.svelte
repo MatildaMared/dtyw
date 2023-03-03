@@ -13,7 +13,7 @@
 			<Button
 				onClick={() => {
 					window.open(
-						"https://calendly.com/markusmattsson/strategisamtal?utm_medium=hemsida",
+						"https://calendly.com/markusmattsson/strategisamtal-general?utm_medium=hemsida&utm_source=bottomcta",
 						"_blank"
 					);
 				}}
@@ -22,8 +22,8 @@
 		</div>
 		<div class="webbinarium">
 			<p>
-				Vill du fortsätta prestera på topp utan att må dåligt av stressen?
-				<strong>Upptäck den ultimata guidade meditationen som förändrar negativ stress till positiv på 5 minuter.</strong>
+				Installera det nya mindsetet om stress som högprestare använder över hela världen för att bli framgångsrika.
+				<strong>Ladda ner den ultimata guidade meditationen som förändrar negativ stress till positiv på 5 minuter.</strong>
 			</p>
 			<a class="button secondary" href="/mindsetmeditation">Ladda ner meditationen nu! </a>
 		</div>

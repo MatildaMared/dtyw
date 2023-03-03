@@ -3,8 +3,8 @@
 <section>
 	<h2>Är stress det som hindrar dig från att nå din fulla potential?</h2>
 	<p>
-		Kanske har du som jag, tidigare varit utmattad. Kanske känns det som att du aldrig kommer bli
-		fri från frustrationen över allt som måste göras men inte hinns med. Trots det kan du inte
+		Kanske känns det som att du aldrig kommer bli fri från frustrationen över allt som måste göras men inte hinns med. 
+		Kanske har du som jag, tidigare varit utmattad. Trots det kan du inte
 		släppa tanken om om hur bra ditt liv hade kunnat bli och hur mycket du kan hjälpa andra om du
 		bara kunde få mer gjort och må bättre.
 	</p>
@@ -15,7 +15,7 @@
 					Kommer du inte vidare i din karriär eller ditt företag på grund av att du inte hinner med allt du behöver göra?
 				</li>
 				<li>
-					Blir det för mycket fast du försökt göra mindre men perfektionism och en känsla av
+					Blir det för mycket, fast du försökt göra mindre men perfektionism och en känsla av
 					otillräcklighet gör att du känner att du måste jobba mer?
 				</li>
 				<li>

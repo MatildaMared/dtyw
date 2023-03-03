@@ -5,7 +5,7 @@
 	<span class="pre-heading">Ladda ner din guidade meditation</span>
 	<h2 class="heading">Förändra negativ stress till positiv på 5 minuter</h2>
 	<p class="sub-heading">– skifta ditt mindset och förändra ditt liv för alltid</p>
-	<a href="/mindsetmeditation" class="button" target="_blank">Ladda ner nu</a>
+	<a href="/mindsetmeditation" class="button" target="_blank">Ladda ner meditationen nu</a>
 </section>
 
 <style lang="scss">

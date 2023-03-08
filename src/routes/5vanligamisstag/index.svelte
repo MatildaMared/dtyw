@@ -44,7 +44,7 @@
 	<h1 class="header__heading">
 		5 vanliga misstag stressade högpresterare gör för att nå sina mål
 	</h1>
-	<p class="header__sub-heading">– Få mer gjort, stress mindre och må bra!</p>
+	<p class="header__sub-heading">– Få mer gjort, stressa mindre och må bra!</p>
 	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 

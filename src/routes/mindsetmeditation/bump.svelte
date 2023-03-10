@@ -42,7 +42,7 @@
 			</li>
 			<h1 class="header--headsup">Anmäl dig nedan nu!</h1>
 		</ul>
-		<div class="ml-embedded" data-form="9K3Z7r"></div>
+		<div class="ml-embedded" data-form="W0NPbc"></div>
 		<p class="privacy--text">Genom att sända in dina uppgifter godtar du också vår <a href="https://www.dothingsyourway.com/integritetspolicy">integritetspolicy.</a></p>		
 	</div>
 	<div class="spacer"></div>
@@ -90,6 +90,7 @@
 		.header--headsup {
 			color: white;
 			margin: 20px 0;
+			text-align: center;
 		};
 
 		.underline {

@@ -21,7 +21,7 @@
 		name="description"
 	/>
 </svelte:head>
-
+<!-- 
 <div class="preheader">
 	<div class="spacer"></div>
 	<div class="landing--page">
@@ -31,7 +31,7 @@
 		<p class="file--title emphasized--text">Anmäl dig till webbinariet nedan!</p>
 	</div>
 	<div class="spacer"></div>
-</div>
+</div> -->
 
 <header class="header">
 	<div class="header__logo">

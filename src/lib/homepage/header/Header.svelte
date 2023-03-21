@@ -15,17 +15,17 @@
 			Oavsett om vill starta eget, prestera hållbart på jobbet eller ändra livsriktning så kan jag hjälpa dig.
 		</p>
 		<p class="description">
-			Boka ett kostnadsfritt samtal eller ladda ner den ultimata guidade meditationen för att förändra negativ stress till positiv.
+			Boka ett kostnadsfritt vägledningssamtal eller ladda ner den ultimata guidade meditationen för att förändra negativ stress till positiv.
 		</p>
 		<!-- <a href="/webbinarie" class="button">Registrera dig till nästa webbinarium</a> -->
 		<Button
 		onClick={() => {
 			window.open(
-				"https://calendly.com/markusmattsson/strategisamtal-general?utm_medium=hemsida&utm_source=headerstartsida",
+				"https://calendly.com/markusmattsson/vagledning?utm_medium=hemsida&utm_source=headerstartsida",
 				"_blank"
 			);
 		}}
-		>Boka ett strategisamtal!
+		>Boka ett vägledningssamtal
 		</Button>	
 		<Button 
 		secondary=true;

@@ -13,11 +13,11 @@
 			<Button
 				onClick={() => {
 					window.open(
-						"https://calendly.com/markusmattsson/strategisamtal-general?utm_medium=hemsida&utm_source=bottomcta",
+						"https://calendly.com/markusmattsson/vagledning?utm_medium=hemsida&utm_source=bottomcta",
 						"_blank"
 					);
 				}}
-				>Boka ett strategisamtal!
+				>Boka ett vägledningssamtal
 			</Button>
 		</div>
 		<div class="webbinarium">
@@ -25,7 +25,7 @@
 				Installera det nya mindsetet om stress som högprestare använder över hela världen för att bli framgångsrika.
 				<strong>Ladda ner den ultimata guidade meditationen som förändrar negativ stress till positiv på 5 minuter.</strong>
 			</p>
-			<a class="button secondary" href="/mindsetmeditation">Ladda ner meditationen nu! </a>
+			<a class="button secondary" href="/mindsetmeditation">Ladda ner meditationen nu</a>
 		</div>
 	</div>
 </section>

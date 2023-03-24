@@ -8,7 +8,9 @@
 	<h1>Grattis! 🎉</h1>
 	<h2>Du är kvar på maillistan och fortsätter få info och inspiration om stress och företagande</h2>
 </main>
-<AboutMarkus/>
+<div id="about">
+	<AboutMarkus/>	
+</div>
 
 <style lang="scss">
 	@use "../../styles/breakpoints.scss" as *;
@@ -18,7 +20,7 @@
 		flex-direction: column;
 		align-items: center;
 		max-width: 800px;
-		margin: var(--spacing-xl) auto;
+		margin: var(--spacing-xl) auto 0;
 		padding: 0 100px;
 		gap: var(--spacing-s);
 
@@ -32,5 +34,14 @@
 			width: 100%;
 			text-align: center;
 		}
+	}
+
+	#about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+		padding: 0 100px;
+		gap: var(--spacing-s);
 	}
 </style>

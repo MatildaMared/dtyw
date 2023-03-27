@@ -19,7 +19,7 @@
 <main>
 	<div class="spacer"></div>
 	<div class="landing--page">
-		<h1>Vill du <span class="emphasized--text">uppnå ditt drömliv</span> och bli fri från stressen?</h1>
+		<h1>Vill du <span class="emphasized--text">bli en framgångsrik företagare</span> och bli fri från stressen?</h1>
 		<p class="file--title">Anmäl dig till mitt nyhetsbrev!</p>
 		<p class="sub--text">Få massvis av värdefull kunskap, verktyg och inspiration direkt i din inbox.</p>
 		<div class="ml-embedded" data-form="2x0fz0"></div>

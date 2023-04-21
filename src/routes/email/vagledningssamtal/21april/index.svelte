@@ -21,11 +21,11 @@
 		>
 		</iframe>
 	</div>
-
 	<a href="https://calendly.com/markusmattsson/vagledning?utm_source=homepage&utm_medium=email&utm_campaign=stressarinteproblemet-21april" 
 		class="button" target="_blank">
 		Boka ditt kostnadsfria samtal nu!
 	</a>
+	<script src="https://automatehero.io/js/countdown.js?hero=1795&v=10"></script>
 </main>
 
 <style lang="scss">
@@ -49,6 +49,10 @@
 
 		h2 {
 			width: 100%;
+		}
+
+		a {
+			margin-bottom: 30px;
 		}
 	}
 </style>

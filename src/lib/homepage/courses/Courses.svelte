@@ -3,7 +3,7 @@
 	import Card from "$lib/card/Card.svelte";
 
 	function onClick() {
-		window.open("https://calendly.com/markusmattsson/vagledning?utm_medium=hemsida&utm_source=coursesection", "_blank");
+		window.open("https://www.dothingsyourway.com/newsletter", "_blank");
 	}
 </script>
 
@@ -58,7 +58,7 @@
             <p>Utöver Stressfrihet och Företagsfrihet erbjuder jag även individuellt anpassade coachingprogram. Kanske känner du att du inte är på rätt plats i livet och hade behövt reda ut vad du verkligen vill? Eller vill du bli mer produktivit använda något av mina affärsystem i det populära verktyget Notion. All typ av stöd i att hitta sig själv och effektivisering för att uppnå det man vill har jag mycket goda verktyg för. Boka ett samtal nedan om du vill veta mer om hur vi kan anpassa coachingen just för dig.</p>
         </Card>
     </ul>
-    <Button {onClick}>Boka ett kostnadsfritt vägledningssamtal</Button>
+    <Button {onClick}>Registrera dig till nyhetsbrevet</Button>
 </section>
 
 <style lang="scss">

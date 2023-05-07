@@ -5,7 +5,7 @@
 <section>
 	<h2>Är du redo för nästa steg?</h2>
 	<div class="cta-container">
-		<div class="strategi-samtal">
+		<!-- <div class="strategi-samtal">
 			<p>
 				Då tycker jag att du ska boka ett gratis strategisamtal med mig! Under samtalet kommer jag
 				hjälpa dig få 100% klarhet i din situation och vad ditt nästa steg är.
@@ -19,13 +19,13 @@
 				}}
 				>Boka ett vägledningssamtal
 			</Button>
-		</div>
+		</div> -->
 		<div class="webbinarium">
 			<p>
 				Installera det nya mindsetet om stress som högprestare använder över hela världen för att bli framgångsrika.
 				<strong>Ladda ner den ultimata guidade meditationen som förändrar negativ stress till positiv på 5 minuter.</strong>
 			</p>
-			<a class="button secondary" href="/mindsetmeditation">Ladda ner meditationen nu</a>
+			<a class="button" href="/mindsetmeditation">Ladda ner meditationen nu</a>
 		</div>
 	</div>
 </section>

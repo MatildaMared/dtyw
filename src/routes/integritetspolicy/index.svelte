@@ -92,8 +92,8 @@
 	<h2>Hör av dig om du har frågor</h2>
 	<p>
 		Om du har frågor eller synpunkter på Do Things Your Ways behandling av dina personuppgifter,
-		tveka inte höra av dig till Do Things Your Way via post, Do Things Your Way, Kaptensgatan 10E,
-		30245, Halmstad eller via e-post på markus@dothingsyourway.com
+		tveka inte höra av dig till Do Things Your Way via post, Do Things Your Way, Broddesonsgatan 24,
+		30234, Halmstad eller via e-post på markus@dothingsyourway.com
 	</p>
 </main>
 

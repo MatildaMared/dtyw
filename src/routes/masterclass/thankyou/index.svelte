@@ -1,6 +1,6 @@
 <script>
-	import AboutMarkus from "$lib/homepage/about-markus/AboutMarkus.svelte";
-
+  import AboutMarkus from "$lib/homepage/about-markus/AboutMarkus.svelte";  
+  
 </script>
 
 <main>

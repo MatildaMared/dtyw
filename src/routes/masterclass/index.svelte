@@ -1,11 +1,24 @@
 <script lang="ts">
 	import Divider from "$lib/divider/Divider.svelte";
-	import AboutMarkus from "$lib/homepage/about-markus/AboutMarkus.svelte";
+	import AboutMarkus from "$lib/homepage/about-markus/AboutMarkus.svelte";import { onMount } from 'svelte';
+
+	onMount(() => {
+		// <!-- MailerLite Universal -->
+		
+		(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+		.push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+		n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+		(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+		ml('account', '303786');
+		
+		// <!-- End MailerLite Universal -->
+	});
+
 </script>
 
 <svelte:head>
 	<title
-		>Från stressad överpresterare till framgångsrik egenföretagare ✨ | Do things your way</title
+		>Hur du använder positiv stress för att starta företag ✨ | Do things your way</title
 	>
 	<meta
 		content="Jag hjälper de som har problem med stress att gå från anställd till företagare."
@@ -19,12 +32,11 @@
 			Do things <span class="header__emphasized">your</span> way
 		</a>
 	</div>
-	<span class="header__pre-heading">Kostnadsfritt webbinarie</span>
+	<span class="header__pre-heading">Kostnadsfri masterclass</span>
 	<h1 class="header__heading">
-		Från stressad överpresterare
-		<span> till framgångsrik egenföretagare </span>
+		Hur du använder positiv stress för att <span>starta företag</span>
 	</h1>
-	<p class="header__sub-heading">– fem steg för att optimera din tid och energi</p>
+	<p class="header__sub-heading">– fem steg för att öka din energi, hälsa och produktivitet</p>
 	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 
@@ -52,23 +64,19 @@
 
 		<div class="intro__webbinarie">
 			<h2 class="intro__heading">När?</h2>
-			<p class="intro__date small-caps-text">3 Januari 2023 klockan 18:00</p>
+			<p class="intro__date small-caps-text">30 Maj 2023 klockan 18:00</p>
 			<h3 class="intro__webbinarie--heading">
-				Från stressad överpresterare <span> till framgångsrik egenföretagare </span>
+				Hur du använder positiv stress för att starta företag
 			</h3>
 		</div>
 		<p>
-			Jag kommer gå igenom mina fem bästa steg för att optimera din tid och energi så att du
+			Jag kommer gå igenom  hur du ska göra för att förvandla all din negativa stress till positiv så du inte bara får mer gjort utan också mår fantastiskt bra så att du
 			äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
-			registrera dig till webbinariet nedan.
+			registrera dig till masterclassen nedan.
 		</p>
 		<p>
 			<b>VIKTIGT! </b>Detta är endast för dig som vet att att du kan bli en framgångsrik företagare och
 			 inser att du måste lära dig jobba mer med mindre återhämtning.
-		</p>
-		<p>
-			Det är helt gratis att delta men det finns bara ett begränsat antal platser så se till att
-			säkra din plats nu! 😄
 		</p>
 
 		<a href="#sign-up" class="button">Anmäl dig här!</a>
@@ -78,60 +86,17 @@
 
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->
-		<form
-			action="https://dothingsyourway.us21.list-manage.com/subscribe/post?u=e799ec252937b1dd4cc8f63b0&id=412ad9843c&f_id=00d9c5e1f0"
-			method="post"
-			id="mc-embedded-subscribe-form"
-			name="mc-embedded-subscribe-form"
-			class="sign-up__form"
-			target="_self"
-		>
-			<p class="small-caps-text">Från stressad överpresterare till framgångsrik egenföretagare</p>
-			<h2 class="sign-up__heading">Registrera dig till webbinariet</h2>
-			<div class="sign-up__inputs">
-				<div class="sign-up__form-group">
-					<label for="mce-EMAIL">E-postadress <span class="asterisk">*</span> </label>
-					<input
-						type="email"
-						value=""
-						name="EMAIL"
-						class="required email"
-						id="mce-EMAIL"
-						required
-					/>
-					<span id="mce-EMAIL-HELPERTEXT" class="helper_text" />
-				</div>
-				<div class="sign-up__form-group">
-					<label for="mce-FNAME">Förnamn <span class="asterisk">*</span> </label>
-					<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required />
-					<span id="mce-FNAME-HELPERTEXT" class="helper_text" />
-				</div>
-				<div class="sign-up__form-group">
-					<label for="mce-PHONE">Telefonnummer </label>
-					<input type="text" name="PHONE" class="" value="" id="mce-PHONE" />
-					<span id="mce-PHONE-HELPERTEXT" class="helper_text" />
-				</div>
-				<div hidden={true}><input type="hidden" name="tags" value="5065"></div>
-				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				<div style="position: absolute; left: -5000px;" aria-hidden="true">
-					<input type="text" name="b_e799ec252937b1dd4cc8f63b0_412ad9843c" tabindex="-1" value="" />
-				</div>
-				<div class="sign-up__required"><span class="asterisk">*</span> obligatoriskt fält</div>
-			</div>
-			<input
-				type="submit"
-				value="Registrera mig nu!"
-				name="subscribe"
-				id="mc-embedded-subscribe"
-				class="button secondary"
-			/>
+		<div class="sign-up__form">
+			<p class="small-caps-text sign-up__mb">Hur du använder positiv stress för att starta företag</p>
+			<h2 class="sign-up__heading sign-up__mb">Registrera dig till masterclassen</h2>
+			<div class="ml-embedded" data-form="OD3nDk"></div>
 			<p class="sign-up__integrity">
 				Genom att sända in dina uppgifter godtar du också vår <a
 					href="/integritetspolicy"
 					class="sign-up__link">integritetspolicy</a
 				>.
 			</p>
-		</form>
+		</div>
 		<!--End mc_embed_signup-->
 	</section>
 
@@ -144,13 +109,13 @@
 			class="webinar__image"
 		/>
 		<div>
-			<h2 class="webinar__heading">På webbinariet kommer du lära dig...</h2>
+			<h2 class="webinar__heading">På masterclassen kommer du lära dig...</h2>
 			<ul class="webinar__list">
 				<li>
-					Den nya <b>revolutionerande forskningen om stress</b> som förändrade mitt liv för alltid!
+					Den nya <b>revolutionerande forskningen om positiv stress</b> som förändrade mitt liv för alltid!
 				</li>
 				<li>
-					Hur du går <b>från stressad överpresterare till välmående och effektiv</b> samtidigt som du
+					Hur du går <b>från stressad och slutkörd till välmående och effektiv</b> samtidigt som du
 					får ännu bättre resultat.
 				</li>
 				<li>
@@ -166,7 +131,7 @@
 					> vecka för vecka, vilket kommer garantera att ditt företag hela tiden växer.
 				</li>
 				<li>
-					...och mycket mer! Webbinariet är helt gratis och 100% live, så du kan ställa frågor under
+					...och mycket mer! masterclassen är helt gratis och 100% live, så du kan ställa frågor under
 					tiden.
 				</li>
 			</ul>
@@ -341,12 +306,12 @@
 		}
 
 		&__form {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			gap: var(--spacing-m);
+			// display: flex;
+			// flex-direction: column;
+			// align-items: center;
+			// gap: var(--spacing-m);
 			border-radius: 8px;
-			padding: var(--spacing-m) var(--spacing-s);
+			// padding: var(--spacing-m) var(--spacing-s);
 			background-color: var(--color-primary-lightest);
 			margin: var(--spacing-m) 16px;
 			text-align: center;
@@ -356,31 +321,35 @@
 			}
 		}
 
-		&__inputs {
-			width: 100%;
-			max-width: 400px;
+		&__mb {
+			margin-bottom: var(--spacing-s);
 		}
 
-		&__form-group {
-			display: flex;
-			flex-direction: column;
-			text-align: left;
-			margin-bottom: var(--spacing-m);
+		// &__inputs {
+		// 	width: 100%;
+		// 	max-width: 400px;
+		// }
 
-			label {
-				margin-bottom: var(--spacing-xs);
-			}
+		// &__form-group {
+		// 	display: flex;
+		// 	flex-direction: column;
+		// 	text-align: left;
+		// 	margin-bottom: var(--spacing-m);
 
-			input {
-				border: 1px solid var(--color-primary-light);
-				border-radius: 8px;
-				padding: 8px 16px;
-				font: inherit;
-				color: var(--color-primary-dark);
-				background-color: var(--color-white);
-				outline-color: var(--color-secondary);
-			}
-		}
+		// 	label {
+		// 		margin-bottom: var(--spacing-xs);
+		// 	}
+
+		// 	input {
+		// 		border: 1px solid var(--color-primary-light);
+		// 		border-radius: 8px;
+		// 		padding: 8px 16px;
+		// 		font: inherit;
+		// 		color: var(--color-primary-dark);
+		// 		background-color: var(--color-white);
+		// 		outline-color: var(--color-secondary);
+		// 	}
+		// }
 
 		&__integrity,
 		&__required {

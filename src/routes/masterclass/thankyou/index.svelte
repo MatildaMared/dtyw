@@ -118,7 +118,7 @@
 		align-items: center;
 		max-width: 800px;
 		margin: var(--spacing-xl) auto 0;
-		padding: 0 100px;
+		padding: 0 5%;
 		gap: var(--spacing-s);
 
 		h1 {
@@ -138,7 +138,7 @@
 		flex-direction: column;
 		align-items: center;
 		margin: 0 auto;
-		padding: 0 100px;
+		padding: 0 5%;
 		gap: var(--spacing-s);
 	}
 </style>

@@ -18,7 +18,7 @@
 
 <svelte:head>
 	<title
-		>Hur du använder positiv stress för att starta företag ✨ | Do things your way</title
+		>Hur du blir en framgångsrik företagare - fri från stress ✨ | Do things your way</title
 	>
 	<meta
 		content="Jag hjälper de som har problem med stress att gå från anställd till företagare."
@@ -34,9 +34,9 @@
 	</div>
 	<span class="header__pre-heading">Kostnadsfri masterclass</span>
 	<h1 class="header__heading">
-		Hur du använder positiv stress för att <span>starta företag</span>
+		Hur du blir en framgångsrik företagare <span> - fri från stress</span>
 	</h1>
-	<p class="header__sub-heading">– fem steg för att öka din energi, hälsa och produktivitet</p>
+	<p class="header__sub-heading">– fem steg för att garantera att all stress blir positiv</p>
 	<a href="#sign-up" class="button">Registrera dig nu!</a>
 </header>
 
@@ -52,12 +52,10 @@
 				<h2 class="intro__heading">Stämmer detta in på dig?</h2>
 
 				<ul class="intro__list">
-					<li>Du är trött på att vara stressad och aldrig hinna jobba på ditt företag.</li>
-					<li>
-						Du rädd för att du aldrig någonsin ska kunna säga upp dig och leva det liv du vill leva.
-					</li>
-					<li>Du vet att du kan bli en framgångsrik företagare</li>
-					<li>Du vill lära dig att jobba 10-20 timmar i veckan på företaget vid sidan av ditt jobb UTAN att förstöra din hälsa</li>
+					<li>Du är trött på att vara stressad och ha låg energi</li>
+					<li>Du har svårt att få struktur och kontroll på allt som behöver göras</li>
+					<li>Du är rädd för vad som kommer hända om du inte jobbar mer och har koll på allt.</li>
+					<li>Du vet att ditt företag kan bli både framgångsrikt och trivsamt med rätt verktyg.</li>
 				</ul>
 			</div>
 		</div>
@@ -66,28 +64,26 @@
 			<h2 class="intro__heading">När?</h2>
 			<p class="intro__date small-caps-text">30 Maj 2023 klockan 18:00</p>
 			<h3 class="intro__webbinarie--heading">
-				Hur du använder positiv stress för att starta företag
+				Hur du blir en framgångsrik företagare - fri från stress
 			</h3>
 		</div>
 		<p>
-			Jag kommer gå igenom  hur du ska göra för att förvandla all din negativa stress till positiv så du inte bara får mer gjort utan också mår fantastiskt bra så att du
-			äntligen kan säga upp dig och jobba med det du brinner för! Allt du behöver göra är att
+			Jag kommer gå igenom  hur du ska göra för att förvandla all din negativa stress till positiv så du inte bara får mer gjort utan också mår fantastiskt bra! Allt du behöver göra är att
 			registrera dig till masterclassen nedan.
 		</p>
 		<p>
-			<b>VIKTIGT! </b>Detta är endast för dig som vet att att du kan bli en framgångsrik företagare och
-			 inser att du måste lära dig jobba mer med mindre återhämtning.
+			<b>VIKTIGT! </b>Detta är endast för dig som är företagare eller vill starta företag.
 		</p>
 
-		<a href="#sign-up" class="button">Anmäl dig här!</a>
+		<a href="#sign-up" class="button">Anmäl dig nu!</a>
 	</section>
 
-	<Divider text="För dig som vet att du kan bli en framgångsrik egenföretagare" />
+	<Divider text="För dig som är företagare eller vill starta företag" />
 
 	<section class="sign-up" id="sign-up">
 		<!-- Begin Mailchimp Signup Form -->
 		<div class="sign-up__form">
-			<p class="small-caps-text sign-up__mb">Hur du använder positiv stress för att starta företag</p>
+			<p class="small-caps-text sign-up__mb">Hur du blir en framgångsrik företagare - fri från stress</p>
 			<h2 class="sign-up__heading sign-up__mb">Registrera dig till masterclassen</h2>
 			<div class="ml-embedded" data-form="OD3nDk"></div>
 			<p class="sign-up__integrity">
@@ -141,6 +137,8 @@
 	<Divider text="&quot;Min stora passion är att coacha och utbilda andra&quot;" />
 
 	<AboutMarkus />
+	<a href="#sign-up" class="button">Anmäl dig nu!</a>
+	<br/>
 </main>
 
 <style lang="scss">
@@ -311,7 +309,7 @@
 			// align-items: center;
 			// gap: var(--spacing-m);
 			border-radius: 8px;
-			// padding: var(--spacing-m) var(--spacing-s);
+			padding: var(--spacing-m) var(--spacing-s);
 			background-color: var(--color-primary-lightest);
 			margin: var(--spacing-m) 16px;
 			text-align: center;

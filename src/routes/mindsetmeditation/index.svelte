@@ -20,7 +20,7 @@
 	<div class="spacer"></div>
 	<div class="landing--page">
 		<h1>Vill du fortsätta <span class="emphasized--text">prestera på topp</span> utan att må dåligt av stressen?</h1>
-		<p class="file--title">Förändra negativ stress till positiv på 5 minuter</p>
+		<p class="file--title">Förvandla negativ stress till positiv på 5 minuter</p>
 		<p class="sub--text">Upptäck den ultimata guidade meditationen för att skifta ditt mindset och förändra ditt liv för alltid!</p>
 		<div class="ml-embedded" data-form="9K3Z7r"></div>
 		<p class="privacy--text">Genom att sända in dina uppgifter godtar du också vår <a href="https://www.dothingsyourway.com/integritetspolicy">integritetspolicy.</a></p>		

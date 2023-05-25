@@ -25,7 +25,15 @@
 		name="description"
 	/>
 </svelte:head>
-
+<div class="spacer"></div>
+<div class="landing--page">
+	<h1 class="header--warning">NÄSTAN KLAR!</h1>
+	<p class="sub--text">Filen skickas till dig nu...</p>
+	<h1 class="header--headsup">Men medan du väntar. Vill du se till så att det nya stressmindsetet verkligen sätter sig på djupet?</h1>
+	<div class="spacer"></div>
+	<h1 class="header--headsup underline">Var med på nästa masterclass:</h1>
+	<div class="spacer"></div>
+</div>
 <header class="header">
 	<div class="header__logo">
 		<a href="/">
@@ -44,7 +52,7 @@
 	<section class="intro">
 		<div class="intro__header">
 			<img
-				src="/images/zen.jpg"
+				src="/../images/zen.jpg"
 				alt="En brygga med en ljuslykta som brinner. Man kan se en man som sitter på bryggan med korsade fötter."
 				class="intro__image"
 			/>
@@ -100,7 +108,7 @@
 
 	<section class="webinar">
 		<img
-			src="images/webinar.jpg"
+			src="../images/webinar.jpg"
 			alt="En man med en kaffekopp i handen håller upp en bok om entreprenörskap"
 			class="webinar__image"
 		/>
@@ -142,7 +150,35 @@
 </main>
 
 <style lang="scss">
-	@use "../../styles/breakpoints.scss" as *;
+	@use "../../../styles/breakpoints.scss" as *;
+	.landing--page {
+		padding: 30px;
+	}
+
+	.header--warning {
+		text-align: center;
+		font-size: var(--font-size-xl);
+		margin-bottom: var(--spacing-s);
+		color: red;
+	}
+
+	.header--headsup {
+		margin: 20px 0;
+		text-align: center;
+	};
+
+	.underline {
+		text-decoration: underline;
+	}
+
+	.sub--text {
+		font-style: italic;
+		text-align: center;
+	}
+
+	.spacer {
+		margin-top: var(--spacing-l);
+	}
 
 	.header {
 		text-align: center;

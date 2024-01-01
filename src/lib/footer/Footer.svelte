@@ -12,7 +12,8 @@
 <footer>
 	<div class="content">
 		<a href="/">
-			<p class="logo">Do things <span>your</span> way</p>
+			<img src="images/logo-white.png">
+			<!-- <p class="logo">Do things <span>your</span> way</p> -->
 		</a>
 		<div class="divider" />
 		<section class="contact">
@@ -79,6 +80,15 @@
 			padding: 48px;
 		}
 	}
+
+	img {
+			width: 100%;
+			max-width: 200px;
+			height: auto;
+			margin-left: auto;
+  			margin-right: auto;
+			margin-bottom: 30px;
+		}
 
 	.content {
 		max-width: var(--max-width);

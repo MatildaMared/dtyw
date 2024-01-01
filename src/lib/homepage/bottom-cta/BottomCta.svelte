@@ -5,10 +5,10 @@
 <section>
 	<h2>Är du redo för nästa steg?</h2>
 	<div class="cta-container">
-		<!-- <div class="strategi-samtal">
+		<div class="strategi-samtal">
 			<p>
-				Då tycker jag att du ska boka ett gratis strategisamtal med mig! Under samtalet kommer jag
-				hjälpa dig få 100% klarhet i din situation och vad ditt nästa steg är.
+				Då tycker jag att du ska boka ett gratis samtal med mig! Under samtalet kommer jag
+				hjälpa dig <strong>få 100% klarhet i din situation och vad ditt nästa steg är.</strong>
 			</p>
 			<Button
 				onClick={() => {
@@ -19,7 +19,7 @@
 				}}
 				>Boka ett vägledningssamtal
 			</Button>
-		</div> -->
+		</div>
 		<div class="webbinarium">
 			<p>
 				Installera det nya mindsetet om stress som högprestare använder över hela världen för att bli framgångsrika.
@@ -79,5 +79,9 @@
 
 	.webbinarium {
 		border: 1px solid hsla(189, 12%, 51%, 0.3);
+	}
+
+	.webbinarium a {
+		background-color: var(--color-primary-dark);
 	}
 </style>

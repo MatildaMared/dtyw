@@ -7,6 +7,8 @@
 		InstagramIcon,
 		FacebookIcon
 	} from "svelte-feather-icons";
+	const date=new Date();
+	const year=date.getFullYear();
 </script>
 
 <footer>
@@ -56,7 +58,7 @@
 				<a href="https://www.flaticon.com/authors/gowi" target="_blank">Icons by GOWI</a>
 			</div>
 			<div>
-				<p>© 2022 Markus Mattsson</p>
+				<p>© {year} Markus Mattsson</p>
 			</div>
 		</section>
 	</div>

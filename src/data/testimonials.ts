@@ -36,11 +36,11 @@ const testimonials: Testimonial[] = [
 		image: "/images/testimonials/avatar.jpeg",
 		text: "När jag väl började detta programmet hade jag helt ärligt inte jätte mycket förväntningar. Jag trodde mest att Markus skulle hjälpa mig att nå mina mål i företagandet. Men under hela denna tiden har jag fått så mycket mer. Jag har fått hjälp att öppna dörrar som jag verkligen har behövt öppna för att kunna ta mig vidare i mitt liv. Jag levde i konstant stress och ororade mig ständigt utan att veta varför.  Med Markus hjälp tog denna kursen mig flera steg framåt i rätt riktning! Han lärde mig hur jag ska hitta tillbaka till mig själv, vilket inte går att sätta något pris på! ❤️"
 	},
-	{
-		name: "Frida Edmark",
-		image: "/images/testimonials/avatar.jpeg",
-		text: "Är mycket nöjd med programmet. Modulerna har varit mycket givande och det har varit guld att få mötas veckovis för gruppcoaching och inspirerande samtal. Programmet har stärkt mig mentalt och givit mig en bättre grund för att kunna driva företag."
-	}
+	// {
+	// 	name: "Frida Edmark",
+	// 	image: "/images/testimonials/avatar.jpeg",
+	// 	text: "Är mycket nöjd med programmet. Modulerna har varit mycket givande och det har varit guld att få mötas veckovis för gruppcoaching och inspirerande samtal. Programmet har stärkt mig mentalt och givit mig en bättre grund för att kunna driva företag."
+	// }
 ];
 
 export default testimonials;

@@ -10,7 +10,7 @@
 <style lang="scss">
 	img {
 			width: 100%;
-			max-width: 350px;
+			max-width: 300px;
 			height: auto;
 			margin-left: auto;
   			margin-right: auto;

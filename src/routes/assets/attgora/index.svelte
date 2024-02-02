@@ -19,11 +19,11 @@
 <main>
 	<div class="spacer"></div>
 	<div class="landing--page">
-		<h1>Vill du fortsätta <span class="emphasized--text">prestera på topp</span> utan att må dåligt av stressen?</h1>
+		<h1>Vill du få kontroll över allt som behöver göras och samtidigt <span class="emphasized--text">bli mer produktiv än någonsin förut?</span></h1>
 		<!-- <p class="file--title">Förvandla negativ stress till positiv på 5 minuter</p> -->
-		<img src="images/mindsetmeditation.png" alt="Förvandla negativ stress till positiv på 5 minuter"/>
-		<p class="sub--text">Upptäck den ultimata guidade meditationen för att skifta ditt mindset och förändra din stress för alltid!</p>
-		<div class="ml-embedded" data-form="9K3Z7r"></div>
+		<img src="../images/attgoralista.png" alt="Förvandla negativ stress till positiv på 5 minuter"/>
+		<p class="sub--text">Få en kopia av min Notion Template, som jag själv använder för att vara den mest pålitliga och strukturerade personen jag känner.</p>
+		<div class="ml-embedded" data-form="XvI33q"></div>
 		<p class="privacy--text">Genom att sända in dina uppgifter godtar du också vår <a href="https://www.dothingsyourway.com/integritetspolicy">integritetspolicy.</a></p>		
 	</div>
 	<div class="spacer"></div>
@@ -31,7 +31,7 @@
 </main>
 
 <style lang="scss">
-	@use "../../styles/breakpoints.scss" as *;
+	@use "../../../styles/breakpoints.scss" as *;
 
 
 	main {

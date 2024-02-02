@@ -14,7 +14,7 @@
 <footer>
 	<div class="content">
 		<a href="/">
-			<img src="images/logo-white.png">
+			<img src="../images/logo-white.png">
 			<!-- <p class="logo">Do things <span>your</span> way</p> -->
 		</a>
 		<div class="divider" />

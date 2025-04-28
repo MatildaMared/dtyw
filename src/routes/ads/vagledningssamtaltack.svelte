@@ -11,10 +11,6 @@
 		<h1>
 			Tack för att du bokat ditt <span class="emphasized--text">gratis vägledningssamtal</span>
 		</h1>
-		<img
-			src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.passalassistans.se%2Fnyheter%2Ftack-for-2023&psig=AOvVaw0G97MJ6i2anRTgKyrBBxSD&ust=1745936839594000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiiwO73-owDFQAAAAAdAAAAABAJ"
-			alt="Tack"
-		/>
 		<p class="sub--text">Du får snart ett mail med bekräftelse på tiden</p>
 		<p class="sub--text">Vi hörs!</p>
 	</div>

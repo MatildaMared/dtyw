@@ -6,90 +6,13 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Boka ditt vägledningssamtal</title>
-
-	<!-- Facebook Pixel kan läggas in här -->
-	<script>
-		// Facebook Pixel Code här
-	</script>
-
-	<!-- Direkt redirect -->
 	<meta http-equiv="refresh" content="0;url=https://bygg-ditt-foretag-pwwi315.gamma.site/" />
 </svelte:head>
 
 <main>
-	<div class="spacer" />
-	<div class="landing--page">
-		<h1>
-			Tack för att du bokat ditt <span class="emphasized--text">gratis vägledningssamtal</span>
-		</h1>
-		<p class="sub--text">Du får snart ett mail med bekräftelse på tiden</p>
-		<p class="sub--text">Vi hörs!</p>
-	</div>
-	<div class="spacer" />
+	<p>omdirigerar...</p>
 </main>
 
 <style lang="scss">
-	@use "../../styles/breakpoints.scss" as *;
-
-	main {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
-		padding: 0 16px;
-		gap: var(--spacing-s);
-		color: white;
-		text-align: center;
-		background-color: rgb(57, 57, 57);
-		background-image: url("/images/markus-dark.png");
-		background-size: cover;
-		background-position: bottom;
-
-		h1 {
-			text-align: center;
-			font-size: var(--font-size-xl);
-			margin-bottom: var(--spacing-m);
-			color: white;
-		}
-
-		h2 {
-			width: 100%;
-		}
-
-		.landing--page {
-			padding: 20px;
-			align-items: center;
-			background-color: black;
-			border-radius: 4px;
-			max-width: 500px;
-		}
-
-		.emphasized--text {
-			color: var(--color-primary);
-		}
-
-		.file--title {
-			font-style: bold;
-			margin-bottom: 30px;
-			font-size: 20px;
-		}
-
-		.sub--text {
-			font-style: italic;
-			margin-top: 20px;
-		}
-
-		.spacer {
-			margin-top: var(--spacing-l);
-		}
-
-		.privacy--text {
-			color: gray;
-			font-size: var(--font-size-xs);
-
-			a {
-				color: gray;
-			}
-		}
-	}
+	
 </style>

@@ -13,7 +13,7 @@
 			<Button
 				onClick={() => {
 					window.open(
-						"https://calendly.com/markusmattsson/vagledning?utm_medium=hemsida&utm_source=bottomcta",
+						"/vagledningssamtal",
 						"_blank"
 					);
 				}}

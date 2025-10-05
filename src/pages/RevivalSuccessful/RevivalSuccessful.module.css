@@ -1,0 +1,29 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 800px;
+	margin: var(--spacing-xl) auto 0;
+	padding: 0 100px;
+	gap: var(--spacing-s);
+}
+
+.main h1 {
+	text-align: center;
+	font-size: var(--font-size-xl);
+	margin-bottom: var(--spacing-m);
+}
+
+.main h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0 100px;
+	gap: var(--spacing-s);
+}

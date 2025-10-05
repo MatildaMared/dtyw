@@ -1,0 +1,20 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: 800px;
+	margin: var(--spacing-xl) auto;
+	padding: 0 16px;
+	gap: var(--spacing-s);
+}
+
+.main h1 {
+	text-align: center;
+	font-size: var(--font-size-xl);
+	margin-bottom: var(--spacing-m);
+}
+
+.main h2 {
+	width: 100%;
+}

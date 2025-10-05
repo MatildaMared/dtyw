@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	width: 100%;
+}
+
+.imageWrapper {
+	padding: var(--spacing-l) 16px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+.imageWrapper img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	border-radius: 8px;
+	display: block;
+}

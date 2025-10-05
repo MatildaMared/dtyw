@@ -1,0 +1,289 @@
+.hero {
+	background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+	padding: 3rem 1.5rem 2rem 1.5rem;
+	text-align: center;
+	border-radius: 1.5rem;
+	margin-bottom: 2.5rem;
+	box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.07);
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hero h1 {
+	font-size: 2.5rem;
+	font-weight: 800;
+	margin-bottom: 0.5rem;
+	color: #1e293b;
+	line-height: 1.1;
+}
+
+.hero h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #475569;
+	margin-bottom: 1.5rem;
+}
+
+.hero p {
+	font-size: 1.15rem;
+	color: #334155;
+	margin-bottom: 2rem;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ctaBtn {
+	background: linear-gradient(90deg, #fbbf24 0%, #f59e42 100%);
+	color: #1e293b;
+	font-weight: 700;
+	font-size: 1.25rem;
+	padding: 1rem 2.5rem;
+	border: none;
+	border-radius: 999px;
+	cursor: pointer;
+	box-shadow: 0 2px 12px 0 rgba(251, 191, 36, 0.15);
+	transition: background 0.2s;
+	margin-bottom: 0.5rem;
+}
+
+.ctaBtn:hover {
+	background: linear-gradient(90deg, #f59e42 0%, #fbbf24 100%);
+}
+
+.ctaBenefits {
+	color: #64748b;
+	font-size: 1.05rem;
+	margin-top: 0.5rem;
+}
+
+.section {
+	max-width: 700px;
+	margin: 2.5rem auto;
+	background: #fff;
+	border-radius: 1.25rem;
+	box-shadow: 0 2px 16px 0 rgba(30, 41, 59, 0.06);
+	padding: 2.5rem 1.5rem;
+}
+
+.section h3 {
+	font-size: 1.35rem;
+	font-weight: 700;
+	color: #1e293b;
+	margin-bottom: 1.25rem;
+}
+
+.bullets {
+	margin-bottom: 2rem;
+}
+
+.bullets li {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.75rem;
+	font-size: 1.08rem;
+	margin-bottom: 1.1rem;
+	color: #334155;
+}
+
+.bullets span.emoji {
+	font-size: 1.5rem;
+	flex-shrink: 0;
+	margin-top: 0.1em;
+}
+
+.emphasis {
+	font-weight: 600;
+	color: #1e293b;
+	margin-bottom: 0.5rem;
+}
+
+.processSteps {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.processStep {
+	display: flex;
+	align-items: flex-start;
+	gap: 1.25rem;
+}
+
+.processNumber {
+	background: #fbbf24;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.25rem;
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	box-shadow: 0 2px 8px 0 rgba(251, 191, 36, 0.1);
+}
+
+.processContent h4 {
+	margin: 0 0 0.25rem 0;
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: #1e293b;
+}
+
+.processContent p {
+	margin: 0;
+	color: #334155;
+	font-size: 1rem;
+}
+
+.bonusList {
+	margin: 1.5rem 0 2rem 0;
+	padding: 0;
+	list-style: none;
+}
+
+.bonusList li {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.75rem;
+	margin-bottom: 1rem;
+	font-size: 1.05rem;
+	color: #334155;
+}
+
+.bonusValue {
+	color: #f59e42;
+	font-weight: 600;
+	margin-left: 0.5rem;
+	font-size: 1rem;
+}
+
+.guarantee {
+	background: #fef9c3;
+	border-radius: 1rem;
+	padding: 1.5rem 1.25rem;
+	color: #92400e;
+	font-size: 1.08rem;
+	margin-bottom: 2rem;
+	border: 1.5px solid #fde68a;
+	text-align: center;
+}
+
+.limitedOffer {
+	color: #b91c1c;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.urgency {
+	color: #1e293b;
+	font-size: 1.08rem;
+	margin-bottom: 1.5rem;
+}
+
+.thrivecartEmbedSection {
+	margin: 2rem auto;
+	max-width: 700px;
+	text-align: center;
+	padding: 0 1rem;
+	min-height: 200px;
+}
+
+.loadingPlaceholder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem 1rem;
+	background: #f8fafc;
+	border-radius: 16px;
+	border: 2px dashed #cbd5e1;
+}
+
+.loadingSpinner {
+	width: 40px;
+	height: 40px;
+	border: 4px solid #e2e8f0;
+	border-top: 4px solid #3b82f6;
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+	margin-bottom: 1rem;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loadingPlaceholder p {
+	color: #64748b;
+	font-size: 1rem;
+	margin: 0;
+}
+
+.thrivecartSection {
+	margin: 2rem auto;
+	max-width: 700px;
+	text-align: center;
+}
+
+.checkoutEmbed {
+	background: #f8fafc;
+	padding: 2rem;
+	border-radius: 16px;
+	box-shadow: 0 4px 16px 0 rgba(30, 41, 59, 0.06);
+}
+
+.checkoutEmbed h3 {
+	font-size: 1.35rem;
+	font-weight: 700;
+	color: #1e293b;
+	margin-bottom: 1rem;
+}
+
+.checkoutEmbed p {
+	color: #334155;
+	margin-bottom: 1.5rem;
+}
+
+.checkoutBenefits {
+	color: #64748b;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+.footer {
+	text-align: center;
+	color: #64748b;
+	font-size: 0.98rem;
+	margin: 2.5rem 0 1rem 0;
+}
+
+@media (min-width: 700px) {
+	.hero,
+	.section {
+		padding: 3.5rem 3rem;
+	}
+	.processSteps {
+		flex-direction: row;
+		gap: 2.5rem;
+	}
+	.processStep {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 0.75rem;
+		flex: 1;
+	}
+	.processContent {
+		min-height: 120px;
+	}
+}

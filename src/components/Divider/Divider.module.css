@@ -1,0 +1,21 @@
+.divider {
+	width: 100%;
+	padding: 24px 16px;
+	margin: var(--spacing-l) 0;
+}
+
+.divider.primary {
+	background-color: var(--color-primary);
+}
+
+.divider.secondary {
+	background-color: var(--color-secondary);
+}
+
+.divider p {
+	font-family: var(--font-secondary);
+	font-style: italic;
+	color: var(--color-white);
+	line-height: 1;
+	text-align: center;
+}

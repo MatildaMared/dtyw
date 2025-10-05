@@ -1,0 +1,36 @@
+.header {
+	background-image: url("/images/road.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 80vh;
+	width: 100%;
+	padding: 16px;
+	margin-bottom: var(--spacing-l);
+}
+
+@media (min-width: 48rem) {
+	.header {
+		padding: 32px;
+	}
+}
+
+@media (min-width: 64rem) {
+	.header {
+		padding: 48px;
+	}
+}
+
+.content {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 3rem 0;
+}
+
+.description {
+	font-weight: 300;
+	color: var(--color-white);
+	font-size: var(--font-size-m);
+	width: fit-content;
+	max-width: 35ch;
+	margin-bottom: var(--spacing-m);
+}

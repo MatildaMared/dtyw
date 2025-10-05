@@ -1,0 +1,34 @@
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: var(--max-width);
+	margin: var(--spacing-l);
+	padding: 0 16px;
+}
+
+.section h2 {
+	font-size: var(--font-size-xl);
+	text-align: center;
+	max-width: 38ch;
+	margin-bottom: var(--spacing-m);
+}
+
+.section > p {
+	color: var(--color-primary-dark);
+	font-weight: 700;
+	font-style: italic;
+	margin-bottom: var(--spacing-m);
+	text-align: center;
+}
+
+.cardList {
+	margin: var(--spacing-m) 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: var(--spacing-m);
+}

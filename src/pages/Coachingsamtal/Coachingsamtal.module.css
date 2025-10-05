@@ -1,0 +1,49 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	margin: var(--spacing-xl) auto;
+	padding: 0 16px;
+	gap: var(--spacing-s);
+}
+
+.main h1 {
+	text-align: center;
+	font-size: var(--font-size-xxl);
+	margin-bottom: var(--spacing-m);
+}
+
+.main h2 {
+	margin-top: var(--spacing-m);
+	width: 100%;
+	text-align: center;
+	font-size: var(--font-size-l);
+}
+
+.main p {
+	margin-top: var(--spacing-xs);
+}
+
+.main button {
+	margin-top: var(--spacing-s);
+}
+
+.videoContainer {
+	padding-bottom: 56.25%;
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.videoContainer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 10px;
+}
+
+.secondaryButton {
+	margin-top: var(--spacing-l);
+	text-align: center;
+}

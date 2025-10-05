@@ -1,0 +1,156 @@
+.footer {
+	width: 100%;
+	background-color: var(--color-primary-dark);
+	color: var(--color-white);
+	padding: 32px 16px;
+}
+
+@media (min-width: 48rem) {
+	.footer {
+		padding: 48px 32px;
+	}
+}
+
+@media (min-width: 64rem) {
+	.footer {
+		padding: 48px;
+	}
+}
+
+.footer img {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.content {
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.logo,
+.title {
+	font-family: var(--font-secondary);
+	color: var(--color-white);
+	font-size: var(--font-size-l);
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+.logo span,
+.title span {
+	font-weight: 800;
+	font-style: italic;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 16px 0;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 32px;
+}
+
+@media (min-width: 48rem) {
+	.contact {
+		gap: 32px;
+		flex-direction: row;
+	}
+}
+
+.contact .title {
+	margin-bottom: 16px;
+}
+
+.contactInfo p,
+.contactInfo a,
+.social p,
+.social a {
+	display: flex;
+	align-items: center;
+}
+
+.contactInfo p:not(:last-child),
+.contactInfo a:not(:last-child),
+.social p:not(:last-child),
+.social a:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.contactInfo span,
+.social span {
+	margin: 0 8px;
+}
+
+.contactInfo a,
+.social a {
+	color: var(--color-white);
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.contactInfo a:hover,
+.social a:hover {
+	color: var(--color-primary-light);
+}
+
+.social .title {
+	text-align: right;
+}
+
+.social a {
+	justify-content: flex-end;
+}
+
+.copyright {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	font-size: var(--font-size-s);
+}
+
+.copyright > * {
+	margin-bottom: 4px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.links a {
+	display: block;
+	margin-bottom: 4px;
+}
+
+@media (min-width: 48rem) {
+	.copyright {
+		align-items: flex-start;
+		flex-direction: row;
+		justify-content: space-between;
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+	.links {
+		align-items: flex-start;
+	}
+}
+
+.copyright a {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright a:hover {
+	color: var(--color-white);
+}

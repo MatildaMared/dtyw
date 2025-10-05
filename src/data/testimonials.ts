@@ -1,4 +1,4 @@
-import type { Testimonial } from "src/interfaces/Testimonial";
+import type { Testimonial } from "../interfaces/Testimonial";
 
 const testimonials: Testimonial[] = [
 	{
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
 		name: "Selma Subasic",
 		image: "/images/testimonials/avatar.jpeg",
 		text: "När jag väl började detta programmet hade jag helt ärligt inte jätte mycket förväntningar. Jag trodde mest att Markus skulle hjälpa mig att nå mina mål i företagandet. Men under hela denna tiden har jag fått så mycket mer. Jag har fått hjälp att öppna dörrar som jag verkligen har behövt öppna för att kunna ta mig vidare i mitt liv. Jag levde i konstant stress och ororade mig ständigt utan att veta varför.  Med Markus hjälp tog denna kursen mig flera steg framåt i rätt riktning! Han lärde mig hur jag ska hitta tillbaka till mig själv, vilket inte går att sätta något pris på! ❤️"
-	},
+	}
 	// {
 	// 	name: "Frida Edmark",
 	// 	image: "/images/testimonials/avatar.jpeg",

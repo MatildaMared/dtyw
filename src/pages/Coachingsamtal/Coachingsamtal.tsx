@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import Divider from "../../components/Divider/Divider";
 import AboutMarkus from "../../components/Homepage/AboutMarkus/AboutMarkus";
 import Button from "../../components/Button/Button";
 import styles from "./Coachingsamtal.module.css";

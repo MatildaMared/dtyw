@@ -12,6 +12,7 @@ import MindsetMeditationBump from "./pages/MindsetMeditation/Bump";
 import Newsletter from "./pages/Newsletter";
 import NewsletterBump from "./pages/Newsletter/Bump";
 import RevivalSuccessful from "./pages/RevivalSuccessful";
+import WebinarTack from "./pages/WebinarTack";
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 					<Route path="/newsletter" element={<Newsletter />} />
 					<Route path="/newsletter/bump" element={<NewsletterBump />} />
 					<Route path="/revivalsuccessful" element={<RevivalSuccessful />} />
+					<Route path="/webinartack" element={<WebinarTack />} />
 				</Routes>
 			</main>
 			<Footer />

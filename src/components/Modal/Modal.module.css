@@ -31,7 +31,7 @@
 	border: none;
 	font-size: 24px;
 	cursor: pointer;
-	color: var(--color-text);
+	color: var(--color-primary-lightest);
 	width: 32px;
 	height: 32px;
 	display: flex;
@@ -43,7 +43,7 @@
 }
 
 .closeButton:hover {
-	background-color: var(--color-primary-lightest);
+	background-color: var(--color-primary);
 }
 
 .closeButton:focus {

@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Button from "../../components/Button";
 import styles from "./WebinarTack.module.css";
 
 const WebinarTack: React.FC = () => {
+	// Scroll to top when component mounts
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	const handleGoogleCalendarClick = () => {
 		window.open('https://us02web.zoom.us/webinar/tZItdeqgqD4oE9At9BGw-suyFIbLy3oyEJwx/calendar/google/add', '_blank');
 	};

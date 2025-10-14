@@ -5,13 +5,14 @@ interface ButtonProps {
 	onClick?: () => void;
 	secondary?: boolean;
 	children: React.ReactNode;
+	className?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ onClick, secondary = false, children }) => {
-	const buttonClass = secondary ? `${styles.button} ${styles.secondary}` : styles.button;
+const Button: React.FC<ButtonProps> = ({ onClick, secondary = false, children, className }) => {
+	const buttonClass = secondary ? `${styles.button} ${styles.secondary}` : `${styles.button}`;
 
 	return (
-		<button className={buttonClass} onClick={onClick}>
+		<button className={buttonClass + " " + className || ""} onClick={onClick}>
 			{children}
 		</button>
 	);

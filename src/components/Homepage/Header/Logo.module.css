@@ -6,3 +6,9 @@
 	margin-right: auto;
 	display: block;
 }
+
+.logo.small {
+	max-width: 150px;
+	margin-left: 0;
+	margin-right: 0;
+}

@@ -1,0 +1,35 @@
+.signupContent {
+	padding: 32px 24px 24px 24px;
+	text-align: center;
+}
+
+.title {
+	font-size: var(--font-size-xl);
+	font-weight: 700;
+	color: var(--color-primary-darkest);
+	margin-bottom: var(--spacing-s);
+	line-height: 1.3;
+}
+
+.subtitle {
+	font-size: var(--font-size-m);
+	color: var(--color-text);
+	margin-bottom: var(--spacing-l);
+	line-height: 1.5;
+}
+
+/* Form styling will be added here */
+
+@media (max-width: 47.9375rem) {
+	.signupContent {
+		padding: 24px 16px 16px 16px;
+	}
+
+	.title {
+		font-size: var(--font-size-l);
+	}
+
+	.subtitle {
+		font-size: var(--font-size-s);
+	}
+}

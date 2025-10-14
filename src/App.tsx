@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Attgora from "./pages/Assets/Attgora";
 import Denhallbara from "./pages/Denhallbara";
+import FromStressedToSuccess from "./pages/FromStressedToSuccess";
 import Integritetspolicy from "./pages/Integritetspolicy";
 import MindsetMeditation from "./pages/MindsetMeditation";
 import MindsetMeditationBump from "./pages/MindsetMeditation/Bump";
@@ -20,6 +21,7 @@ function App() {
 					<Route path="/" element={<Home />} />
 					<Route path="/assets/attgora" element={<Attgora />} />
 					<Route path="/denhallbara" element={<Denhallbara />} />
+					<Route path="/from-stressed-to-success" element={<FromStressedToSuccess />} />
 					<Route path="/integritetspolicy" element={<Integritetspolicy />} />
 					<Route path="/mindsetmeditation" element={<MindsetMeditation />} />
 					<Route path="/mindsetmeditation/bump" element={<MindsetMeditationBump />} />

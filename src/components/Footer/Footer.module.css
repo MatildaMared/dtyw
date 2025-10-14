@@ -154,3 +154,20 @@
 .copyright a:hover {
 	color: var(--color-white);
 }
+
+.copyrightRight {
+	text-align: center;
+}
+
+.disclaimer {
+	font-size: var(--font-size-xs);
+	color: rgba(255, 255, 255, 0.4);
+	margin-top: 8px;
+	line-height: 1.3;
+}
+
+@media (min-width: 48rem) {
+	.copyrightRight {
+		text-align: right;
+	}
+}

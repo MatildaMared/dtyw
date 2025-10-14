@@ -65,8 +65,12 @@ const Footer: React.FC = () => {
 							Icons by GOWI
 						</a>
 					</div>
-					<div>
+					<div className={styles.copyrightRight}>
 						<p>© {year} Markus Mattsson</p>
+						<p className={styles.disclaimer}>
+							Disclaimer: This page is not part of the Facebook™ website or Meta Platforms Inc.
+							It is not endorsed by Facebook™ in any way. Facebook™ is a trademark of Meta Platforms Inc.
+						</p>
 					</div>
 				</section>
 			</div>

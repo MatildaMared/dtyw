@@ -100,15 +100,23 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
 							className={styles.input}
 						/>
 					</div>
+					<p className={styles.requiredNote}>*obligatorisk</p>
 					<button
 						type="submit"
 						className={styles.button + " " + (saveButtonDisabled ? styles.disabled : "")}
 						disabled={saveButtonDisabled}
 					>
-						Registrera dig nu!
+						Registrera mig nu!
 					</button>
 					{errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
 					{successMessage && <p className={styles.successMessage}>{successMessage}</p>}
+					<p className={styles.disclaimer}>
+						Genom att skicka in formuläret godkänner du vår{" "}
+						<a href="https://www.dothingsyourway.com/integritetspolicy" target="_blank" rel="noopener noreferrer">
+							integritetspolicy
+						</a>{" "}
+						och att vi får kontakta dig angående webbinariet och relaterade utbildningar.
+					</p>
 				</form>
 			</div>
 		</Modal>

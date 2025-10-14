@@ -78,6 +78,29 @@
 	opacity: 0.5;
 }
 
+.requiredNote {
+	font-size: var(--font-size-s);
+	color: var(--color-text-muted, #666);
+	text-align: left;
+	margin: 0 0 8px 0;
+}
+
+.disclaimer {
+	font-size: var(--font-size-s);
+	color: var(--color-text-muted, #666);
+	line-height: 1.4;
+	margin-top: 8px;
+}
+
+.disclaimer a {
+	color: var(--color-text-muted, #666);
+	text-decoration: underline;
+}
+
+.disclaimer a:hover {
+	color: var(--color-primary-darkest);
+}
+
 @media (max-width: 47.9375rem) {
 	.signupContent {
 		padding: 24px 16px 16px 16px;

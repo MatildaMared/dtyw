@@ -33,8 +33,10 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
 				},
 				body: JSON.stringify({
 					email: email,
-					name: name,
-					phone: phone,
+					fields: {
+						name: name,
+						phone: phone
+					},
 					groups: ["168177170734122174"]
 				})
 			});

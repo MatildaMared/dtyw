@@ -10,11 +10,11 @@ const WebinarTack: React.FC = () => {
 	}, []);
 
 	const handleGoogleCalendarClick = () => {
-		window.open('https://us02web.zoom.us/webinar/tZItdeqgqD4oE9At9BGw-suyFIbLy3oyEJwx/calendar/google/add', '_blank');
+		window.open('https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20251022T170000Z%2F20251022T183000Z&details=F%C3%B6r%20dig%20som%20driver%20f%C3%B6retag%20vid%20sidan%20om%20jobbet%20%E2%80%93%20och%20vill%20satsa%20p%C3%A5%20ditt%20f%C3%B6retag%20utan%20att%20br%C3%A4nna%20ut%20dig%20sj%C3%A4lv&location=https%3A%2F%2Fus02web.zoom.us%2Fj%2F86023865294&text=Fr%C3%A5n%20stressad%20deltidsf%C3%B6retagare%20till%20ett%20h%C3%A5llbart%20heltidsf%C3%B6retag', '_blank');
 	};
 
 	const handleOutlookCalendarClick = () => {
-		window.open('https://us02web.zoom.us/webinar/tZItdeqgqD4oE9At9BGw-suyFIbLy3oyEJwx/ics', '_blank');
+		window.open('https://outlook.live.com/calendar/0/action/compose?allday=false&body=F%C3%B6r%20dig%20som%20driver%20f%C3%B6retag%20vid%20sidan%20om%20jobbet%20%E2%80%93%20och%20vill%20satsa%20p%C3%A5%20ditt%20f%C3%B6retag%20utan%20att%20br%C3%A4nna%20ut%20dig%20sj%C3%A4lv&enddt=2025-10-22T20%3A30%3A00&location=https%3A%2F%2Fus02web.zoom.us%2Fj%2F86023865294&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-10-22T19%3A00%3A00&subject=Fr%C3%A5n%20stressad%20deltidsf%C3%B6retagare%20till%20ett%20h%C3%A5llbart%20heltidsf%C3%B6retag', '_blank');
 	};
 
 	return (

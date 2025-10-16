@@ -36,10 +36,6 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
 					fields: {
 						name: name,
 						phone: phone,
-						ip_address: tracking.ip,
-						user_agent: tracking.userAgent,
-						fbp: tracking.fbp,
-						fbc: tracking.fbc
 					},
 					groups: ["168177170734122174"]
 				})

@@ -9,6 +9,21 @@ const WebinarTack: React.FC = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      
+        // 🔹 Trigger Google Ads conversion event
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'conversion', {
+            send_to: 'AW-757437746/4JwmCJS63K8bELKqlukC'
+          });
+          console.log('✅ Google Ads conversion event fired');
+        } else {
+          console.warn('⚠️ gtag not found – check that your global site tag is loaded.');
+        }
+      }, []);
+      
+
 	const handleGoogleCalendarClick = () => {
 		window.open('https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20251022T170000Z%2F20251022T183000Z&details=F%C3%B6r%20dig%20som%20driver%20f%C3%B6retag%20vid%20sidan%20om%20jobbet%20%E2%80%93%20och%20vill%20satsa%20p%C3%A5%20ditt%20f%C3%B6retag%20utan%20att%20br%C3%A4nna%20ut%20dig%20sj%C3%A4lv&location=https%3A%2F%2Fus02web.zoom.us%2Fj%2F86023865294&text=Fr%C3%A5n%20stressad%20deltidsf%C3%B6retagare%20till%20ett%20h%C3%A5llbart%20heltidsf%C3%B6retag', '_blank');
 	};

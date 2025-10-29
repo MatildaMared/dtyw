@@ -22,7 +22,7 @@ function App() {
 					<Route path="/" element={<Home />} />
 					<Route path="/assets/attgora" element={<Attgora />} />
 					<Route path="/denhallbara" element={<Denhallbara />} />
-					<Route path="/from-stressed-to-success" element={<FromStressedToSuccess />} />
+					<Route path="/webinar" element={<FromStressedToSuccess />} />
 					<Route path="/integritetspolicy" element={<Integritetspolicy />} />
 					<Route path="/mindsetmeditation" element={<MindsetMeditation />} />
 					<Route path="/mindsetmeditation/bump" element={<MindsetMeditationBump />} />

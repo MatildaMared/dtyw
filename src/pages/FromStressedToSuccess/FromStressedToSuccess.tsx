@@ -26,7 +26,7 @@ const FromStressedToSuccess: React.FC = () => {
 					Från stressad deltidsföretagare till ett hållbart heltidsföretag - Do things your way
 				</title>
 				<meta
-					content="Gratis webbinarium den 22 oktober kl. 19:00. Lär dig bygga energi, fokus och struktur för att växa ditt företag utan att bränna ut dig själv."
+					content="Gratis webbinarium den 12 november kl. 19:00. Lär dig bygga energi, fokus och struktur för att växa ditt företag utan att bränna ut dig själv."
 					name="description"
 				/>
 			</Helmet>
@@ -36,7 +36,7 @@ const FromStressedToSuccess: React.FC = () => {
 				<Intro onButtonClick={handleOpenModal} />
 			</div>
 			<div className={styles.dividerWrapper}>
-				<Divider text="📅 Live den 22 oktober kl. 19:00 – ca 90 minuter med Q&A" primaryDark />
+				<Divider text="📅 Live den 12 november kl. 19:00 – ca 90 minuter med Q&A" primaryDark />
 			</div>
 			<div className={styles.container}>
 				<Learning onButtonClick={handleOpenModal} />

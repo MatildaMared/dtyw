@@ -37,7 +37,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
 						name: name,
 						phone: phone,
 					},
-					groups: ["168177170734122174"]
+					groups: ["169632568636868521"]
 				})
 			});
 

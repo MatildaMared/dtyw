@@ -23,7 +23,7 @@ const Hero: React.FC<HeroProps> = ({ onButtonClick }) => {
 					bränna ut dig själv
 				</p>
 				<div className={styles.details}>
-					<p className={styles.detail}>📅 Live-webbinarium den 22 oktober kl. 19:00</p>
+					<p className={styles.detail}>📅 Live-webbinarium den 12 november kl. 19:00</p>
 					<p className={styles.detail}>
 						⏰ 90 minuter, fullmatat med strategi och praktiska verktyg
 					</p>

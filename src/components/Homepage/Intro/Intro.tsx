@@ -34,8 +34,8 @@ const Intro: React.FC = () => {
 				</div>
 				<figure>
 					<img
-						alt="Foto av Markus som sitter på ett tåg, iklädd kavaj, och ser in i kameran."
-						src="/images/Markus-dator-tag.jpeg"
+						alt="Foto av Markus som lutar sig mot ett träd."
+						src="/images/markus-lutar-mot-trad.jpg"
 					/>
 					<figcaption>
 						<span>Markus Mattsson</span>, stress- & produktivitetscoach

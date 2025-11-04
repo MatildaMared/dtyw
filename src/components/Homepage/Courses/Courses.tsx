@@ -5,10 +5,7 @@ import styles from "./Courses.module.css";
 
 const Courses: React.FC = () => {
 	const handleClick = () => {
-		window.open(
-			"https://calendly.com/markusmattsson/vagledning?utm_medium=hemsida&utm_source=coursescta",
-			"_blank"
-		);
+		window.open("https://koalendar.com/e/strategisamtal-markus", "_blank");
 	};
 
 	return (
@@ -23,54 +20,40 @@ const Courses: React.FC = () => {
 			<ul className={styles.courseList}>
 				<Card
 					altText="Illustration av person som tittar på en klocka med uppsträckta händer. I en pratbubbla syns ett öppet hänglås."
-					heading="Stressfrihet"
+					heading="Sustainable Productivity Mastery"
 					imgUrl="/images/freedom.png"
 					secondary
 				>
 					<p>
-						I detta program är målet att du ska kunna jobba heltid och öka din arbetsförmåga med
-						minst 5–10 timmar i ditt <span>och</span> MÅ BRA! Du kommer lära dig att frigöra dig
-						från negativ stress, skapa goda rutiner för dig själv, bli mer produktiv och
-						strukturerad än vad du någonsin varit tidigare. Och kanske viktigast av allt – lära dig
-						hur du känner dig tillräcklig och älskad även om du inte presterar. Dessutom kommer du
-						få en kopia av vårt affärssystem för produktivitet som är särskilt utformat för
-						stressade högprestare.
+						I detta program är målet att du ska få kontroll, energi och struktur – så att du faktiskt hinner bygga ditt företag vid sidan av ditt heltidsjobb utan att bränna ut dig. Du kommer lära dig att skapa rutiner som håller, bygga upp fokus och återhämtningsförmåga och frigöra 10–20 timmar i veckan för ditt företag.
+						Du får personlig coaching, konkreta verktyg för stresshantering och struktur, samt ett affärssystem för produktivitet som gör dig mer effektiv än någonsin. Det här är din väg till att orka, trivas och ta dig närmare drömmen – utan att offra din hälsa på vägen.
 					</p>
 				</Card>
 				<Card
 					altText="Illustration av en person som går upp för en trappa med en väska i handen. I bakgrunden syns
 					en gnistrande diamant."
-					heading="Företagsfrihet"
+					heading="Business Strategy Mastery"
 					imgUrl="/images/job-promotion.png"
 					secondary
 				>
 					<p>
-						Detta program är för dig som vill starta upp eller vidareutveckla ditt företag till att
-						bli framgångsrikt, ekonomiskt stabilt och trivsamt. Som stressad högpresterare behöver
-						man ha andra tillvägagångsätt när man driver sitt företag. Det går inte att bara jobba,
-						jobba, jobba. I programmet lär du dig istället att jobba smartare inte hårdare. Du
-						kommer bli expert på produktivitet, få fullständig klarhet i exakt vad du ska göra
-						härnäst och bygga rutiner för att du varje dag ska ta ett steg närmare företaget du vill
-						ha.
+						Detta program är för dig som vill växla upp från deltidsföretagare till heltidsföretagare – med en tydlig och hållbar plan. Du får hjälp att paketera dina tjänster, skapa en enkel strategi som faktiskt fungerar i vardagen och bygga vanor som gör att du håller kursen även när livet händer.
+						Här handlar det inte om att jobba mer, utan om att jobba smartare. Du får individuell coaching, guidning i prioriteringar och stöd i att välja bort det som inte leder dig framåt. Målet: ett företag du älskar att driva – som växer i takt med dig.
 					</p>
 				</Card>
 				<Card
 					altText="Illustration av man iklädd slips med händerna korsade framför kroppen. Bakom mannen står två personer till. Alla ser nöjda ut."
-					heading="Anpassat coachingprogram"
+					heading="Entrepreneurial Leadership Mastery"
 					imgUrl="/images/leadership.png"
 					secondary
 				>
 					<p>
-						Utöver Stressfrihet och Företagsfrihet erbjuder jag även individuellt anpassade
-						coachingprogram. Kanske känner du att du inte är på rätt plats i livet och hade behövt
-						reda ut vad du verkligen vill? Eller vill du bli mer produktiv och använda något av mina
-						affärsystem i det populära verktyget Notion. All typ av stöd i att hitta sig själv och
-						effektivisering för att uppnå det man vill har jag mycket goda verktyg för. Boka ett
-						samtal nedan om du vill veta mer om hur vi kan anpassa coachingen just för dig.
+						För dig som redan driver företag på heltid – eller är på väg dit – och vill växa på nästa nivå. Här jobbar vi djupt med både ditt ledarskap och ditt inre driv, så att du kan fatta bättre beslut, hantera press med lugn och bygga ett liv och företag som håller över tid.
+						Du får kontinuerlig personlig coaching, sparring i strategiska vägval och stöd i att skapa system som ger frihet, inte mer stress. Det här programmet handlar inte bara om att skala upp ditt företag – utan om att växa som människa, ledare och entreprenör.
 					</p>
 				</Card>
 			</ul>
-			<Button onClick={handleClick}>Boka Vägledningssamtal</Button>
+			<Button onClick={handleClick}>Boka strategisamtal</Button>
 		</section>
 	);
 };

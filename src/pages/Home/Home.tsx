@@ -33,7 +33,7 @@ const Home: React.FC = () => {
 				<div className={styles.imageWrapper}>
 					<img
 						alt="En man och en kvinna står på en träbrygga framför en sjö. I bakgrunden syns berg och träd och gråa moln syns på himlen."
-						src="/images/matilda-and-markus.jpeg"
+						src="/images/markus-framfor-trad.jpg"
 					/>
 				</div>
 				{/* TODO: Add BottomCta component */}

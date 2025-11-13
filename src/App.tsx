@@ -13,6 +13,7 @@ import Newsletter from "./pages/Newsletter";
 import NewsletterBump from "./pages/Newsletter/Bump";
 import RevivalSuccessful from "./pages/RevivalSuccessful";
 import WebinarTack from "./pages/WebinarTack";
+import WebinarReplay from "./pages/WebinarReplay";
 
 function App() {
 	return (
@@ -30,6 +31,7 @@ function App() {
 					<Route path="/newsletter/bump" element={<NewsletterBump />} />
 					<Route path="/revivalsuccessful" element={<RevivalSuccessful />} />
 					<Route path="/webinartack" element={<WebinarTack />} />
+					<Route path="/webinarreplay" element={<WebinarReplay />} />
 				</Routes>
 			</main>
 			<Footer />

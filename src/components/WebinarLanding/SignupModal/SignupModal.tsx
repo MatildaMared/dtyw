@@ -6,9 +6,22 @@ import { useNavigate } from "react-router-dom";
 interface SignupModalProps {
 	isOpen: boolean;
 	onClose: () => void;
+	groupId?: string;
+	title?: string;
+	submitLabel?: string;
 }
 
-const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
+const DEFAULT_GROUP_ID = "169632568636868521";
+const DEFAULT_TITLE = "Registrera dig för webbinariet";
+const DEFAULT_SUBMIT_LABEL = "Registrera mig nu!";
+
+const SignupModal: React.FC<SignupModalProps> = ({
+	isOpen,
+	onClose,
+	groupId = DEFAULT_GROUP_ID,
+	title = DEFAULT_TITLE,
+	submitLabel = DEFAULT_SUBMIT_LABEL,
+}) => {
 	const [email, setEmail] = useState("");
 	const [name, setName] = useState("");
 	const [phone, setPhone] = useState("");
@@ -37,7 +50,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
 						name: name,
 						phone: phone,
 					},
-					groups: ["169632568636868521"]
+					groups: [groupId]
 				})
 			});
 
@@ -61,7 +74,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
 	return (
 		<Modal isOpen={isOpen} onClose={onClose}>
 			<div className={styles.signupContent}>
-				<h2 className={styles.title}>Registrera dig för webbinariet</h2>
+				<h2 className={styles.title}>{title}</h2>
 				<form onSubmit={handleSubmit} className={styles.form}>
 					<div className={styles.formGroup}>
 						<label htmlFor="name" className={styles.label}>
@@ -108,7 +121,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
 						className={styles.button + " " + (saveButtonDisabled ? styles.disabled : "")}
 						disabled={saveButtonDisabled}
 					>
-						Registrera mig nu!
+						{submitLabel}
 					</button>
 					{errorMessage && <p className={styles.errorMessage}>{errorMessage}</p>}
 					{successMessage && <p className={styles.successMessage}>{successMessage}</p>}

@@ -15,6 +15,8 @@ import RevivalSuccessful from "./pages/RevivalSuccessful";
 import WebinarTack from "./pages/WebinarTack";
 import WebinarReplay from "./pages/WebinarReplay";
 import HowToBuildBusiness from "./pages/Events/HowToBuildBusiness";
+import BookRelease from "./pages/Events/BookRelease";
+import BookReleaseTack from "./pages/Events/BookRelease/Tack";
 
 function App() {
 	return (
@@ -34,6 +36,8 @@ function App() {
 					<Route path="/webinartack" element={<WebinarTack />} />
 					<Route path="/webinarreplay" element={<WebinarReplay />} />
 					<Route path="/events/how-to-build-business" element={<HowToBuildBusiness />} />
+					<Route path="/events/bookrelease" element={<BookRelease />} />
+					<Route path="/events/bookrelease/tack" element={<BookReleaseTack />} />
 				</Routes>
 			</main>
 			<Footer />

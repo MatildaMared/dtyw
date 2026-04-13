@@ -11,7 +11,7 @@ interface SignupModalProps {
 	submitLabel?: string;
 }
 
-const DEFAULT_GROUP_ID = "169632568636868521";
+const DEFAULT_GROUP_ID = "184617321058272592";
 const DEFAULT_TITLE = "Registrera dig för föreläsningen";
 const DEFAULT_SUBMIT_LABEL = "Registrera mig nu!";
 
@@ -30,12 +30,54 @@ const SignupModal: React.FC<SignupModalProps> = ({
 
 	const navigate = useNavigate();
 
+	const getReadableMailerLiteError = (data: any) => {
+		const emailErrors: unknown = data?.errors?.email;
+		const emailErrorsArray = Array.isArray(emailErrors) ? emailErrors : [];
+
+		if (emailErrorsArray.some((msg) => typeof msg === "string" && msg.includes("not active"))) {
+			return "Den här e-postadressen är inte aktiv i MailerLite och kan inte importeras. Testa en annan adress eller aktivera prenumeranten i MailerLite.";
+		}
+
+		if (typeof data?.message === "string" && data.message) return data.message;
+		return "Något gick fel... 😞 Försök gärna igen!";
+	};
+
 	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		setErrorMessage("");
 		setSuccessMessage("");
 
+		const debugId = `ml_signup_${Date.now()}_${Math.random().toString(16).slice(2)}`;
+		const trimmedEmail = email.trim();
+		const trimmedName = name.trim();
+		const maskedEmail = trimmedEmail ? trimmedEmail.replace(/(^.).*(@.*$)/, "$1***$2") : "";
+
+		console.log("[mailerLite][signup] submit start", {
+			debugId,
+			groupId,
+			hasApiToken: Boolean(apiToken),
+			apiTokenLength: typeof apiToken === "string" ? apiToken.length : null,
+			nameLength: trimmedName.length,
+			email: maskedEmail,
+		});
+
 		try {
+			const requestBody = {
+				email: trimmedEmail,
+				fields: {
+					name: trimmedName,
+				},
+				groups: [groupId],
+			};
+
+			console.log("[mailerLite][signup] request", {
+				debugId,
+				url: "https://connect.mailerlite.com/api/subscribers",
+				method: "POST",
+				body: requestBody,
+			});
+			console.log("[mailerLite][signup] request json", JSON.stringify({ debugId, body: requestBody }));
+
 			const response = await fetch("https://connect.mailerlite.com/api/subscribers", {
 				method: "POST",
 				headers: {
@@ -43,26 +85,63 @@ const SignupModal: React.FC<SignupModalProps> = ({
 					Accept: "application/json",
 					Authorization: `Bearer ${apiToken}`
 				},
-				body: JSON.stringify({
-					email: email,
-					fields: {
-						name: name,
-					},
-					groups: [groupId]
-				})
+				body: JSON.stringify(requestBody)
 			});
 
-			const data = await response.json();
+			console.log("[mailerLite][signup] response received", {
+				debugId,
+				ok: response.ok,
+				status: response.status,
+				statusText: response.statusText,
+			});
 
-			if (data.errors) {
-				setErrorMessage(data?.message);
+			const responseText = await response.text();
+			console.log("[mailerLite][signup] response text", responseText);
+
+			let data: any = null;
+			try {
+				data = responseText ? JSON.parse(responseText) : null;
+			} catch (parseError) {
+				console.error("[mailerLite][signup] failed to parse json response", {
+					debugId,
+					ok: response.ok,
+					status: response.status,
+					statusText: response.statusText,
+					parseError,
+				});
+				throw parseError;
+			}
+
+			console.log("[mailerLite][signup] response json", { debugId, data });
+			console.log("[mailerLite][signup] response json string", JSON.stringify({ debugId, data }));
+			if (data?.errors) {
+				console.warn("[mailerLite][signup] response errors json", JSON.stringify({ debugId, errors: data.errors }));
+			}
+
+			if (!response.ok) {
+				console.warn("[mailerLite][signup] non-2xx response", {
+					debugId,
+					status: response.status,
+					message: data?.message,
+					errors: data?.errors,
+				});
+				console.warn("[mailerLite][signup] non-2xx response json", JSON.stringify({ debugId, status: response.status, message: data?.message, errors: data?.errors }));
+
+				setErrorMessage(getReadableMailerLiteError(data));
 				return;
 			}
 
+			if (data.errors) {
+				console.warn("[mailerLite][signup] mailerlite returned errors", { debugId, errors: data.errors, message: data?.message });
+				setErrorMessage(getReadableMailerLiteError(data));
+				return;
+			}
+
+			console.log("[mailerLite][signup] success - navigating to thank you page", { debugId });
 			setSuccessMessage("Tack för att du anmält dig till föreläsningen! Vi ses där! 👋");
 			navigate("/events/bookrelease/tack");
 		} catch (error) {
-			console.error(error);
+			console.error("[mailerLite][signup] submit failed", { debugId, error });
 			setErrorMessage("Något gick fel... 😞 Försök gärna igen!");
 		}
 	};

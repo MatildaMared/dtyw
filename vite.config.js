@@ -6,7 +6,8 @@ const config = defineConfig({
 	plugins: [react()],
 	server: {
 		port: 3000,
-		open: true
+		open: true,
+		allowedHosts: ["sb-3fyb2d35huf8.vercel.run"]
 	}
 });
 

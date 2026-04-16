@@ -33,7 +33,7 @@ const testimonials: Testimonial[] = [
 	},
 	{
 		name: "Selma Subasic",
-		image: "/images/testimonials/avatar.jpeg",
+		image: "/images/testimonials/selma_subasic.jpg",
 		text: "När jag började arbeta med Markus hade jag inte så höga förväntningar. Jag trodde mest att jag skulle få hjälp i mitt företagande. Men jag fick så mycket mer. Jag har öppnat dörrar i mig själv som jag verkligen behövde öppna för att kunna ta mig vidare i livet. Jag levde i konstant stress och oro utan att förstå varför. Med Markus hjälp tog jag flera stora steg framåt. Jag lärde mig hur jag hittar tillbaka till mig själv — och det går inte att sätta något pris på. ❤️"
 	}
 	// {

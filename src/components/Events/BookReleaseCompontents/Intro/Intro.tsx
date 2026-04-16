@@ -1,12 +1,8 @@
 import React from "react";
-import Button from "../../../Button";
+import BookReleaseSignupForm from "../BookReleaseSignupForm";
 import styles from "./Intro.module.css";
 
-interface IntroProps {
-	onButtonClick: () => void;
-}
-
-const Intro: React.FC<IntroProps> = ({ onButtonClick }) => {
+const Intro: React.FC = () => {
 	return (
 		<section className={styles.section}>
 			<div className={styles.content}>
@@ -51,7 +47,7 @@ const Intro: React.FC<IntroProps> = ({ onButtonClick }) => {
 					</li>
 				</ul>
 
-				<Button onClick={onButtonClick}>Registrera dig nu!</Button>
+				<BookReleaseSignupForm />
 			</div>
 		</section>
 	);

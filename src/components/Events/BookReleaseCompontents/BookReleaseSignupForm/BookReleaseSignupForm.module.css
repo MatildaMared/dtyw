@@ -1,0 +1,32 @@
+.section {
+	width: 100%;
+	margin: var(--spacing-l) 0;
+	scroll-margin-top: 1rem;
+}
+
+.title {
+	font-size: var(--font-size-xl);
+	color: var(--color-primary-darkest);
+	margin-bottom: var(--spacing-m);
+	line-height: 1.2;
+	font-family: var(--font-secondary);
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.formHost {
+	background-color: var(--color-primary-lightest);
+	border-radius: 16px;
+	padding: var(--spacing-m);
+	display: flex;
+	flex-direction: column;
+	min-height: 120px;
+	width: 100%;
+}
+
+@media (max-width: 47.9375rem) {
+	.title {
+		font-size: var(--font-size-l);
+	}
+}

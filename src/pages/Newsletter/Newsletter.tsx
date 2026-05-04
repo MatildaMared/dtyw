@@ -37,7 +37,7 @@ const Newsletter: React.FC = () => {
 				<div className={styles.landingPage}>
 					<h1>
 						Vill du <span className={styles.emphasizedText}>bli en framgångsrik företagare</span>{" "}
-						och bli fri från stressen?
+						och bli fri från stress och energibrist?
 					</h1>
 					<p className={styles.fileTitle}>Anmäl dig till mitt nyhetsbrev!</p>
 					<p className={styles.subText}>

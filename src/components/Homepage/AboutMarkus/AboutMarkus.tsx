@@ -5,32 +5,30 @@ const AboutMarkus: React.FC = () => {
 	return (
 		<section className={styles.section}>
 			<img
-				src="/images/markus.jpg"
-				alt="Markus sitter framåtlutad på en bänk på en bänk och ser in i kameran. Bakom bänken finns en grönskande buske och man kan se att solen lyser genom löven."
+				className={styles.portrait}
+				src="/images/DSCF0817.jpg"
+				alt="Markus står utomhus vid en trädstam intill vatten i mjukt kvällsljus, i mörkgrön skjorta och brun kavaj, och tittar in i kameran med ett lätt leende."
 			/>
 			<article className={styles.article}>
 				<h2>Markus Mattsson</h2>
-				<span className={styles.title}>Stress- och Produktivitetscoach</span>
+				<span className={styles.title}>Författare, föreläsare och coach inom hållbart företagande</span>
 				<p>
-					Ingen ska behöva vantrivas och må dåligt i en situation som inte är bra för dem. Tyvärr
-					har de flesta personer gett upp på sina drömmar. Framförallt om de fått så mycket problem
-					med stress att det inte finns någon energi kvar vid dagens slut. Det behöver inte vara så.
+					Jag hjälper företagare att bygga företag som fungerar långsiktigt — utan att de själva går sönder på vägen.
 				</p>
 				<p>
-					Förut hindrade stressen, min dåliga självkänsla och min låga energi, mig från att leva
-					mitt drömliv som företagare. Nu vill jag bevisa för dig att du inte behöver sitta fast i
-					den situation du är i. Om jag kan gå från utbränd till 50-60 timmars arbetsvecka så kan du
-					absolut lära dig att få mer tid och energi till att nå dit du vill i ditt liv!
+					För några år sedan trodde jag att lösningen på stress och press var att jobba hårdare, prestera mer och hela tiden ligga steget före. Till slut tog det stopp och jag gick in i väggen. Det blev starten på en resa där jag började förstå hur stress, energi, struktur och företagsdesign faktiskt hänger ihop.
 				</p>
 				<p>
-					Min formella utbildning består av två kandidatexamen från Göteborgs Universitet, en i
-					psykologi och en i personalvetenskap. I över fem år har jag dessutom konsumerat hundratals
-					böcker och föreläsningar av vår tids största tänkare inom stress, produktivitet och
-					personlig utveckling.
+					Idag hjälper jag företagare att skapa mer klarhet, bättre struktur och ett hållbart sätt att arbeta så att de kan fortsätta växa utan att hela livet kretsar kring jobb och stress.
 				</p>
 				<p>
-					Jag älskar att utbilda och coacha mina andra i hur de tar nästa steg i sitt liv. Det är
-					min stora passion i livet.
+					Jag har kandidatexamen är psykologi och personalvetenskap från Göteborgs Universitet, men det som framförallt format mitt arbete är det jag själv gått igenom och det jag sett fungera för hundratals företagare genom åren.
+				</p>
+				<p>
+					Jag är utbildad inom psykologi och personalvetenskap vid Göteborgs Universitet och har under många år fördjupat mig inom stress, prestation och hållbart företagande. Men det som framförallt format mitt arbete är resan jag själv gjort och erfarenheterna från alla företagare jag fått hjälpa genom åren.
+				</p>
+				<p>
+				Jag tror inte att människor ska behöva välja mellan att lyckas i sitt företag och att må bra i sitt liv. Jag vet att det går att skapa båda.
 				</p>
 			</article>
 		</section>

@@ -7,7 +7,7 @@
 	color: white;
 	text-align: center;
 	background-color: rgb(57, 57, 57);
-	background-image: url("/images/markus-blickar-vag-bakgrund.png");
+	background-image: url("/images/road.jpg");
 	background-size: cover;
 	background-position: bottom;
 }
@@ -57,4 +57,13 @@
 
 .privacyText a {
 	color: gray;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding: var(--spacing-l) 16px;
+	gap: var(--spacing-s);
 }

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import AboutMarkus from "../../components/Homepage/AboutMarkus";
 import styles from "./Newsletter.module.css";
 
 const Newsletter: React.FC = () => {
@@ -51,6 +52,9 @@ const Newsletter: React.FC = () => {
 				</div>
 				<div className={styles.spacer}></div>
 			</main>
+			<div className={styles.about}>
+				<AboutMarkus />
+			</div>
 		</>
 	);
 };

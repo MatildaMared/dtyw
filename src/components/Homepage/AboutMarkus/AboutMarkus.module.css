@@ -19,11 +19,20 @@
 	}
 }
 
-.section img {
+.portrait {
 	width: 100%;
-	max-width: 500px;
+	max-width: 300px;
 	height: auto;
 	border-radius: var(--border-radius);
+	flex-shrink: 0;
+	align-self: center;
+}
+
+@media (min-width: 64rem) {
+	.portrait {
+		max-width: 340px;
+		align-self: flex-start;
+	}
 }
 
 .article {
